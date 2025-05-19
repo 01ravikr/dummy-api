@@ -1,10 +1,26 @@
 {
-  "users": [
-    { "id": 1, "name": "Ravi", "email": "ravi@example.com" },
-    { "id": 2, "name": "saurabh", "email": "saurabh@example.com" }
-  ],
-  "projects": [
-    { "id": 1, "title": "Poll App", "status": "completed" },
-    { "id": 2, "title": "Rating Predictor", "status": "in progress" }
+  "deliveryStats": [
+    {
+      "id": 1,
+      "date": "2025-05-19",
+      "todayCompletedPickup": 120,
+      "pendingPickup": 15,
+      "cancelToday": 4,
+      "todayCompletedDelivery": 110,
+      "pendingDelivery": 8,
+      "packAndDelayDelivery": 6,
+      "totalDelayDelivery": 10
+    },
+    {
+      "id": 2,
+      "date": "2025-05-18",
+      "todayCompletedPickup": 100,
+      "pendingPickup": 20,
+      "cancelToday": 5,
+      "todayCompletedDelivery": 98,
+      "pendingDelivery": 12,
+      "packAndDelayDelivery": 4,
+      "totalDelayDelivery": 9
+    }
   ]
 }
