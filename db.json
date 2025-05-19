@@ -1,0 +1,10 @@
+{
+  "users": [
+    { "id": 1, "name": "Ravi", "email": "ravi@example.com" },
+    { "id": 2, "name": "saurabh", "email": "saurabh@example.com" }
+  ],
+  "projects": [
+    { "id": 1, "title": "Poll App", "status": "completed" },
+    { "id": 2, "title": "Rating Predictor", "status": "in progress" }
+  ]
+}
