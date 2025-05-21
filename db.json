@@ -5,16 +5,210 @@
             "Company Description": "Elite DhobiLite is a laundry and dry cleaning service provider that offers convenient and high-quality laundry solutions to customers. With a focus on customer satisfaction, they provide services such as wash and fold, dry cleaning, and ironing, ensuring that clothes are cleaned and cared for with the utmost attention to detail. Their user-friendly platform allows customers to schedule pickups and deliveries, making laundry hassle-free. Apart from that we provide free pickup and delivery services, ensuring that customers can enjoy the convenience of having their laundry taken care of without leaving their homes.",
             "Our Business Model": "Elite DhobiLite operates on a B2C (Business-to-Consumer) model, providing laundry and dry cleaning services directly to individual customers. The company focuses on delivering high-quality cleaning solutions, convenience, and exceptional customer service. Customers can easily schedule pickups and deliveries through the platform, making it a hassle-free experience. The business model emphasizes customer satisfaction and aims to build long-term relationships with clients by offering reliable and efficient laundry services.",
             "Our  franchising model": "Elite DhobiLite's franchising model allows aspiring entrepreneurs to partner with the brand and operate their own laundry and dry cleaning businesses under the Elite DhobiLite name. Franchisees benefit from the established brand reputation, proven business processes, and ongoing support from the company. The model typically includes training, marketing assistance, and access to a comprehensive operational framework. Franchisees can leverage the company's expertise to successfully run their businesses while contributing to the growth of the Elite DhobiLite brand.",
-            "Types of franchises": "We operate with three distinct types of franchise models, each designed to serve specific operational needs and customer volumes:1. Master Franchise: A Master Franchise acts as a central processing hub for multiple Retail franchises. Once customer orders are collected by the Retail units, they are sent to the Master Franchise for all major laundry operations such as washing, dry cleaning, ironing, and packing. The cleaned items are then sent back to the respective Retail franchises for final delivery. Typically located in large Tier 1 cities with high order volumes and multiple dependent Retail units.2. Single Unit Franchise / Live Unit: A Single Unit or Live Unit Franchise operates independently. It does not have any associated Retail franchises under it. Equipped with essential laundry machinery, this unit handles the entire workflow — from receiving orders directly from runners, to cleaning, packing, and final delivery to customers. Runners collect and deliver directly between the customer and this unit. Ideal for areas with moderate demand.3. Retail Franchise: A Retail Franchise serves as the first point of contact for customer orders. Runners pick up laundry from customers and deliver it to the Retail unit. From there, the orders are forwarded to the associated Master Franchise for complete processing. Once the cleaning is done, the items are sent back to the Retail unit for final customer delivery. Suited for local presence and customer convenience, typically connected to a nearby Master Franchise.",
+            "typesOfFranchises": [
+                {
+                    "title": "Master Franchise",
+                    "description": "A Master Franchise acts as a central processing hub for multiple Retail franchises. Once customer orders are collected by the Retail units, they are sent to the Master Franchise for all major laundry operations such as washing, dry cleaning, ironing, and packing. The cleaned items are then sent back to the respective Retail franchises for final delivery. Typically located in large Tier 1 cities with high order volumes and multiple dependent Retail units."
+                },
+                {
+                    "title": "Single Unit Franchise / Live Unit",
+                    "description": "A Single Unit or Live Unit Franchise operates independently. It does not have any associated Retail franchises under it. Equipped with essential laundry machinery, this unit handles the entire workflow — from receiving orders directly from runners, to cleaning, packing, and final delivery to customers. Runners collect and deliver directly between the customer and this unit. Ideal for areas with moderate demand."
+                },
+                {
+                    "title": "Retail Franchise",
+                    "description": "A Retail Franchise serves as the first point of contact for customer orders. Runners pick up laundry from customers and deliver it to the Retail unit. From there, the orders are forwarded to the associated Master Franchise for complete processing. Once the cleaning is done, the items are sent back to the Retail unit for final customer delivery. Suited for local presence and customer convenience, typically connected to a nearby Master Franchise."
+                }
+            ],
             "Runner": "A Runner is responsible for collecting orders from customers and delivering them to the designated retail or live unit (depending on the center type). Once the processing — including washing, dry cleaning, and packing — is completed, the Runner ensures the final delivery of the cleaned garments back to the customer. The Runner plays a crucial role in maintaining customer satisfaction by ensuring timely pickups and deliveries, and they are often the face of the brand during these interactions. Their efficiency and professionalism directly impact the overall customer experience.",
             "Workshop Hub / W_Hub": "A Workshop Hub is a central processing facility that handles the major laundry operations for multiple Retail franchises. It is responsible for washing, dry cleaning, ironing, and packing garments collected from the Retail units. The Workshop Hub ensures that all cleaning processes are carried out efficiently and to the highest quality standards. Once the cleaning is completed, the cleaned items are sent back to the respective Retail franchises for final delivery to customers. This centralized approach allows for streamlined operations and better resource management.It is typically located in large Tier 1 cities i.e at master franchise with high order volumes and multiple dependent Retail units. The Workshop Hub plays a crucial role in maintaining the quality and consistency of the laundry services provided by the brand.",
-            "Description and definition of terms used in the todaysWorkStats": "A comprehensive summary of all operational statistics for the current day. This includes data on pickups, deliveries, cancellations, and pending tasks, updated continuously as work progresses.1.center:Refers to the specific DhobiLite operational unit. DhobiLite operates across multiple centers in over 155 cities throughout India.1.centerId:Unique identifier for each center.2.centerName:Name of the center.3.bucket:Refers to the type of franchise model.4.poc:Point of contact for the center.5.pendingPick:Total number of pickups that are pending.6.completedPick:Total number of pickups that have been completed today.7.cancelledPick:Refers to the number of orders that were canceled by customers during the current day. This figure excludes orders canceled within 5 minutes of placement, as such orders are not considered operationally committed.8.completedDel: Denotes the number of deliveries successfully completed by runners on the current day up to the most recent update time. Since our system reflects real-time workflow changes, this number may increase throughout the day.9.pendingDelToday:Total number of deliveries pending today.10.packedPendingDelToday:Total number of packed deliveries pending today.11.delayedDeliveryToday:Total number of deliveries delayed today.12.todayRegistration:Total number of new registrations today.13.invoicePending:Total number of invoices pending today.14.wHubPending:Total number of pending tasks at the Workshop Hub (W_Hub).15.orderPackingPending:Total number of orders pending packing.16.clothPackingPending:Total number of cloth items pending packing.17.orderPackingDone:Total number of orders packed today.18.yestOrderPackingDone:Total number of orders packed yesterday.19.clothPackingDone:Total number of cloth items packed today.20.yestClothPackingDone:Total number of cloth items packed yesterday.21.inTransit:Total number of items currently in transit.Example Scenario:Suppose we have a total of 50 delivery orders for a given day:40 are packed and ready for delivery.35 of those packed orders are transported to the Workshop Hub for final dispatch.30 are actually delivered to the customers by runners by the current time.Based on this, we define:Pending Deliveries / Pending Del : The number of deliveries that have been transported to the workshop hub but have not yet been delivered to customers.Calculation: 35 (transported to W. Hub) – 30 (delivered) = 5 Pending Deliveries Packed but Delayed Deliveries / Pack & Delay Del: The number of orders that have been packed and are ready for delivery but have not yet reached the customer.Calculation: 40 (packed) – 30 (delivered) = 10 Packed but Delayed DeliveriesTotal Delayed Deliveries / Delayed Del Total : Represents all the orders that were initially intended for delivery, but have not yet been delivered — regardless of whether they are packed or transported. Calculation: 50 (total deliveries) – 30 (delivered) = 20 Total Delayed Deliveries.",
-            "Description and definition of terms used in the todaysRevenueStats": "It shows Revnue generated by the center for the current day.1.center:Refers to the specific DhobiLite operational unit.1.centerId:Unique identifier for each center.2.centerName:Name of the center.3.bucket:Refers to the type of franchise model.4.poc:Point of contact for the center.5.todayCollection:Total amount collected today.6.todayBilling:Total billing amount today.7.todayCenterBilling:Total billing amount for the center today.8.yesterdayBilling:Total billing amount yesterday.9.yesterdayCenterBilling:Total billing amount for the center yesterday.10.todayClothCount:Total number of cloth items processed today.11.todayCenterClothCount:Total number of cloth items processed by the center today.12.yesterdayClothCount:Total number of cloth items processed yesterday.13.yesterdayCenterClothCount:Total number of cloth items processed by the center yesterday.14.todayMasterLevelInvPending:Total number of master level invoices pending today.15.yesterdayMasterLevelInvPending:Total number of master level invoices pending yesterday.",
-            "Description and definition of terms used in the masterStats": "",
-            "Description and definition of terms used in the masterPackingStats": "",
-            "Description and definition of terms used in the masterLevelTtcStats": "",
-            "Description and definition of terms used in the workQuality": "",
-            "Description and definition of terms used in the workAndRevenue": ""
+            "todaysWorkStats": {
+                "description": "A comprehensive summary of all operational statistics for the current day. This includes data on pickups, deliveries, cancellations, and pending tasks, updated continuously as work progresses.",
+                "fields": {
+                    "centerId": "Unique identifier for each center.",
+                    "centerName": "Name of the center.",
+                    "bucket": "Refers to the type of franchise model.",
+                    "poc": "Point of contact for the center.",
+                    "pendingPick": "Total number of pickups that are pending.",
+                    "completedPick": "Total number of pickups that have been completed today.",
+                    "cancelledPick": "Refers to the number of orders that were canceled by customers during the current day. This figure excludes orders canceled within 5 minutes of placement, as such orders are not considered operationally committed.",
+                    "completedDel": "Denotes the number of deliveries successfully completed by runners on the current day up to the most recent update time. Since our system reflects real-time workflow changes, this number may increase throughout the day.",
+                    "pendingDelToday": "Total number of deliveries pending today.",
+                    "packedPendingDelToday": "Total number of packed deliveries pending today.",
+                    "delayedDeliveryToday": "Total number of deliveries delayed today.",
+                    "todayRegistration": "Total number of new registrations today.",
+                    "invoicePending": "Total number of invoices pending today.",
+                    "wHubPending": "Total number of pending tasks at the Workshop Hub (W_Hub).",
+                    "orderPackingPending": "Total number of orders pending packing.",
+                    "clothPackingPending": "Total number of cloth items pending packing.",
+                    "orderPackingDone": "Total number of orders packed today.",
+                    "yestOrderPackingDone": "Total number of orders packed yesterday.",
+                    "clothPackingDone": "Total number of cloth items packed today.",
+                    "yestClothPackingDone": "Total number of cloth items packed yesterday.",
+                    "inTransit": "Total number of items currently in transit."
+                },
+                "exampleDefinitions": {
+                    "pendingDeliveries": {
+                        "title": "Pending Deliveries",
+                        "definition": "The number of deliveries that have been transported to the workshop hub but have not yet been delivered to customers.",
+                        "calculation": "35 (transported to W. Hub) – 30 (delivered) = 5 Pending Deliveries"
+                    },
+                    "packedButDelayedDeliveries": {
+                        "title": "Packed but Delayed Deliveries",
+                        "definition": "The number of orders that have been packed and are ready for delivery but have not yet reached the customer.",
+                        "calculation": "40 (packed) – 30 (delivered) = 10 Packed but Delayed Deliveries"
+                    },
+                    "totalDelayedDeliveries": {
+                        "title": "Total Delayed Deliveries",
+                        "definition": "Represents all the orders that were initially intended for delivery, but have not yet been delivered — regardless of whether they are packed or transported.",
+                        "calculation": "50 (total deliveries) – 30 (delivered) = 20 Total Delayed Deliveries"
+                    }
+                }
+            },
+            "todaysRevenueStats": {
+                "description": "A detailed overview of the revenue generated today, including collections, billings, and cloth counts.",
+                "fields": {
+                    "centerId": "Unique identifier for each center.",
+                    "centerName": "Name of the center.",
+                    "poc": "Point of contact for the center.",
+                    "todayCollection": "Total amount collected today at the centre after marking delivery done.",
+                    "todayBilling": "Total billing amount is the amount for which invoice has been generated till now.Only amount Billed at the particular center is considered.",
+                    "todayCenterBilling": "Total billing amount is the amount for which invoice has been generated till now.This consists amount Billed at the particular master center and all of retail center wroking under it, todayBilling and todaycenterBilling will be same for the live unit.",
+                    "yesterdayBilling": "Total billing amount is the amount for which invoice has been generated till yesterday.Only amount Billed at the particular center is considered.",
+                    "yesterdayCenterBilling": "Total billing amount is the amount for which invoice has been generated till yesterday.This consists amount Billed at the particular master center and all of retail center wroking under it, todayBilling and todaycenterBilling will be same for the live unit.",
+                    "todayClothCount": "Total number of cloth items which invoice has been generated today at the particular center.",
+                    "todayCenterClothCount": "Total number of cloth items which invoice has been generated today at the particular master center and all of retail center wroking under it, todayClothCount and todayCenterClothCount will be same for the live unit.",
+                    "yesterdayClothCount": "Total number of cloth items which invoice has been generated till yesterday at the particular center.",
+                    "yesterdayCenterClothCount": "Total number of cloth items which invoice has been generated till yesterday at the particular master center and all of retail center wroking under it, todayClothCount and todayCenterClothCount will be same for the live unit.",
+                    "todayMasterLevelInvPending": "Total number of master-level invoices pending today.",
+                    "yesterdayMasterLevelInvPending": "Total number of master-level invoices pending yesterday."
+                }
+            },
+            "masterStats": {
+                "description": "A comprehensive overview of the center's performance metrics, including quality ratings, billing, and cloth counts.",
+                "fields": {
+                    "centerId": "Unique identifier for each center.",
+                    "centerName": "Namwe of the center.",
+                    "poc": "Point of contact for the center.",
+                    "currentQualityRatingCount": "Total number of quality ratings received.",
+                    "lmQualityRatingCount": "Total number of quality ratings received in the last month.",
+                    "l2lmQualityRatingCount": "Total number of quality ratings received in the last two months.",
+                    "currentQualityRating": "Current quality rating.",
+                    "lmQualityRating": "    Last month quality rating.",
+                    "l2lmQualityRating": "Last two months quality rating.",
+                    "centerBilling": "amount billed at the particular center.",
+                    "lyMtdCenterBilling": "amount billed at the particular center till this date last year.",
+                    "lastMonthCenterServiceBilling": "amount billed at the particular center last month.",
+                    "lyCenterBilling": "amount billed at the particular center till this date last year.",
+                    "centerAvgBilling": "average amount billed at the particular center. total amount billed at the center/12 months.",
+                    "lyCenterAvgBilling": "average amount billed at the particular center till this date last year. total amount billed at the center/12 months.",
+                    "thisMonthCenterClothCount": "Total number of cloth items which invoice has been generated this month at the particular center.",
+                    "lyMtdCenterClothCount": "Total number of cloth items which invoice has been generated till this date last year at the particular center.",
+                    "lmCenterClothCount": "Total number of cloth items which invoice has been generated in the last month at the particular center.",
+                    "lySameMonthCenterClothCount": "Total number of cloth items which invoice has been generated till this date last year at the particular center.",
+                    "lastMonthMasterShare": "percentage of amount billed at master center last month.",
+                    "lySameMonthMasterShare": "percentage of amount billed at master center till this date last year.",
+                    "masterAvgShare": "average percentage of amount billed at master center. total amount billed at the center/12 months.",
+                    "lyMasterAvgShare": "average percentage of amount billed at master center till this date last year. total amount billed at the center/12 months.",
+                    "yearCenterClothCount": "Total number of cloth items which invoice has been generated this year at the particular center.",
+                    "lyCenterClothCount": "Total number of cloth items which invoice has been generated till this date last year at the particular center.",
+                    "orderPackingPending": "Order which have been inoviced but not yet packed.",
+                    "clothPackingPending": "Cloth items which have been inoviced but not yet packed.",
+                    "orderPackingDone": "Order which have been inoviced and packed.",
+                    "yestOrderPackingDone": "Order which have been inoviced and packed yesterday.",
+                    "clothPackingDone": "Number of Cloth items which have been inoviced and packed.",
+                    "yestClothPackingDone": "Number of Cloth items which have been inoviced and packed yesterday."
+                }
+            },
+            "masterPackingStats": {
+                "description": "A detailed overview of the packing statistics for the center, including various TTC (Time to Complete) metrics.",
+                "fields": {
+                    "centerId": "Unique identifier for each center.",
+                    "centerName": "Name of the center.",
+                    "poc": "Point of contact for the center.",
+                    "invTtc": "Startigng from the time the order is picked up till the time its invoiced.",
+                    "wHubTtc": "Total time taken to reach the workshop hub.Starting from the time the order is picked up till the time its reached to the workshop hub.",
+                    "packingTtc": "Total time taken to pack the items.starting from the time the order is picked up till the time its packed.",
+                    "hubTtc": "total time taken to reach the hub.starting from the time the order is picked up till the time its reached to the hub.",
+                    "delvTtc": "total time taken to deliver the items.starting from the time the order is picked up till the time its delivered."
+                }
+            },
+            "masterLevelTtcStats": {
+                "description": "A detailed overview of the master-level TTC (Time to Complete) statistics for the center.",
+                "fields": {
+                    "centerId": "Unique identifier for each center.",
+                    "centerName": "Name of the center.",
+                    "poc": "Point of contact for the center.",
+                    "invTtc": "time taken to invoice the order.starting from the time the order is picked up till the time its invoiced.",
+                    "wHubTtc": "Time taken to reach the workshop hub.Starting from the time the order is picked up till the time its reached to the workshop hub.",
+                    "packingTtc": "Time taken to pack the items.starting from the time the order is picked up till the time its packed.",
+                    "hubTtc": "Time taken to reach the hub.starting from the time the order is picked up till the time its reached to the hub.",
+                    "delvTtc": "Time taken to deliver the items.starting from the time the order is picked up till the time its delivered."
+                }
+            },
+            "workQuality": {
+                "description": "A comprehensive overview of the center's work quality metrics, including complaint counts, ratings, and customer engagement.",
+                "fields": {
+                    "centerId": "Unique identifier for each center.",
+                    "centerName": " Name of the center.",
+                    "poc": "Point of contact for the center.",
+                    "openComplaintCount": "Total number of open complaints.",
+                    "day30ComplaintCount": "Total number of complaints received in the last 30 days.",
+                    "complaintPercentile": "Complaint percentile ranking.",
+                    "cancelPercentile": "Cancel percentile ranking.",
+                    "lmComplaintPercentile": "last month complaint percentile ranking.",
+                    "lmCancelPercentile": "last month cancel percentile ranking.",
+                    "l2lmComplaintPercentile": "last year this month complaint percentile ranking.",
+                    "l2lmCancelPercentile": "last year this month cancel percentile ranking.",
+                    "currentQualityRatingCount": "Total number of quality ratings received.",
+                    "lmQualityRatingCount": "last month quality rating count.",
+                    "l2lmQualityRatingCount": "last year this month quality rating count.",
+                    "currentQualityRating": "Quality rating till now.",
+                    "lmQualityRating": "    Last month quality rating.",
+                    "l2lmQualityRating": "Last year this month quality rating.",
+                    "currentPdRating": "pickup and delivery rating till now.",
+                    "lmPdRating": "last month pickup and delivery rating.",
+                    "l2lmPdRating": "last year this month pickup and delivery rating.",
+                    "newCust": "Total number of new customers.",
+                    "lmNewCust": "last month new customers.",
+                    "l2lmNewCust": "last year this month new customers.",
+                    "custTapped": "Total number of customers tapped.Means the number of customers who have been contacted by the sales team and they palced an order.",
+                    "lmCustTapped": "last month customers tapped.Means the number of customers who have been contacted by the sales team and they palced an order.",
+                    "l2lmCustTapped": "1ast year this month customers tapped.Means the number of customers who have been contacted by the sales team and they palced an order.",
+                    "totalLeads": "Total numbers of currently running orders.",
+                    "lmTotalLeads": "last month currently running orders.",
+                    "l2lmTotalLeads": "last year this month currently running orders.",
+                    "prnctCancel": "Percentage of orders cancelled by customers.",
+                    "lmPrnctCancel": "last month percentage of orders cancelled by customers.",
+                    "l2lmPrnctCancel": "last year this month percentage of orders cancelled by customers."
+                }
+            },
+            "workAndRevenue": {
+                "description": "A comprehensive overview of the center's work and revenue metrics, including billing, cloth counts, and financial statistics.",
+                "fields": {
+                    "centerId": "Unique identifier for each center.",
+                    "centerName": "Name of the center.",
+                    "poc": "Point of contact for the center.",
+                    "companyLedgerAmount": "",
+                    "runningcompanyLedgerAmount": "0",
+                    "pendingAmountInCenter": "41365",
+                    "withMeRunners": "110312",
+                    "serviceBilling": "Service Billing is amount generated by the customrs who palced order and paod for it without using his/her prepaid balance.",
+                    "lyMtdServiceBilling": "last month service billing is amount generated by the customrs who palced order and paod for it without using his/her prepaid balance.",
+                    "compensation": "Compensation is the amount which is given to the customer this month it can be discounted or free service.",
+                    "lastMonthServiceBilling": "last month service billing is amount generated by the customrs who palced order and paod for it without using his/her prepaid balance.",
+                    "lyServiceBilling": "last year this month service billing is amount generated by the customrs who palced order and paod for it without using his/her prepaid balance.",
+                    "yearlyAvgRevenue": "total amount billed at the center/12 months.",
+                    "lyAvgRevenue": "last year this month total amount billed at the center/12 months.",
+                    "avgTicketSize": "total amount billed at the center/total number of cloth items.",
+                    "lmAvgTicketSize": "last month total amount billed at the center/ last month total number of cloth items.",
+                    "yearAvgTicketSize": "last 365 days  total amount billed at the center/ last 365 days  total number of cloth items.",
+                    "lastYearAvgTicketSize": "Last year this month total amount billed at the center/ last year this month total number of cloth items.",
+                    "thisMonthClothCount": "Total number of cloth items which invoice has been generated this month at the particular center.",
+                    "lyMtdClothCount": "Total number of cloth items which invoice has been generated till this date last year at the particular center.",
+                    "lmClothCount": "Total number of cloth items which invoice has been generated in the last month at the particular center.",
+                    "lyClothCount": "Total number of cloth items which invoice has been generated till this date last year at the particular center."
+                }
+            }
         }
     ],
     "todaysWorkStats": [
