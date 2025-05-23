@@ -1,287 +1,283 @@
 {
     "MetaData": [
         {
-            "MetaData": [
+            "Company name ": "Elite DhobiLite Pvt Ltd",
+            "Company Description": "Elite DhobiLite is a laundry and dry cleaning service provider that offers convenient and high-quality laundry solutions to customers. With a focus on customer satisfaction, they provide services such as wash and fold, dry cleaning, and ironing, ensuring that clothes are cleaned and cared for with the utmost attention to detail. Their user-friendly platform allows customers to schedule pickups and deliveries, making laundry hassle-free. Apart from that we provide free pickup and delivery services, ensuring that customers can enjoy the convenience of having their laundry taken care of without leaving their homes.",
+            "Our Business Model": "Elite DhobiLite operates on a B2C (Business-to-Consumer) model, providing laundry and dry cleaning services directly to individual customers. The company focuses on delivering high-quality cleaning solutions, convenience, and exceptional customer service. Customers can easily schedule pickups and deliveries through the platform, making it a hassle-free experience. The business model emphasizes customer satisfaction and aims to build long-term relationships with clients by offering reliable and efficient laundry services.",
+            "Our  franchising model": "Elite DhobiLite's franchising model allows aspiring entrepreneurs to partner with the brand and operate their own laundry and dry cleaning businesses under the Elite DhobiLite name. Franchisees benefit from the established brand reputation, proven business processes, and ongoing support from the company. The model typically includes training, marketing assistance, and access to a comprehensive operational framework. Franchisees can leverage the company's expertise to successfully run their businesses while contributing to the growth of the Elite DhobiLite brand.",
+            "typesOfFranchises": [
                 {
-                    "Company name ": "Elite DhobiLite Pvt Ltd",
-                    "Company Description": "Elite DhobiLite is a laundry and dry cleaning service provider that offers convenient and high-quality laundry solutions to customers. With a focus on customer satisfaction, they provide services such as wash and fold, dry cleaning, and ironing, ensuring that clothes are cleaned and cared for with the utmost attention to detail. Their user-friendly platform allows customers to schedule pickups and deliveries, making laundry hassle-free. Apart from that we provide free pickup and delivery services, ensuring that customers can enjoy the convenience of having their laundry taken care of without leaving their homes.",
-                    "Our Business Model": "Elite DhobiLite operates on a B2C (Business-to-Consumer) model, providing laundry and dry cleaning services directly to individual customers. The company focuses on delivering high-quality cleaning solutions, convenience, and exceptional customer service. Customers can easily schedule pickups and deliveries through the platform, making it a hassle-free experience. The business model emphasizes customer satisfaction and aims to build long-term relationships with clients by offering reliable and efficient laundry services.",
-                    "Our  franchising model": "Elite DhobiLite's franchising model allows aspiring entrepreneurs to partner with the brand and operate their own laundry and dry cleaning businesses under the Elite DhobiLite name. Franchisees benefit from the established brand reputation, proven business processes, and ongoing support from the company. The model typically includes training, marketing assistance, and access to a comprehensive operational framework. Franchisees can leverage the company's expertise to successfully run their businesses while contributing to the growth of the Elite DhobiLite brand.",
-                    "typesOfFranchises": [
-                        {
-                            "title": "Master Franchise",
-                            "description": "A Master Franchise acts as a central processing hub for multiple Retail franchises. Once customer orders are collected by the Retail units, they are sent to the Master Franchise for all major laundry operations such as washing, dry cleaning, ironing, and packing. The cleaned items are then sent back to the respective Retail franchises for final delivery. Typically located in large Tier 1 cities with high order volumes and multiple dependent Retail units."
-                        },
-                        {
-                            "title": "Single Unit Franchise / Live Unit",
-                            "description": "A Single Unit or Live Unit Franchise operates independently. It does not have any associated Retail franchises under it. Equipped with essential laundry machinery, this unit handles the entire workflow — from receiving orders directly from runners, to cleaning, packing, and final delivery to customers. Runners collect and deliver directly between the customer and this unit. Ideal for areas with moderate demand."
-                        },
-                        {
-                            "title": "Retail Franchise",
-                            "description": "A Retail Franchise serves as the first point of contact for customer orders. Runners pick up laundry from customers and deliver it to the Retail unit. From there, the orders are forwarded to the associated Master Franchise for complete processing. Once the cleaning is done, the items are sent back to the Retail unit for final customer delivery. Suited for local presence and customer convenience, typically connected to a nearby Master Franchise."
-                        }
-                    ],
-                    "Runner": "A Runner is responsible for collecting orders from customers and delivering them to the designated retail or live unit (depending on the center type). Once the processing — including washing, dry cleaning, and packing — is completed, the Runner ensures the final delivery of the cleaned garments back to the customer. The Runner plays a crucial role in maintaining customer satisfaction by ensuring timely pickups and deliveries, and they are often the face of the brand during these interactions. Their efficiency and professionalism directly impact the overall customer experience.",
-                    "Workshop Hub / W_Hub": "A Workshop Hub is a central processing facility that handles the major laundry operations for multiple Retail franchises. It is responsible for washing, dry cleaning, ironing, and packing garments collected from the Retail units. The Workshop Hub ensures that all cleaning processes are carried out efficiently and to the highest quality standards. Once the cleaning is completed, the cleaned items are sent back to the respective Retail franchises for final delivery to customers. This centralized approach allows for streamlined operations and better resource management.It is typically located in large Tier 1 cities i.e at master franchise with high order volumes and multiple dependent Retail units. The Workshop Hub plays a crucial role in maintaining the quality and consistency of the laundry services provided by the brand.",
-                    "Our Order flow / Workflow": [
-                        {
-                            "Ongoing leads/Team View": "this is the first step in the order flow where the sales team contacts potential customers to generate interest and secure orders. The team actively engages with leads, providing information about services and addressing any queries to encourage them to place an order. if a customer shows interest, the sales team collects their details and schedules a pickup. This step is crucial for building relationships with potential customers and converting leads into actual orders. customers can also place orders directly through our  app (DhobiLite Customer app) , bypassing the sales team. This allows for a more streamlined process, as customers can easily select services, schedule pickups, and make payments through the app. The app provides a user-friendly interface that enhances the overall customer experience, making it convenient for them to manage their laundry needs. after the order is placed, the sales team can track the order status and follow up with customers as needed. And all the active orders can be seen by the manager in the team view section of the app (msentinal app) and also seen by the center owner in the ongoing leads section of the app (msentinal app).",
-                            "example": "For example, if a customer contacts the sales team to inquire about laundry services, the team will provide information about pricing, services offered, and any ongoing promotions. If the customer decides to place an order, the sales team will schedule a pickup time and collect the necessary details. This proactive approach helps in converting leads into actual orders and enhances customer satisfaction.",
-                            "Order Pickup via assigned runner and generation of e-challan": "Once the order is confirmed, a runner is assigned by the manager or may be by the owner sometime to pick up the laundry from the customer's location. The runner can see the orders assigned to him in msentinal app and  is responsible for ensuring that the items are collected safely and securely.at the time of pickup he/she need to click 3 cumpolsary images of the articles/clothes to be picked up for the processing/service and after that runner have to generate e-challan of the cloths which he/she can do via the msentinal app and via e-challan he can get an approximate value of cost which may be required for the processing of the cloths.e-challan contains details of cloths and according to cloth type and service required costing is done automatically in the e-challan .if the order is very large then runner should take as much as picks (generally in group of three) so that at the time of packing after processing ,cloths should be easily matched and prevent mismatching of the cloths and once the runner picks the order he/she should confirm the pickup in the app msentinal so that everyone in the loop get the notificatin for the same .",
-                            "Invoice generation": "Once the order is picked up, the runner takes the items to the nearest retail center or live unit or may be directly at master center if master center in handling the item directly via its own runner without the intervention of retail unit.Now the manager present at the centers generate the final invoice for the order. the invoice should be generated only after the cross verification of the picked items with the e-challan generated by the runner at the time of pickup. once the invoice is generated it will be uploaded to the server which will further send whereever required and may also sent to the customer sent to the customer.  final Invoice should only be generated if all the items in the e-challan correctly matches with the items picked by the runner and if there is any mismatch then the manager should not generate the invoice and he/she should contact the runner for the same. once the invoice is generated it will be uploaded to the server which will further send whereever required and may also sent to the customer. invoice generation is done in msentinal app in the generate invoice section",
-                            "Tagging of the cloths": "Once the invoice is generated, the items are tagged with unique identifiers to ensure proper tracking and processing. This tagging process is crucial for maintaining order accuracy and preventing any mix-ups during the cleaning and delivery stages. The tags contain information about the customer, order details, and specific instructions for handling each item and ita also contain the type of service to be provided. This ensures that all garments are processed according to the customer's preferences and requirements.This can be tracked in the msentinalapp in the tracker section.",
-                            "processing of the cloths/transit task": "After tagging, the items are sent for processing, which includes washing, dry cleaning, ironing, and packing. The processing is done at the workshop hub (W_Hub) or at the live unit depending on the type of center. The items are cleaned according to the specified service type and quality standards.if items are processsed at master center the after packing it will be sent to retail center for the final delivery via runner or if the master center uses their own runner then then can directly proceed with the delivery via runners and if processing of cloths is done at the live centers then they will deliver it to the customes via their own runners.",
-                            "delivery of the cloths to the customer": " Once the processing is complete, the cleaned items are packed and prepared for delivery. The runner assigned to the order picks up the packed items from the retail center or live unit and delivers them to the customer. The delivery process is tracked in the app, ensuring that customers receive their orders on time and in good condition. The runner may also collect payment at this stage if it hasn't been done earlier. This final step completes the order flow, providing a seamless experience for the customer."
-                        }
-                    ],
-                    "Terms and condition": [
-                        {
-                            "description": "Elite DhobiLite Laundry Pvt Limited (hereinafter Company) services are provided subject to your (Customer) compliance and acceptance with the terms and conditions set forth below.Please read the following agreement carefully. Customer use of any of Company's services indicates an agreement to be bound by the terms and conditions set forth below.Items which are given to Company for cleaning / repairing will be termed as article(s) in this agreement.This agreement is strictly between Company and the Customer and does not in any way constitute or imply any relationship with any other parties. As a condition to using any of Company's services, and for the mutual benefit of both Company and the Customer, the undersigned (Customer) agrees to the following terms and conditions:",
-                            "1": "All garments/linen/fabrics are handled with greatest care but owing to the conditions of the articles or non apparent/non-visible defects in its material there is a POSSIBILITY OF DISCOLOURING OR SHRINKAGE. Such garments are accepted for cleaning at OWNER'S RISK and company will not accept any responsibility for it.",
-                            "2": "Company will use reasonable efforts to try to ensure that washing, drying and folding services are maintained at a high level of quality.",
-                            "3": "Company due to time constraints does not read manufacturer suggested care and washing / drying labels, and will not responsible for garments labeled \"hand wash only\" or \"dry clean only\".",
-                            "4": "Company accepts no liability for \"special care\" and delicate items that require special attention to be cleaned.",
-                            "5": "Company accepts no liability for items whose loose color, specially when color of one part of the garment gets on the other part.",
-                            "6": "Company is not responsible for any article which is left beyond 30 days. After this period, if any discount was given on this order at the time of pickup shall be removed and a storage fees shall be charged @12% per month on the total invoice amount. Article not claimed within three months shall be handled appropriately by Company and be sold to recover the billed charges.",
-                            "7": "Company reserves the right to refuse cleaning any garment.",
-                            "8": "Removal of stain is a part of the process but, complete removal of stains can not be guaranteed and will be processed at customer's risk.",
-                            "9": "Company is not responsible for loss of or damage to any personal or non-cleanable items left in the article such as money, jewelry, or anything else.",
-                            "10": "If customer cannot accept the loss of any garment, please do not leave it with us.",
-                            "11": "In case of any loss or damage Company can reimburse up to a maximum of three (3) times of its processing (laundry / dryclean) cost (decision remains with Company if any reimbursement has to be done) only if Customer is able to produce the bills. Compensation shall be provided in form of services and no cash will be given to customer.",
-                            "12": "Customers are requested to count the articles at the time of delivery and inform the delivery man in case of missing articles. Company will not be responsible for any such claims after the articles delivery has been accepted and signed by the customer.",
-                            "13": "Company gives a warranty of 7 days from the date of delivery for the articles, for any quality related issues with washing or dry-cleaning of articles (only if the article has not been used by the customer after service). Any quality related claim after the stipulated time shall not be entertained.",
-                            "14": "Customer might get regular updates (Calls / SMS / RCS / Email / App Notification / WhatsApp) from Company of transactional and marketing in nature, if customer wants to stop it then Customer has to register a request with Customer Care Department of Company.",
-                            "15": "Company shall not be held responsible for any ornaments/ jewellery fittings on the garment.",
-                            "16": "Customer shall examine articles for damage at the time of delivery, and notify the same at that time. Company shall not be responsible for any claims afterwards.",
-                            "17": "Any loss/damage/delay due to FORCE MAJEURE conditions, Company is not liable for any compensation or reduction in charges.",
-                            "18": "We accept no liability for any loss or damage of the articles arising due to fire, burglary etc. beyond conduct or any other similar unforeseen causes.",
-                            "19": "Some process/items may require additional period to process. No deduction on billed amount or claim can be initiated against in respect of delays.",
-                            "20": "Tariff for designer wear will be decided on a case to case to case basis depending on the complexity of garment, the same shall be communicated to customer after it is examined by the expert at the processing center."
-                        },
-                        {
-                            "Payment terms": "payment term are following",
-                            "1": "Company does not provide printed bills, and invoices will be sent by e-mail only on registered email id.",
-                            "2": "Customer will be charged twice the amount of regular order for any express delivery.",
-                            "3": "Customer has to pay the entire amount after successful delivery of order.",
-                            "4": "For retail orders, customer has to pay by cash only. We accept debit or credit cards as well, but for that customer has to inform us beforehand.",
-                            "5": "Customer can buy a prepaid plan for which amount can be paid by cash or cheque. In case customer chooses to pay by cheque, the plan will only be effective after realization of the cheque.",
-                            "6": "Tax will be charged over and above the rates mentioned on the website.",
-                            "7": "Prepaid plans are valid at all DhobiLite retail locations across India, irrespective of the location where the plan was originally purchased.",
-                            "8": "Any cashback provided to the customer will be given as services and no money will be refunded. This cashback amount will be added to the customer's DhobiLite account."
-                        },
-                        {
-                            "Cancellation / Refund Policy": "Cancellation / Refund Policy are given below",
-                            "1": "Any extra amount paid by the customer for a retail order can be refunded by the company if the customer requests it.",
-                            "2": "Balance available in 'Prepaid' plans is non-refundable and cannot be transferred to any other customer.",
-                            "3": "User can cancel at any time before the actual pick-up. No cancellation charges will be levied.",
-                            "4": "If the company denies processing any article for any reason, the order amount for that article will be refunded to the retail customer or added to the prepaid balance for prepaid plan customers.",
-                            "5": "If the customer wants to cancel the order for any reason, the cancellation request must be placed within 2 hours of pickup of the articles.",
-                            "6": "Once the order is punched and processed, it cannot be cancelled."
-                        },
-                        {
-                            "Privacy Policy": "Privacy Policy are give below",
-                            "1": "Coupons can only be applied by the customer using the DhobiLite mobile app on available platforms.",
-                            "2": "Once an order is placed and the invoice is generated, coupons cannot be applied.",
-                            "3": "No two or more discounts, coupons, or offers can be clubbed together."
-                        },
-                        {
-                            "Links To Other Sites": "Company doesn't hold any liability on account of damages occurred of any kind from the content published on our website",
-                            "Distribution of Information": "The content of this website is an intellectual property of Company . Any distribution whatsoever will not be tolerated and shall be punishable by law.",
-                            "Prohibited Uses of Site": "Impersonating or imitating as some one else shall be liable for legal action accordingly.",
-                            "Content Permission & Restrictions": "Any imitation or distribution of content on this website for any purpose shall be treated as infringement and shall be punishable by law. Publishing of any third party content is prohibited and shall be liable for legal action.",
-                            "Changes To the Agreement": "The above mentioned information is liable to change at any time without any prior notice. Company shall not be liable for any loss incurred."
-                        }
-                    ],
-                    "todaysWorkStats": {
-                        "description": "A comprehensive summary of all operational statistics for the current day. This includes data on pickups, deliveries, cancellations, and pending tasks, updated continuously as work progresses.",
-                        "fields": {
-                            "centerId": "Unique identifier for each center.",
-                            "centerName": "Name of the center.",
-                            "bucket": "Refers to the type of franchise model.",
-                            "poc": "Point of contact for the center.",
-                            "pendingPick": "Total number of pickups that are pending.",
-                            "completedPick": "Total number of pickups that have been completed today.",
-                            "cancelledPick": "Refers to the number of orders that were canceled by customers during the current day. This figure excludes orders canceled within 5 minutes of placement, as such orders are not considered operationally committed.",
-                            "completedDel": "Denotes the number of deliveries successfully completed by runners on the current day up to the most recent update time. Since our system reflects real-time workflow changes, this number may increase throughout the day.",
-                            "pendingDelToday": "Total number of deliveries pending today.",
-                            "packedPendingDelToday": "Total number of packed deliveries pending today.",
-                            "delayedDeliveryToday": "Total number of deliveries delayed today.",
-                            "todayRegistration": "Total number of new registrations today.",
-                            "invoicePending": "Total number of invoices pending today.",
-                            "wHubPending": "Total number of pending tasks at the Workshop Hub (W_Hub).",
-                            "orderPackingPending": "Total number of orders pending packing.",
-                            "clothPackingPending": "Total number of cloth items pending packing.",
-                            "orderPackingDone": "Total number of orders packed today.",
-                            "yestOrderPackingDone": "Total number of orders packed yesterday.",
-                            "clothPackingDone": "Total number of cloth items packed today.",
-                            "yestClothPackingDone": "Total number of cloth items packed yesterday.",
-                            "inTransit": "Total number of items currently in transit."
-                        },
-                        "exampleDefinitions": {
-                            "pendingDeliveries": {
-                                "title": "Pending Deliveries",
-                                "definition": "The number of deliveries that have been transported to the workshop hub but have not yet been delivered to customers.",
-                                "calculation": "35 (transported to W. Hub) – 30 (delivered) = 5 Pending Deliveries"
-                            },
-                            "packedButDelayedDeliveries": {
-                                "title": "Packed but Delayed Deliveries",
-                                "definition": "The number of orders that have been packed and are ready for delivery but have not yet reached the customer.",
-                                "calculation": "40 (packed) – 30 (delivered) = 10 Packed but Delayed Deliveries"
-                            },
-                            "totalDelayedDeliveries": {
-                                "title": "Total Delayed Deliveries",
-                                "definition": "Represents all the orders that were initially intended for delivery, but have not yet been delivered — regardless of whether they are packed or transported.",
-                                "calculation": "50 (total deliveries) – 30 (delivered) = 20 Total Delayed Deliveries"
-                            }
-                        }
+                    "title": "Master Franchise",
+                    "description": "A Master Franchise acts as a central processing hub for multiple Retail franchises. Once customer orders are collected by the Retail units, they are sent to the Master Franchise for all major laundry operations such as washing, dry cleaning, ironing, and packing. The cleaned items are then sent back to the respective Retail franchises for final delivery. Typically located in large Tier 1 cities with high order volumes and multiple dependent Retail units."
+                },
+                {
+                    "title": "Single Unit Franchise / Live Unit",
+                    "description": "A Single Unit or Live Unit Franchise operates independently. It does not have any associated Retail franchises under it. Equipped with essential laundry machinery, this unit handles the entire workflow — from receiving orders directly from runners, to cleaning, packing, and final delivery to customers. Runners collect and deliver directly between the customer and this unit. Ideal for areas with moderate demand."
+                },
+                {
+                    "title": "Retail Franchise",
+                    "description": "A Retail Franchise serves as the first point of contact for customer orders. Runners pick up laundry from customers and deliver it to the Retail unit. From there, the orders are forwarded to the associated Master Franchise for complete processing. Once the cleaning is done, the items are sent back to the Retail unit for final customer delivery. Suited for local presence and customer convenience, typically connected to a nearby Master Franchise."
+                }
+            ],
+            "Runner": "A Runner is responsible for collecting orders from customers and delivering them to the designated retail or live unit (depending on the center type). Once the processing — including washing, dry cleaning, and packing — is completed, the Runner ensures the final delivery of the cleaned garments back to the customer. The Runner plays a crucial role in maintaining customer satisfaction by ensuring timely pickups and deliveries, and they are often the face of the brand during these interactions. Their efficiency and professionalism directly impact the overall customer experience.",
+            "Workshop Hub / W_Hub": "A Workshop Hub is a central processing facility that handles the major laundry operations for multiple Retail franchises. It is responsible for washing, dry cleaning, ironing, and packing garments collected from the Retail units. The Workshop Hub ensures that all cleaning processes are carried out efficiently and to the highest quality standards. Once the cleaning is completed, the cleaned items are sent back to the respective Retail franchises for final delivery to customers. This centralized approach allows for streamlined operations and better resource management.It is typically located in large Tier 1 cities i.e at master franchise with high order volumes and multiple dependent Retail units. The Workshop Hub plays a crucial role in maintaining the quality and consistency of the laundry services provided by the brand.",
+            "Our Order flow / Workflow": [
+                {
+                    "Ongoing leads/Team View": "this is the first step in the order flow where the sales team contacts potential customers to generate interest and secure orders. The team actively engages with leads, providing information about services and addressing any queries to encourage them to place an order. if a customer shows interest, the sales team collects their details and schedules a pickup. This step is crucial for building relationships with potential customers and converting leads into actual orders. customers can also place orders directly through our  app (DhobiLite Customer app) , bypassing the sales team. This allows for a more streamlined process, as customers can easily select services, schedule pickups, and make payments through the app. The app provides a user-friendly interface that enhances the overall customer experience, making it convenient for them to manage their laundry needs. after the order is placed, the sales team can track the order status and follow up with customers as needed. And all the active orders can be seen by the manager in the team view section of the app (msentinal app) and also seen by the center owner in the ongoing leads section of the app (msentinal app).",
+                    "example": "For example, if a customer contacts the sales team to inquire about laundry services, the team will provide information about pricing, services offered, and any ongoing promotions. If the customer decides to place an order, the sales team will schedule a pickup time and collect the necessary details. This proactive approach helps in converting leads into actual orders and enhances customer satisfaction.",
+                    "Order Pickup via assigned runner and generation of e-challan": "Once the order is confirmed, a runner is assigned by the manager or may be by the owner sometime to pick up the laundry from the customer's location. The runner can see the orders assigned to him in msentinal app and  is responsible for ensuring that the items are collected safely and securely.at the time of pickup he/she need to click 3 cumpolsary images of the articles/clothes to be picked up for the processing/service and after that runner have to generate e-challan of the cloths which he/she can do via the msentinal app and via e-challan he can get an approximate value of cost which may be required for the processing of the cloths.e-challan contains details of cloths and according to cloth type and service required costing is done automatically in the e-challan .if the order is very large then runner should take as much as picks (generally in group of three) so that at the time of packing after processing ,cloths should be easily matched and prevent mismatching of the cloths and once the runner picks the order he/she should confirm the pickup in the app msentinal so that everyone in the loop get the notificatin for the same .",
+                    "Invoice generation": "Once the order is picked up, the runner takes the items to the nearest retail center or live unit or may be directly at master center if master center in handling the item directly via its own runner without the intervention of retail unit.Now the manager present at the centers generate the final invoice for the order. the invoice should be generated only after the cross verification of the picked items with the e-challan generated by the runner at the time of pickup. once the invoice is generated it will be uploaded to the server which will further send whereever required and may also sent to the customer sent to the customer.  final Invoice should only be generated if all the items in the e-challan correctly matches with the items picked by the runner and if there is any mismatch then the manager should not generate the invoice and he/she should contact the runner for the same. once the invoice is generated it will be uploaded to the server which will further send whereever required and may also sent to the customer. invoice generation is done in msentinal app in the generate invoice section",
+                    "Tagging of the cloths": "Once the invoice is generated, the items are tagged with unique identifiers to ensure proper tracking and processing. This tagging process is crucial for maintaining order accuracy and preventing any mix-ups during the cleaning and delivery stages. The tags contain information about the customer, order details, and specific instructions for handling each item and ita also contain the type of service to be provided. This ensures that all garments are processed according to the customer's preferences and requirements.This can be tracked in the msentinalapp in the tracker section.",
+                    "processing of the cloths/transit task": "After tagging, the items are sent for processing, which includes washing, dry cleaning, ironing, and packing. The processing is done at the workshop hub (W_Hub) or at the live unit depending on the type of center. The items are cleaned according to the specified service type and quality standards.if items are processsed at master center the after packing it will be sent to retail center for the final delivery via runner or if the master center uses their own runner then then can directly proceed with the delivery via runners and if processing of cloths is done at the live centers then they will deliver it to the customes via their own runners.",
+                    "delivery of the cloths to the customer": " Once the processing is complete, the cleaned items are packed and prepared for delivery. The runner assigned to the order picks up the packed items from the retail center or live unit and delivers them to the customer. The delivery process is tracked in the app, ensuring that customers receive their orders on time and in good condition. The runner may also collect payment at this stage if it hasn't been done earlier. This final step completes the order flow, providing a seamless experience for the customer."
+                }
+            ],
+            "Terms and condition": [
+                {
+                    "description": "Elite DhobiLite Laundry Pvt Limited (hereinafter Company) services are provided subject to your (Customer) compliance and acceptance with the terms and conditions set forth below.Please read the following agreement carefully. Customer use of any of Company's services indicates an agreement to be bound by the terms and conditions set forth below.Items which are given to Company for cleaning / repairing will be termed as article(s) in this agreement.This agreement is strictly between Company and the Customer and does not in any way constitute or imply any relationship with any other parties. As a condition to using any of Company's services, and for the mutual benefit of both Company and the Customer, the undersigned (Customer) agrees to the following terms and conditions:",
+                    "1": "All garments/linen/fabrics are handled with greatest care but owing to the conditions of the articles or non apparent/non-visible defects in its material there is a POSSIBILITY OF DISCOLOURING OR SHRINKAGE. Such garments are accepted for cleaning at OWNER'S RISK and company will not accept any responsibility for it.",
+                    "2": "Company will use reasonable efforts to try to ensure that washing, drying and folding services are maintained at a high level of quality.",
+                    "3": "Company due to time constraints does not read manufacturer suggested care and washing / drying labels, and will not responsible for garments labeled \"hand wash only\" or \"dry clean only\".",
+                    "4": "Company accepts no liability for \"special care\" and delicate items that require special attention to be cleaned.",
+                    "5": "Company accepts no liability for items whose loose color, specially when color of one part of the garment gets on the other part.",
+                    "6": "Company is not responsible for any article which is left beyond 30 days. After this period, if any discount was given on this order at the time of pickup shall be removed and a storage fees shall be charged @12% per month on the total invoice amount. Article not claimed within three months shall be handled appropriately by Company and be sold to recover the billed charges.",
+                    "7": "Company reserves the right to refuse cleaning any garment.",
+                    "8": "Removal of stain is a part of the process but, complete removal of stains can not be guaranteed and will be processed at customer's risk.",
+                    "9": "Company is not responsible for loss of or damage to any personal or non-cleanable items left in the article such as money, jewelry, or anything else.",
+                    "10": "If customer cannot accept the loss of any garment, please do not leave it with us.",
+                    "11": "In case of any loss or damage Company can reimburse up to a maximum of three (3) times of its processing (laundry / dryclean) cost (decision remains with Company if any reimbursement has to be done) only if Customer is able to produce the bills. Compensation shall be provided in form of services and no cash will be given to customer.",
+                    "12": "Customers are requested to count the articles at the time of delivery and inform the delivery man in case of missing articles. Company will not be responsible for any such claims after the articles delivery has been accepted and signed by the customer.",
+                    "13": "Company gives a warranty of 7 days from the date of delivery for the articles, for any quality related issues with washing or dry-cleaning of articles (only if the article has not been used by the customer after service). Any quality related claim after the stipulated time shall not be entertained.",
+                    "14": "Customer might get regular updates (Calls / SMS / RCS / Email / App Notification / WhatsApp) from Company of transactional and marketing in nature, if customer wants to stop it then Customer has to register a request with Customer Care Department of Company.",
+                    "15": "Company shall not be held responsible for any ornaments/ jewellery fittings on the garment.",
+                    "16": "Customer shall examine articles for damage at the time of delivery, and notify the same at that time. Company shall not be responsible for any claims afterwards.",
+                    "17": "Any loss/damage/delay due to FORCE MAJEURE conditions, Company is not liable for any compensation or reduction in charges.",
+                    "18": "We accept no liability for any loss or damage of the articles arising due to fire, burglary etc. beyond conduct or any other similar unforeseen causes.",
+                    "19": "Some process/items may require additional period to process. No deduction on billed amount or claim can be initiated against in respect of delays.",
+                    "20": "Tariff for designer wear will be decided on a case to case to case basis depending on the complexity of garment, the same shall be communicated to customer after it is examined by the expert at the processing center."
+                },
+                {
+                    "Payment terms": "payment term are following",
+                    "1": "Company does not provide printed bills, and invoices will be sent by e-mail only on registered email id.",
+                    "2": "Customer will be charged twice the amount of regular order for any express delivery.",
+                    "3": "Customer has to pay the entire amount after successful delivery of order.",
+                    "4": "For retail orders, customer has to pay by cash only. We accept debit or credit cards as well, but for that customer has to inform us beforehand.",
+                    "5": "Customer can buy a prepaid plan for which amount can be paid by cash or cheque. In case customer chooses to pay by cheque, the plan will only be effective after realization of the cheque.",
+                    "6": "Tax will be charged over and above the rates mentioned on the website.",
+                    "7": "Prepaid plans are valid at all DhobiLite retail locations across India, irrespective of the location where the plan was originally purchased.",
+                    "8": "Any cashback provided to the customer will be given as services and no money will be refunded. This cashback amount will be added to the customer's DhobiLite account."
+                },
+                {
+                    "Cancellation / Refund Policy": "Cancellation / Refund Policy are given below",
+                    "1": "Any extra amount paid by the customer for a retail order can be refunded by the company if the customer requests it.",
+                    "2": "Balance available in 'Prepaid' plans is non-refundable and cannot be transferred to any other customer.",
+                    "3": "User can cancel at any time before the actual pick-up. No cancellation charges will be levied.",
+                    "4": "If the company denies processing any article for any reason, the order amount for that article will be refunded to the retail customer or added to the prepaid balance for prepaid plan customers.",
+                    "5": "If the customer wants to cancel the order for any reason, the cancellation request must be placed within 2 hours of pickup of the articles.",
+                    "6": "Once the order is punched and processed, it cannot be cancelled."
+                },
+                {
+                    "Privacy Policy": "Privacy Policy are give below",
+                    "1": "Coupons can only be applied by the customer using the DhobiLite mobile app on available platforms.",
+                    "2": "Once an order is placed and the invoice is generated, coupons cannot be applied.",
+                    "3": "No two or more discounts, coupons, or offers can be clubbed together."
+                },
+                {
+                    "Links To Other Sites": "Company doesn't hold any liability on account of damages occurred of any kind from the content published on our website",
+                    "Distribution of Information": "The content of this website is an intellectual property of Company . Any distribution whatsoever will not be tolerated and shall be punishable by law.",
+                    "Prohibited Uses of Site": "Impersonating or imitating as some one else shall be liable for legal action accordingly.",
+                    "Content Permission & Restrictions": "Any imitation or distribution of content on this website for any purpose shall be treated as infringement and shall be punishable by law. Publishing of any third party content is prohibited and shall be liable for legal action.",
+                    "Changes To the Agreement": "The above mentioned information is liable to change at any time without any prior notice. Company shall not be liable for any loss incurred."
+                }
+            ],
+            "todaysWorkStats": {
+                "description": "A comprehensive summary of all operational statistics for the current day. This includes data on pickups, deliveries, cancellations, and pending tasks, updated continuously as work progresses.",
+                "fields": {
+                    "centerId": "Unique identifier for each center.",
+                    "centerName": "Name of the center.",
+                    "bucket": "Refers to the type of franchise model.",
+                    "poc": "Point of contact for the center.",
+                    "pendingPick": "Total number of pickups that are pending.",
+                    "completedPick": "Total number of pickups that have been completed today.",
+                    "cancelledPick": "Refers to the number of orders that were canceled by customers during the current day. This figure excludes orders canceled within 5 minutes of placement, as such orders are not considered operationally committed.",
+                    "completedDel": "Denotes the number of deliveries successfully completed by runners on the current day up to the most recent update time. Since our system reflects real-time workflow changes, this number may increase throughout the day.",
+                    "pendingDelToday": "Total number of deliveries pending today.",
+                    "packedPendingDelToday": "Total number of packed deliveries pending today.",
+                    "delayedDeliveryToday": "Total number of deliveries delayed today.",
+                    "todayRegistration": "Total number of new registrations today.",
+                    "invoicePending": "Total number of invoices pending today.",
+                    "wHubPending": "Total number of pending tasks at the Workshop Hub (W_Hub).",
+                    "orderPackingPending": "Total number of orders pending packing.",
+                    "clothPackingPending": "Total number of cloth items pending packing.",
+                    "orderPackingDone": "Total number of orders packed today.",
+                    "yestOrderPackingDone": "Total number of orders packed yesterday.",
+                    "clothPackingDone": "Total number of cloth items packed today.",
+                    "yestClothPackingDone": "Total number of cloth items packed yesterday.",
+                    "inTransit": "Total number of items currently in transit."
+                },
+                "exampleDefinitions": {
+                    "pendingDeliveries": {
+                        "title": "Pending Deliveries",
+                        "definition": "The number of deliveries that have been transported to the workshop hub but have not yet been delivered to customers.",
+                        "calculation": "35 (transported to W. Hub) – 30 (delivered) = 5 Pending Deliveries"
                     },
-                    "todaysRevenueStats": {
-                        "description": "A detailed overview of the revenue generated today, including collections, billings, and cloth counts.",
-                        "fields": {
-                            "centerId": "Unique identifier for each center.",
-                            "centerName": "Name of the center.",
-                            "poc": "Point of contact for the center.",
-                            "todayCollection": "Total amount collected today at the centre after marking delivery done.",
-                            "todayBilling": "Total billing amount is the amount for which invoice has been generated till now.Only amount Billed at the particular center is considered.",
-                            "todayCenterBilling": "Total billing amount is the amount for which invoice has been generated till now.This consists amount Billed at the particular master center and all of retail center wroking under it, todayBilling and todaycenterBilling will be same for the live unit.",
-                            "yesterdayBilling": "Total billing amount is the amount for which invoice has been generated till yesterday.Only amount Billed at the particular center is considered.",
-                            "yesterdayCenterBilling": "Total billing amount is the amount for which invoice has been generated till yesterday.This consists amount Billed at the particular master center and all of retail center wroking under it, todayBilling and todaycenterBilling will be same for the live unit.",
-                            "todayClothCount": "Total number of cloth items which invoice has been generated today at the particular center.",
-                            "todayCenterClothCount": "Total number of cloth items which invoice has been generated today at the particular master center and all of retail center wroking under it, todayClothCount and todayCenterClothCount will be same for the live unit.",
-                            "yesterdayClothCount": "Total number of cloth items which invoice has been generated till yesterday at the particular center.",
-                            "yesterdayCenterClothCount": "Total number of cloth items which invoice has been generated till yesterday at the particular master center and all of retail center wroking under it, todayClothCount and todayCenterClothCount will be same for the live unit.",
-                            "todayMasterLevelInvPending": "Total number of master-level invoices pending today.",
-                            "yesterdayMasterLevelInvPending": "Total number of master-level invoices pending yesterday."
-                        }
+                    "packedButDelayedDeliveries": {
+                        "title": "Packed but Delayed Deliveries",
+                        "definition": "The number of orders that have been packed and are ready for delivery but have not yet reached the customer.",
+                        "calculation": "40 (packed) – 30 (delivered) = 10 Packed but Delayed Deliveries"
                     },
-                    "masterStats": {
-                        "description": "A comprehensive overview of the center's performance metrics, including quality ratings, billing, and cloth counts.",
-                        "fields": {
-                            "centerId": "Unique identifier for each center.",
-                            "centerName": "Namwe of the center.",
-                            "poc": "Point of contact for the center.",
-                            "currentQualityRatingCount": "Total number of quality ratings received.",
-                            "lmQualityRatingCount": "Total number of quality ratings received in the last month.",
-                            "l2lmQualityRatingCount": "Total number of quality ratings received in the last two months.",
-                            "currentQualityRating": "Current quality rating.",
-                            "lmQualityRating": "    Last month quality rating.",
-                            "l2lmQualityRating": "Last two months quality rating.",
-                            "centerBilling": "amount billed at the particular center.",
-                            "lyMtdCenterBilling": "amount billed at the particular center till this date last year.",
-                            "lastMonthCenterServiceBilling": "amount billed at the particular center last month.",
-                            "lyCenterBilling": "amount billed at the particular center till this date last year.",
-                            "centerAvgBilling": "average amount billed at the particular center. total amount billed at the center/12 months.",
-                            "lyCenterAvgBilling": "average amount billed at the particular center till this date last year. total amount billed at the center/12 months.",
-                            "thisMonthCenterClothCount": "Total number of cloth items which invoice has been generated this month at the particular center.",
-                            "lyMtdCenterClothCount": "Total number of cloth items which invoice has been generated till this date last year at the particular center.",
-                            "lmCenterClothCount": "Total number of cloth items which invoice has been generated in the last month at the particular center.",
-                            "lySameMonthCenterClothCount": "Total number of cloth items which invoice has been generated till this date last year at the particular center.",
-                            "lastMonthMasterShare": "percentage of amount billed at master center last month.",
-                            "lySameMonthMasterShare": "percentage of amount billed at master center till this date last year.",
-                            "masterAvgShare": "average percentage of amount billed at master center. total amount billed at the center/12 months.",
-                            "lyMasterAvgShare": "average percentage of amount billed at master center till this date last year. total amount billed at the center/12 months.",
-                            "yearCenterClothCount": "Total number of cloth items which invoice has been generated this year at the particular center.",
-                            "lyCenterClothCount": "Total number of cloth items which invoice has been generated till this date last year at the particular center.",
-                            "orderPackingPending": "Order which have been inoviced but not yet packed.",
-                            "clothPackingPending": "Cloth items which have been inoviced but not yet packed.",
-                            "orderPackingDone": "Order which have been inoviced and packed.",
-                            "yestOrderPackingDone": "Order which have been inoviced and packed yesterday.",
-                            "clothPackingDone": "Number of Cloth items which have been inoviced and packed.",
-                            "yestClothPackingDone": "Number of Cloth items which have been inoviced and packed yesterday."
-                        }
-                    },
-                    "masterPackingStats": {
-                        "description": "A detailed overview of the packing statistics for the center, including various TTC (Time to Complete) metrics.",
-                        "fields": {
-                            "centerId": "Unique identifier for each center.",
-                            "centerName": "Name of the center.",
-                            "poc": "Point of contact for the center.",
-                            "invTtc": "Startigng from the time the order is picked up till the time its invoiced.",
-                            "wHubTtc": "Total time taken to reach the workshop hub.Starting from the time the order is picked up till the time its reached to the workshop hub.",
-                            "packingTtc": "Total time taken to pack the items.starting from the time the order is picked up till the time its packed.",
-                            "hubTtc": "total time taken to reach the hub.starting from the time the order is picked up till the time its reached to the hub.",
-                            "delvTtc": "total time taken to deliver the items.starting from the time the order is picked up till the time its delivered."
-                        }
-                    },
-                    "masterLevelTtcStats": {
-                        "description": "A detailed overview of the master-level TTC (Time to Complete) statistics for the center.",
-                        "fields": {
-                            "centerId": "Unique identifier for each center.",
-                            "centerName": "Name of the center.",
-                            "poc": "Point of contact for the center.",
-                            "invTtc": "time taken to invoice the order.starting from the time the order is picked up till the time its invoiced.",
-                            "wHubTtc": "Time taken to reach the workshop hub.Starting from the time the order is picked up till the time its reached to the workshop hub.",
-                            "packingTtc": "Time taken to pack the items.starting from the time the order is picked up till the time its packed.",
-                            "hubTtc": "Time taken to reach the hub.starting from the time the order is picked up till the time its reached to the hub.",
-                            "delvTtc": "Time taken to deliver the items.starting from the time the order is picked up till the time its delivered."
-                        }
-                    },
-                    "workQuality": {
-                        "description": "A comprehensive overview of the center's work quality metrics, including complaint counts, ratings, and customer engagement.",
-                        "fields": {
-                            "centerId": "Unique identifier for each center.",
-                            "centerName": " Name of the center.",
-                            "poc": "Point of contact for the center.",
-                            "openComplaintCount": "Total number of open complaints.",
-                            "day30ComplaintCount": "Total number of complaints received in the last 30 days.",
-                            "complaintPercentile": "Complaint percentile ranking.",
-                            "cancelPercentile": "Cancel percentile ranking.",
-                            "lmComplaintPercentile": "last month complaint percentile ranking.",
-                            "lmCancelPercentile": "last month cancel percentile ranking.",
-                            "l2lmComplaintPercentile": "last year this month complaint percentile ranking.",
-                            "l2lmCancelPercentile": "last year this month cancel percentile ranking.",
-                            "currentQualityRatingCount": "Total number of quality ratings received.",
-                            "lmQualityRatingCount": "last month quality rating count.",
-                            "l2lmQualityRatingCount": "last year this month quality rating count.",
-                            "currentQualityRating": "Quality rating till now.",
-                            "lmQualityRating": "    Last month quality rating.",
-                            "l2lmQualityRating": "Last year this month quality rating.",
-                            "currentPdRating": "pickup and delivery rating till now.",
-                            "lmPdRating": "last month pickup and delivery rating.",
-                            "l2lmPdRating": "last year this month pickup and delivery rating.",
-                            "newCust": "Total number of new customers.",
-                            "lmNewCust": "last month new customers.",
-                            "l2lmNewCust": "last year this month new customers.",
-                            "custTapped": "Total number of customers tapped.Means the number of customers who have been contacted by the sales team and they palced an order.",
-                            "lmCustTapped": "last month customers tapped.Means the number of customers who have been contacted by the sales team and they palced an order.",
-                            "l2lmCustTapped": "1ast year this month customers tapped.Means the number of customers who have been contacted by the sales team and they palced an order.",
-                            "totalLeads": "Total numbers of currently running orders.",
-                            "lmTotalLeads": "last month currently running orders.",
-                            "l2lmTotalLeads": "last year this month currently running orders.",
-                            "prnctCancel": "Percentage of orders cancelled by customers.",
-                            "lmPrnctCancel": "last month percentage of orders cancelled by customers.",
-                            "l2lmPrnctCancel": "last year this month percentage of orders cancelled by customers."
-                        }
-                    },
-                    "workAndRevenue": {
-                        "description": "A comprehensive overview of the center's work and revenue metrics, including billing, cloth counts, and financial statistics.",
-                        "fields": {
-                            "centerId": "Unique identifier for each center.",
-                            "centerName": "Name of the center.",
-                            "poc": "Point of contact for the center.",
-                            "companyLedgerAmount": "",
-                            "runningcompanyLedgerAmount": "0",
-                            "pendingAmountInCenter": "41365",
-                            "withMeRunners": "110312",
-                            "serviceBilling": "Service Billing is amount generated by the customrs who palced order and paod for it without using his/her prepaid balance.",
-                            "lyMtdServiceBilling": "last month service billing is amount generated by the customrs who palced order and paod for it without using his/her prepaid balance.",
-                            "compensation": "Compensation is the amount which is given to the customer this month it can be discounted or free service.",
-                            "lastMonthServiceBilling": "last month service billing is amount generated by the customrs who palced order and paod for it without using his/her prepaid balance.",
-                            "lyServiceBilling": "last year this month service billing is amount generated by the customrs who palced order and paod for it without using his/her prepaid balance.",
-                            "yearlyAvgRevenue": "total amount billed at the center/12 months.",
-                            "lyAvgRevenue": "last year this month total amount billed at the center/12 months.",
-                            "avgTicketSize": "total amount billed at the center/total number of cloth items.",
-                            "lmAvgTicketSize": "last month total amount billed at the center/ last month total number of cloth items.",
-                            "yearAvgTicketSize": "last 365 days  total amount billed at the center/ last 365 days  total number of cloth items.",
-                            "lastYearAvgTicketSize": "Last year this month total amount billed at the center/ last year this month total number of cloth items.",
-                            "thisMonthClothCount": "Total number of cloth items which invoice has been generated this month at the particular center.",
-                            "lyMtdClothCount": "Total number of cloth items which invoice has been generated till this date last year at the particular center.",
-                            "lmClothCount": "Total number of cloth items which invoice has been generated in the last month at the particular center.",
-                            "lyClothCount": "Total number of cloth items which invoice has been generated till this date last year at the particular center."
-                        }
+                    "totalDelayedDeliveries": {
+                        "title": "Total Delayed Deliveries",
+                        "definition": "Represents all the orders that were initially intended for delivery, but have not yet been delivered — regardless of whether they are packed or transported.",
+                        "calculation": "50 (total deliveries) – 30 (delivered) = 20 Total Delayed Deliveries"
                     }
                 }
-            ]
+            },
+            "todaysRevenueStats": {
+                "description": "A detailed overview of the revenue generated today, including collections, billings, and cloth counts.",
+                "fields": {
+                    "centerId": "Unique identifier for each center.",
+                    "centerName": "Name of the center.",
+                    "poc": "Point of contact for the center.",
+                    "todayCollection": "Total amount collected today at the centre after marking delivery done.",
+                    "todayBilling": "Total billing amount is the amount for which invoice has been generated till now.Only amount Billed at the particular center is considered.",
+                    "todayCenterBilling": "Total billing amount is the amount for which invoice has been generated till now.This consists amount Billed at the particular master center and all of retail center wroking under it, todayBilling and todaycenterBilling will be same for the live unit.",
+                    "yesterdayBilling": "Total billing amount is the amount for which invoice has been generated till yesterday.Only amount Billed at the particular center is considered.",
+                    "yesterdayCenterBilling": "Total billing amount is the amount for which invoice has been generated till yesterday.This consists amount Billed at the particular master center and all of retail center wroking under it, todayBilling and todaycenterBilling will be same for the live unit.",
+                    "todayClothCount": "Total number of cloth items which invoice has been generated today at the particular center.",
+                    "todayCenterClothCount": "Total number of cloth items which invoice has been generated today at the particular master center and all of retail center wroking under it, todayClothCount and todayCenterClothCount will be same for the live unit.",
+                    "yesterdayClothCount": "Total number of cloth items which invoice has been generated till yesterday at the particular center.",
+                    "yesterdayCenterClothCount": "Total number of cloth items which invoice has been generated till yesterday at the particular master center and all of retail center wroking under it, todayClothCount and todayCenterClothCount will be same for the live unit.",
+                    "todayMasterLevelInvPending": "Total number of master-level invoices pending today.",
+                    "yesterdayMasterLevelInvPending": "Total number of master-level invoices pending yesterday."
+                }
+            },
+            "masterStats": {
+                "description": "A comprehensive overview of the center's performance metrics, including quality ratings, billing, and cloth counts.",
+                "fields": {
+                    "centerId": "Unique identifier for each center.",
+                    "centerName": "Namwe of the center.",
+                    "poc": "Point of contact for the center.",
+                    "currentQualityRatingCount": "Total number of quality ratings received.",
+                    "lmQualityRatingCount": "Total number of quality ratings received in the last month.",
+                    "l2lmQualityRatingCount": "Total number of quality ratings received in the last two months.",
+                    "currentQualityRating": "Current quality rating.",
+                    "lmQualityRating": "    Last month quality rating.",
+                    "l2lmQualityRating": "Last two months quality rating.",
+                    "centerBilling": "amount billed at the particular center.",
+                    "lyMtdCenterBilling": "amount billed at the particular center till this date last year.",
+                    "lastMonthCenterServiceBilling": "amount billed at the particular center last month.",
+                    "lyCenterBilling": "amount billed at the particular center till this date last year.",
+                    "centerAvgBilling": "average amount billed at the particular center. total amount billed at the center/12 months.",
+                    "lyCenterAvgBilling": "average amount billed at the particular center till this date last year. total amount billed at the center/12 months.",
+                    "thisMonthCenterClothCount": "Total number of cloth items which invoice has been generated this month at the particular center.",
+                    "lyMtdCenterClothCount": "Total number of cloth items which invoice has been generated till this date last year at the particular center.",
+                    "lmCenterClothCount": "Total number of cloth items which invoice has been generated in the last month at the particular center.",
+                    "lySameMonthCenterClothCount": "Total number of cloth items which invoice has been generated till this date last year at the particular center.",
+                    "lastMonthMasterShare": "percentage of amount billed at master center last month.",
+                    "lySameMonthMasterShare": "percentage of amount billed at master center till this date last year.",
+                    "masterAvgShare": "average percentage of amount billed at master center. total amount billed at the center/12 months.",
+                    "lyMasterAvgShare": "average percentage of amount billed at master center till this date last year. total amount billed at the center/12 months.",
+                    "yearCenterClothCount": "Total number of cloth items which invoice has been generated this year at the particular center.",
+                    "lyCenterClothCount": "Total number of cloth items which invoice has been generated till this date last year at the particular center.",
+                    "orderPackingPending": "Order which have been inoviced but not yet packed.",
+                    "clothPackingPending": "Cloth items which have been inoviced but not yet packed.",
+                    "orderPackingDone": "Order which have been inoviced and packed.",
+                    "yestOrderPackingDone": "Order which have been inoviced and packed yesterday.",
+                    "clothPackingDone": "Number of Cloth items which have been inoviced and packed.",
+                    "yestClothPackingDone": "Number of Cloth items which have been inoviced and packed yesterday."
+                }
+            },
+            "masterPackingStats": {
+                "description": "A detailed overview of the packing statistics for the center, including various TTC (Time to Complete) metrics.",
+                "fields": {
+                    "centerId": "Unique identifier for each center.",
+                    "centerName": "Name of the center.",
+                    "poc": "Point of contact for the center.",
+                    "invTtc": "Startigng from the time the order is picked up till the time its invoiced.",
+                    "wHubTtc": "Total time taken to reach the workshop hub.Starting from the time the order is picked up till the time its reached to the workshop hub.",
+                    "packingTtc": "Total time taken to pack the items.starting from the time the order is picked up till the time its packed.",
+                    "hubTtc": "total time taken to reach the hub.starting from the time the order is picked up till the time its reached to the hub.",
+                    "delvTtc": "total time taken to deliver the items.starting from the time the order is picked up till the time its delivered."
+                }
+            },
+            "masterLevelTtcStats": {
+                "description": "A detailed overview of the master-level TTC (Time to Complete) statistics for the center.",
+                "fields": {
+                    "centerId": "Unique identifier for each center.",
+                    "centerName": "Name of the center.",
+                    "poc": "Point of contact for the center.",
+                    "invTtc": "time taken to invoice the order.starting from the time the order is picked up till the time its invoiced.",
+                    "wHubTtc": "Time taken to reach the workshop hub.Starting from the time the order is picked up till the time its reached to the workshop hub.",
+                    "packingTtc": "Time taken to pack the items.starting from the time the order is picked up till the time its packed.",
+                    "hubTtc": "Time taken to reach the hub.starting from the time the order is picked up till the time its reached to the hub.",
+                    "delvTtc": "Time taken to deliver the items.starting from the time the order is picked up till the time its delivered."
+                }
+            },
+            "workQuality": {
+                "description": "A comprehensive overview of the center's work quality metrics, including complaint counts, ratings, and customer engagement.",
+                "fields": {
+                    "centerId": "Unique identifier for each center.",
+                    "centerName": " Name of the center.",
+                    "poc": "Point of contact for the center.",
+                    "openComplaintCount": "Total number of open complaints.",
+                    "day30ComplaintCount": "Total number of complaints received in the last 30 days.",
+                    "complaintPercentile": "Complaint percentile ranking.",
+                    "cancelPercentile": "Cancel percentile ranking.",
+                    "lmComplaintPercentile": "last month complaint percentile ranking.",
+                    "lmCancelPercentile": "last month cancel percentile ranking.",
+                    "l2lmComplaintPercentile": "last year this month complaint percentile ranking.",
+                    "l2lmCancelPercentile": "last year this month cancel percentile ranking.",
+                    "currentQualityRatingCount": "Total number of quality ratings received.",
+                    "lmQualityRatingCount": "last month quality rating count.",
+                    "l2lmQualityRatingCount": "last year this month quality rating count.",
+                    "currentQualityRating": "Quality rating till now.",
+                    "lmQualityRating": "    Last month quality rating.",
+                    "l2lmQualityRating": "Last year this month quality rating.",
+                    "currentPdRating": "pickup and delivery rating till now.",
+                    "lmPdRating": "last month pickup and delivery rating.",
+                    "l2lmPdRating": "last year this month pickup and delivery rating.",
+                    "newCust": "Total number of new customers.",
+                    "lmNewCust": "last month new customers.",
+                    "l2lmNewCust": "last year this month new customers.",
+                    "custTapped": "Total number of customers tapped.Means the number of customers who have been contacted by the sales team and they palced an order.",
+                    "lmCustTapped": "last month customers tapped.Means the number of customers who have been contacted by the sales team and they palced an order.",
+                    "l2lmCustTapped": "1ast year this month customers tapped.Means the number of customers who have been contacted by the sales team and they palced an order.",
+                    "totalLeads": "Total numbers of currently running orders.",
+                    "lmTotalLeads": "last month currently running orders.",
+                    "l2lmTotalLeads": "last year this month currently running orders.",
+                    "prnctCancel": "Percentage of orders cancelled by customers.",
+                    "lmPrnctCancel": "last month percentage of orders cancelled by customers.",
+                    "l2lmPrnctCancel": "last year this month percentage of orders cancelled by customers."
+                }
+            },
+            "workAndRevenue": {
+                "description": "A comprehensive overview of the center's work and revenue metrics, including billing, cloth counts, and financial statistics.",
+                "fields": {
+                    "centerId": "Unique identifier for each center.",
+                    "centerName": "Name of the center.",
+                    "poc": "Point of contact for the center.",
+                    "companyLedgerAmount": "",
+                    "runningcompanyLedgerAmount": "0",
+                    "pendingAmountInCenter": "41365",
+                    "withMeRunners": "110312",
+                    "serviceBilling": "Service Billing is amount generated by the customrs who palced order and paod for it without using his/her prepaid balance.",
+                    "lyMtdServiceBilling": "last month service billing is amount generated by the customrs who palced order and paod for it without using his/her prepaid balance.",
+                    "compensation": "Compensation is the amount which is given to the customer this month it can be discounted or free service.",
+                    "lastMonthServiceBilling": "last month service billing is amount generated by the customrs who palced order and paod for it without using his/her prepaid balance.",
+                    "lyServiceBilling": "last year this month service billing is amount generated by the customrs who palced order and paod for it without using his/her prepaid balance.",
+                    "yearlyAvgRevenue": "total amount billed at the center/12 months.",
+                    "lyAvgRevenue": "last year this month total amount billed at the center/12 months.",
+                    "avgTicketSize": "total amount billed at the center/total number of cloth items.",
+                    "lmAvgTicketSize": "last month total amount billed at the center/ last month total number of cloth items.",
+                    "yearAvgTicketSize": "last 365 days  total amount billed at the center/ last 365 days  total number of cloth items.",
+                    "lastYearAvgTicketSize": "Last year this month total amount billed at the center/ last year this month total number of cloth items.",
+                    "thisMonthClothCount": "Total number of cloth items which invoice has been generated this month at the particular center.",
+                    "lyMtdClothCount": "Total number of cloth items which invoice has been generated till this date last year at the particular center.",
+                    "lmClothCount": "Total number of cloth items which invoice has been generated in the last month at the particular center.",
+                    "lyClothCount": "Total number of cloth items which invoice has been generated till this date last year at the particular center."
+                }
+            }
         }
     ],
     "todaysWorkStats": [
