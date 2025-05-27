@@ -92,29 +92,88 @@
             ],
             "todaysWorkStats": {
                 "description": "A comprehensive summary of all operational statistics for the current day. This includes data on pickups, deliveries, cancellations, and pending tasks, updated continuously as work progresses.",
-                "fields": {
-                    "centerId": "Unique identifier for each center.",
-                    "centerName": "Name of the center.",
-                    "bucket": "Refers to the type of franchise model.",
-                    "poc": "Point of contact for the center.",
-                    "pendingPick": "Total number of pickups that are pending.",
-                    "completedPick": "Total number of pickups that have been completed today.",
-                    "cancelledPick": "Refers to the number of orders that were canceled by customers during the current day. This figure excludes orders canceled within 5 minutes of placement, as such orders are not considered operationally committed.",
-                    "completedDel": "Denotes the number of deliveries successfully completed by runners on the current day up to the most recent update time. Since our system reflects real-time workflow changes, this number may increase throughout the day.",
-                    "pendingDelToday": "Total number of deliveries pending today.",
-                    "packedPendingDelToday": "Total number of packed deliveries pending today.",
-                    "delayedDeliveryToday": "Total number of deliveries delayed today.",
-                    "todayRegistration": "Total number of new registrations today.",
-                    "invoicePending": "Total number of invoices pending today.",
-                    "wHubPending": "Total number of pending tasks at the Workshop Hub (W_Hub).",
-                    "orderPackingPending": "Total number of orders pending packing.",
-                    "clothPackingPending": "Total number of cloth items pending packing.",
-                    "orderPackingDone": "Total number of orders packed today.",
-                    "yestOrderPackingDone": "Total number of orders packed yesterday.",
-                    "clothPackingDone": "Total number of cloth items packed today.",
-                    "yestClothPackingDone": "Total number of cloth items packed yesterday.",
-                    "inTransit": "Total number of items currently in transit."
-                },
+                "Columns": [
+                    {
+                        "Title": "centerId",
+                        "description": "Unique identifier for each center."
+                    },
+                    {
+                        "Title": "centerName",
+                        "description": "Name of the center."
+                    },
+                    {
+                        "Title": "poc",
+                        "description": "Point of contact for the center."
+                    },
+                    {
+                        "Title": "pendingPick",
+                        "description": "Total number of pickups that are pending."
+                    },
+                    {
+                        "Title": "completedPick",
+                        "description": "Total number of pickups that have been completed today."
+                    },
+                    {
+                        "Title": "cancelledPick",
+                        "description": "Refers to the number of orders that were canceled by customers during the current day. This figure excludes orders canceled within 5 minutes of placement, as such orders are not considered operationally committed."
+                    },
+                    {
+                        "Title": "completedDel",
+                        "description": "Denotes the number of deliveries successfully completed by runners on the current day up to the most recent update time. Since our system reflects real-time workflow changes, this number may increase throughout the day."
+                    },
+                    {
+                        "Title": "pendingDelToday",
+                        "description": "Total number of deliveries pending today."
+                    },
+                    {
+                        "Title": "packedPendingDelToday",
+                        "description": "Total number of packed deliveries pending today."
+                    },
+                    {
+                        "Title": "delayedDeliveryToday",
+                        "description": "Total number of deliveries delayed today."
+                    },
+                    {
+                        "Title": "todayRegistration",
+                        "description": "Total number of new registrations today."
+                    },
+                    {
+                        "Title": "invoicePending",
+                        "description": "Total number of invoices pending today."
+                    },
+                    {
+                        "Title": "wHubPending",
+                        "description": "Total number of pending tasks at the Workshop Hub (W_Hub)."
+                    },
+                    {
+                        "Title": "orderPackingPending",
+                        "description": "Total number of orders pending packing."
+                    },
+                    {
+                        "Title": "clothPackingPending",
+                        "description": "Total number of cloth items pending packing."
+                    },
+                    {
+                        "Title": "orderPackingDone",
+                        "description": "Total number of orders packed today."
+                    },
+                    {
+                        "Title": "yestOrderPackingDone",
+                        "description": "Total number of orders packed yesterday."
+                    },
+                    {
+                        "Title": "clothPackingDone",
+                        "description": "Total number of cloth items packed today."
+                    },
+                    {
+                        "Title": "yestClothPackingDone",
+                        "description": "Total number of cloth items packed yesterday."
+                    },
+                    {
+                        "Title": "inTransit",
+                        "description": "Total number of items currently in transit."
+                    }
+                ],
                 "exampleDefinitions": {
                     "pendingDeliveries": {
                         "title": "Pending Deliveries",
@@ -135,148 +194,521 @@
             },
             "todaysRevenueStats": {
                 "description": "A detailed overview of the revenue generated today, including collections, billings, and cloth counts.",
-                "fields": {
-                    "centerId": "Unique identifier for each center.",
-                    "centerName": "Name of the center.",
-                    "poc": "Point of contact for the center.",
-                    "todayCollection": "Total amount collected today at the centre after marking delivery done.",
-                    "todayBilling": "Total billing amount is the amount for which invoice has been generated till now.Only amount Billed at the particular center is considered.",
-                    "todayCenterBilling": "Total billing amount is the amount for which invoice has been generated till now.This consists amount Billed at the particular master center and all of retail center wroking under it, todayBilling and todaycenterBilling will be same for the live unit.",
-                    "yesterdayBilling": "Total billing amount is the amount for which invoice has been generated till yesterday.Only amount Billed at the particular center is considered.",
-                    "yesterdayCenterBilling": "Total billing amount is the amount for which invoice has been generated till yesterday.This consists amount Billed at the particular master center and all of retail center wroking under it, todayBilling and todaycenterBilling will be same for the live unit.",
-                    "todayClothCount": "Total number of cloth items which invoice has been generated today at the particular center.",
-                    "todayCenterClothCount": "Total number of cloth items which invoice has been generated today at the particular master center and all of retail center wroking under it, todayClothCount and todayCenterClothCount will be same for the live unit.",
-                    "yesterdayClothCount": "Total number of cloth items which invoice has been generated till yesterday at the particular center.",
-                    "yesterdayCenterClothCount": "Total number of cloth items which invoice has been generated till yesterday at the particular master center and all of retail center wroking under it, todayClothCount and todayCenterClothCount will be same for the live unit.",
-                    "todayMasterLevelInvPending": "Total number of master-level invoices pending today.",
-                    "yesterdayMasterLevelInvPending": "Total number of master-level invoices pending yesterday."
-                }
+                "Columns": [
+                    {
+                        "Title": "centerId",
+                        "description": "Unique identifier for each center."
+                    },
+                    {
+                        "Title": "centerName",
+                        "description": "Name of the center."
+                    },
+                    {
+                        "Title": "bucket",
+                        "description": "Refers to the type of franchise model."
+                    },
+                    {
+                        "Title": "poc",
+                        "description": "Point of contact for the center."
+                    },
+                    {
+                        "Title": "pendingPick",
+                        "description": "Total number of pickups that are pending."
+                    },
+                    {
+                        "Title": "completedPick",
+                        "description": "Total number of pickups that have been completed today."
+                    },
+                    {
+                        "Title": "cancelledPick",
+                        "description": "Refers to the number of orders that were canceled by customers during the current day. This figure excludes orders canceled within 5 minutes of placement, as such orders are not considered operationally committed."
+                    },
+                    {
+                        "Title": "completedDel",
+                        "description": "Denotes the number of deliveries successfully completed by runners on the current day up to the most recent update time. Since our system reflects real-time workflow changes, this number may increase throughout the day."
+                    },
+                    {
+                        "Title": "pendingDelToday",
+                        "description": "Total number of deliveries pending today."
+                    },
+                    {
+                        "Title": "packedPendingDelToday",
+                        "description": "Total number of packed deliveries pending today."
+                    },
+                    {
+                        "Title": "delayedDeliveryToday",
+                        "description": "Total number of deliveries delayed today."
+                    },
+                    {
+                        "Title": "todayRegistration",
+                        "description": "Total number of new registrations today."
+                    },
+                    {
+                        "Title": "invoicePending",
+                        "description": "Total number of invoices pending today."
+                    },
+                    {
+                        "Title": "wHubPending",
+                        "description": "Total number of pending tasks at the Workshop Hub (W_Hub)."
+                    },
+                    {
+                        "Title": "orderPackingPending",
+                        "description": "Total number of orders pending packing."
+                    },
+                    {
+                        "Title": "clothPackingPending",
+                        "description": "Total number of cloth items pending packing."
+                    },
+                    {
+                        "Title": "orderPackingDone",
+                        "description": "Total number of orders packed today."
+                    },
+                    {
+                        "Title": "yestOrderPackingDone",
+                        "description": "Total number of orders packed yesterday."
+                    },
+                    {
+                        "Title": "clothPackingDone",
+                        "description": "Total number of cloth items packed today."
+                    },
+                    {
+                        "Title": "yestClothPackingDone",
+                        "description": "Total number of cloth items packed yesterday."
+                    },
+                    {
+                        "Title": "inTransit",
+                        "description": "Total number of items currently in transit."
+                    }
+                ]
             },
             "masterStats": {
                 "description": "A comprehensive overview of the center's performance metrics, including quality ratings, billing, and cloth counts.",
-                "fields": {
-                    "centerId": "Unique identifier for each center.",
-                    "centerName": "Namwe of the center.",
-                    "poc": "Point of contact for the center.",
-                    "currentQualityRatingCount": "Total number of quality ratings received.",
-                    "lmQualityRatingCount": "Total number of quality ratings received in the last month.",
-                    "l2lmQualityRatingCount": "Total number of quality ratings received in the last two months.",
-                    "currentQualityRating": "Current quality rating.",
-                    "lmQualityRating": "    Last month quality rating.",
-                    "l2lmQualityRating": "Last two months quality rating.",
-                    "centerBilling": "amount billed at the particular center.",
-                    "lyMtdCenterBilling": "amount billed at the particular center till this date last year.",
-                    "lastMonthCenterServiceBilling": "amount billed at the particular center last month.",
-                    "lyCenterBilling": "amount billed at the particular center till this date last year.",
-                    "centerAvgBilling": "average amount billed at the particular center. total amount billed at the center/12 months.",
-                    "lyCenterAvgBilling": "average amount billed at the particular center till this date last year. total amount billed at the center/12 months.",
-                    "thisMonthCenterClothCount": "Total number of cloth items which invoice has been generated this month at the particular center.",
-                    "lyMtdCenterClothCount": "Total number of cloth items which invoice has been generated till this date last year at the particular center.",
-                    "lmCenterClothCount": "Total number of cloth items which invoice has been generated in the last month at the particular center.",
-                    "lySameMonthCenterClothCount": "Total number of cloth items which invoice has been generated till this date last year at the particular center.",
-                    "lastMonthMasterShare": "percentage of amount billed at master center last month.",
-                    "lySameMonthMasterShare": "percentage of amount billed at master center till this date last year.",
-                    "masterAvgShare": "average percentage of amount billed at master center. total amount billed at the center/12 months.",
-                    "lyMasterAvgShare": "average percentage of amount billed at master center till this date last year. total amount billed at the center/12 months.",
-                    "yearCenterClothCount": "Total number of cloth items which invoice has been generated this year at the particular center.",
-                    "lyCenterClothCount": "Total number of cloth items which invoice has been generated till this date last year at the particular center.",
-                    "orderPackingPending": "Order which have been inoviced but not yet packed.",
-                    "clothPackingPending": "Cloth items which have been inoviced but not yet packed.",
-                    "orderPackingDone": "Order which have been inoviced and packed.",
-                    "yestOrderPackingDone": "Order which have been inoviced and packed yesterday.",
-                    "clothPackingDone": "Number of Cloth items which have been inoviced and packed.",
-                    "yestClothPackingDone": "Number of Cloth items which have been inoviced and packed yesterday."
-                }
+                "Columns": [
+                    {
+                        "Title": "centerId",
+                        "description": "Unique identifier for each center."
+                    },
+                    {
+                        "Title": "centerName",
+                        "description": "Namwe of the center."
+                    },
+                    {
+                        "Title": "poc",
+                        "description": "Point of contact for the center."
+                    },
+                    {
+                        "Title": "currentQualityRatingCount",
+                        "description": "Total number of quality ratings received."
+                    },
+                    {
+                        "Title": "lmQualityRatingCount",
+                        "description": "Total number of quality ratings received in the last month."
+                    },
+                    {
+                        "Title": "l2lmQualityRatingCount",
+                        "description": "Total number of quality ratings received in the last two months."
+                    },
+                    {
+                        "Title": "currentQualityRating",
+                        "description": "Current quality rating."
+                    },
+                    {
+                        "Title": "lmQualityRating",
+                        "description": "Last month quality rating."
+                    },
+                    {
+                        "Title": "l2lmQualityRating",
+                        "description": "Last two months quality rating."
+                    },
+                    {
+                        "Title": "centerBilling",
+                        "description": "Amount billed at the particular center."
+                    },
+                    {
+                        "Title": "lyMtdCenterBilling",
+                        "description": "Amount billed at the particular center till this date last year."
+                    },
+                    {
+                        "Title": "lastMonthCenterServiceBilling",
+                        "description": "Amount billed at the particular center last month."
+                    },
+                    {
+                        "Title": "lyCenterBilling",
+                        "description": "Amount billed at the particular center till this date last year."
+                    },
+                    {
+                        "Title": "centerAvgBilling",
+                        "description": "Average amount billed at the particular center. Total amount billed at the center divided by 12 months."
+                    },
+                    {
+                        "Title": "lyCenterAvgBilling",
+                        "description": "Average amount billed at the particular center till this date last year. Total amount billed at the center divided by 12 months."
+                    },
+                    {
+                        "Title": "thisMonthCenterClothCount",
+                        "description": "Total number of cloth items for which invoice has been generated this month at the particular center."
+                    },
+                    {
+                        "Title": "lyMtdCenterClothCount",
+                        "description": "Total number of cloth items for which invoice has been generated till this date last year at the particular center."
+                    },
+                    {
+                        "Title": "lmCenterClothCount",
+                        "description": "Total number of cloth items for which invoice has been generated in the last month at the particular center."
+                    },
+                    {
+                        "Title": "lySameMonthCenterClothCount",
+                        "description": "Total number of cloth items for which invoice has been generated till this date last year at the particular center."
+                    },
+                    {
+                        "Title": "lastMonthMasterShare",
+                        "description": "Percentage of amount billed at master center last month."
+                    },
+                    {
+                        "Title": "lySameMonthMasterShare",
+                        "description": "Percentage of amount billed at master center till this date last year."
+                    },
+                    {
+                        "Title": "masterAvgShare",
+                        "description": "Average percentage of amount billed at master center. Total amount billed at the center divided by 12 months."
+                    },
+                    {
+                        "Title": "lyMasterAvgShare",
+                        "description": "Average percentage of amount billed at master center till this date last year. Total amount billed at the center divided by 12 months."
+                    },
+                    {
+                        "Title": "yearCenterClothCount",
+                        "description": "Total number of cloth items for which invoice has been generated this year at the particular center."
+                    },
+                    {
+                        "Title": "lyCenterClothCount",
+                        "description": "Total number of cloth items for which invoice has been generated till this date last year at the particular center."
+                    },
+                    {
+                        "Title": "orderPackingPending",
+                        "description": "Orders which have been invoiced but not yet packed."
+                    },
+                    {
+                        "Title": "clothPackingPending",
+                        "description": "Cloth items which have been invoiced but not yet packed."
+                    },
+                    {
+                        "Title": "orderPackingDone",
+                        "description": "Orders which have been invoiced and packed."
+                    },
+                    {
+                        "Title": "yestOrderPackingDone",
+                        "description": "Orders which have been invoiced and packed yesterday."
+                    },
+                    {
+                        "Title": "clothPackingDone",
+                        "description": "Number of cloth items which have been invoiced and packed."
+                    },
+                    {
+                        "Title": "yestClothPackingDone",
+                        "description": "Number of cloth items which have been invoiced and packed yesterday."
+                    }
+                ]
             },
             "masterPackingStats": {
                 "description": "A detailed overview of the packing statistics for the center, including various TTC (Time to Complete) metrics.",
-                "fields": {
-                    "centerId": "Unique identifier for each center.",
-                    "centerName": "Name of the center.",
-                    "poc": "Point of contact for the center.",
-                    "invTtc": "Startigng from the time the order is picked up till the time its invoiced.",
-                    "wHubTtc": "Total time taken to reach the workshop hub.Starting from the time the order is picked up till the time its reached to the workshop hub.",
-                    "packingTtc": "Total time taken to pack the items.starting from the time the order is picked up till the time its packed.",
-                    "hubTtc": "total time taken to reach the hub.starting from the time the order is picked up till the time its reached to the hub.",
-                    "delvTtc": "total time taken to deliver the items.starting from the time the order is picked up till the time its delivered."
-                }
+                "Columns": [
+                    {
+                        "Title": "centerId",
+                        "description": "Unique identifier for each center."
+                    },
+                    {
+                        "Title": "centerName",
+                        "description": "Name of the center."
+                    },
+                    {
+                        "Title": "poc",
+                        "description": "Point of contact for the center."
+                    },
+                    {
+                        "Title": "invTtc",
+                        "description": "Starting from the time the order is picked up till the time it is invoiced."
+                    },
+                    {
+                        "Title": "wHubTtc",
+                        "description": "Total time taken to reach the workshop hub, starting from the time the order is picked up till it reaches the workshop hub."
+                    },
+                    {
+                        "Title": "packingTtc",
+                        "description": "Total time taken to pack the items, starting from the time the order is picked up till it is packed."
+                    },
+                    {
+                        "Title": "hubTtc",
+                        "description": "Total time taken to reach the hub, starting from the time the order is picked up till it reaches the hub."
+                    },
+                    {
+                        "Title": "delvTtc",
+                        "description": "Total time taken to deliver the items, starting from the time the order is picked up till it is delivered."
+                    }
+                ]
             },
             "masterLevelTtcStats": {
                 "description": "A detailed overview of the master-level TTC (Time to Complete) statistics for the center.",
-                "fields": {
-                    "centerId": "Unique identifier for each center.",
-                    "centerName": "Name of the center.",
-                    "poc": "Point of contact for the center.",
-                    "invTtc": "time taken to invoice the order.starting from the time the order is picked up till the time its invoiced.",
-                    "wHubTtc": "Time taken to reach the workshop hub.Starting from the time the order is picked up till the time its reached to the workshop hub.",
-                    "packingTtc": "Time taken to pack the items.starting from the time the order is picked up till the time its packed.",
-                    "hubTtc": "Time taken to reach the hub.starting from the time the order is picked up till the time its reached to the hub.",
-                    "delvTtc": "Time taken to deliver the items.starting from the time the order is picked up till the time its delivered."
-                }
+                "Columns": [
+                    {
+                        "Title": "centerId",
+                        "description": "Unique identifier for each center."
+                    },
+                    {
+                        "Title": "centerName",
+                        "description": "Name of the center."
+                    },
+                    {
+                        "Title": "poc",
+                        "description": "Point of contact for the center."
+                    },
+                    {
+                        "Title": "invTtc",
+                        "description": "Time taken to invoice the order, starting from the time the order is picked up till it is invoiced."
+                    },
+                    {
+                        "Title": "wHubTtc",
+                        "description": "Time taken to reach the workshop hub, starting from the time the order is picked up till it reaches the workshop hub."
+                    },
+                    {
+                        "Title": "packingTtc",
+                        "description": "Time taken to pack the items, starting from the time the order is picked up till the items are packed."
+                    },
+                    {
+                        "Title": "hubTtc",
+                        "description": "Time taken to reach the hub, starting from the time the order is picked up till it reaches the hub."
+                    },
+                    {
+                        "Title": "delvTtc",
+                        "description": "Time taken to deliver the items, starting from the time the order is picked up till they are delivered."
+                    }
+                ]
             },
             "workQuality": {
                 "description": "A comprehensive overview of the center's work quality metrics, including complaint counts, ratings, and customer engagement.",
-                "fields": {
-                    "centerId": "Unique identifier for each center.",
-                    "centerName": " Name of the center.",
-                    "poc": "Point of contact for the center.",
-                    "openComplaintCount": "Total number of open complaints.",
-                    "day30ComplaintCount": "Total number of complaints received in the last 30 days.",
-                    "complaintPercentile": "Complaint percentile ranking.",
-                    "cancelPercentile": "Cancel percentile ranking.",
-                    "lmComplaintPercentile": "last month complaint percentile ranking.",
-                    "lmCancelPercentile": "last month cancel percentile ranking.",
-                    "l2lmComplaintPercentile": "last year this month complaint percentile ranking.",
-                    "l2lmCancelPercentile": "last year this month cancel percentile ranking.",
-                    "currentQualityRatingCount": "Total number of quality ratings received.",
-                    "lmQualityRatingCount": "last month quality rating count.",
-                    "l2lmQualityRatingCount": "last year this month quality rating count.",
-                    "currentQualityRating": "Quality rating till now.",
-                    "lmQualityRating": "    Last month quality rating.",
-                    "l2lmQualityRating": "Last year this month quality rating.",
-                    "currentPdRating": "pickup and delivery rating till now.",
-                    "lmPdRating": "last month pickup and delivery rating.",
-                    "l2lmPdRating": "last year this month pickup and delivery rating.",
-                    "newCust": "Total number of new customers.",
-                    "lmNewCust": "last month new customers.",
-                    "l2lmNewCust": "last year this month new customers.",
-                    "custTapped": "Total number of customers tapped.Means the number of customers who have been contacted by the sales team and they palced an order.",
-                    "lmCustTapped": "last month customers tapped.Means the number of customers who have been contacted by the sales team and they palced an order.",
-                    "l2lmCustTapped": "1ast year this month customers tapped.Means the number of customers who have been contacted by the sales team and they palced an order.",
-                    "totalLeads": "Total numbers of currently running orders.",
-                    "lmTotalLeads": "last month currently running orders.",
-                    "l2lmTotalLeads": "last year this month currently running orders.",
-                    "prnctCancel": "Percentage of orders cancelled by customers.",
-                    "lmPrnctCancel": "last month percentage of orders cancelled by customers.",
-                    "l2lmPrnctCancel": "last year this month percentage of orders cancelled by customers."
-                }
+                "Columns": [
+                    {
+                        "Title": "centerId",
+                        "description": "Unique identifier for each center."
+                    },
+                    {
+                        "Title": "centerName",
+                        "description": "Name of the center."
+                    },
+                    {
+                        "Title": "poc",
+                        "description": "Point of contact for the center."
+                    },
+                    {
+                        "Title": "openComplaintCount",
+                        "description": "Total number of open complaints."
+                    },
+                    {
+                        "Title": "day30ComplaintCount",
+                        "description": "Total number of complaints received in the last 30 days."
+                    },
+                    {
+                        "Title": "complaintPercentile",
+                        "description": "Complaint percentile ranking."
+                    },
+                    {
+                        "Title": "cancelPercentile",
+                        "description": "Cancel percentile ranking."
+                    },
+                    {
+                        "Title": "lmComplaintPercentile",
+                        "description": "Last month complaint percentile ranking."
+                    },
+                    {
+                        "Title": "lmCancelPercentile",
+                        "description": "Last month cancel percentile ranking."
+                    },
+                    {
+                        "Title": "l2lmComplaintPercentile",
+                        "description": "Last year this month complaint percentile ranking."
+                    },
+                    {
+                        "Title": "l2lmCancelPercentile",
+                        "description": "Last year this month cancel percentile ranking."
+                    },
+                    {
+                        "Title": "currentQualityRatingCount",
+                        "description": "Total number of quality ratings received."
+                    },
+                    {
+                        "Title": "lmQualityRatingCount",
+                        "description": "Last month quality rating count."
+                    },
+                    {
+                        "Title": "l2lmQualityRatingCount",
+                        "description": "Last year this month quality rating count."
+                    },
+                    {
+                        "Title": "currentQualityRating",
+                        "description": "Quality rating till now."
+                    },
+                    {
+                        "Title": "lmQualityRating",
+                        "description": "Last month quality rating."
+                    },
+                    {
+                        "Title": "l2lmQualityRating",
+                        "description": "Last year this month quality rating."
+                    },
+                    {
+                        "Title": "currentPdRating",
+                        "description": "Pickup and delivery rating till now."
+                    },
+                    {
+                        "Title": "lmPdRating",
+                        "description": "Last month pickup and delivery rating."
+                    },
+                    {
+                        "Title": "l2lmPdRating",
+                        "description": "Last year this month pickup and delivery rating."
+                    },
+                    {
+                        "Title": "newCust",
+                        "description": "Total number of new customers."
+                    },
+                    {
+                        "Title": "lmNewCust",
+                        "description": "Last month new customers."
+                    },
+                    {
+                        "Title": "l2lmNewCust",
+                        "description": "Last year this month new customers."
+                    },
+                    {
+                        "Title": "custTapped",
+                        "description": "Total number of customers tapped. Means the number of customers who have been contacted by the sales team and they placed an order."
+                    },
+                    {
+                        "Title": "lmCustTapped",
+                        "description": "Last month customers tapped. Means the number of customers who have been contacted by the sales team and they placed an order."
+                    },
+                    {
+                        "Title": "l2lmCustTapped",
+                        "description": "Last year this month customers tapped. Means the number of customers who have been contacted by the sales team and they placed an order."
+                    },
+                    {
+                        "Title": "totalLeads",
+                        "description": "Total numbers of currently running orders."
+                    },
+                    {
+                        "Title": "lmTotalLeads",
+                        "description": "Last month currently running orders."
+                    },
+                    {
+                        "Title": "l2lmTotalLeads",
+                        "description": "Last year this month currently running orders."
+                    },
+                    {
+                        "Title": "prnctCancel",
+                        "description": "Percentage of orders cancelled by customers."
+                    },
+                    {
+                        "Title": "lmPrnctCancel",
+                        "description": "Last month percentage of orders cancelled by customers."
+                    },
+                    {
+                        "Title": "l2lmPrnctCancel",
+                        "description": "Last year this month percentage of orders cancelled by customers."
+                    }
+                ]
             },
             "workAndRevenue": {
                 "description": "A comprehensive overview of the center's work and revenue metrics, including billing, cloth counts, and financial statistics.",
-                "fields": {
-                    "centerId": "Unique identifier for each center.",
-                    "centerName": "Name of the center.",
-                    "poc": "Point of contact for the center.",
-                    "companyLedgerAmount": "",
-                    "runningcompanyLedgerAmount": "0",
-                    "pendingAmountInCenter": "41365",
-                    "withMeRunners": "110312",
-                    "serviceBilling": "Service Billing is amount generated by the customrs who palced order and paod for it without using his/her prepaid balance.",
-                    "lyMtdServiceBilling": "last month service billing is amount generated by the customrs who palced order and paod for it without using his/her prepaid balance.",
-                    "compensation": "Compensation is the amount which is given to the customer this month it can be discounted or free service.",
-                    "lastMonthServiceBilling": "last month service billing is amount generated by the customrs who palced order and paod for it without using his/her prepaid balance.",
-                    "lyServiceBilling": "last year this month service billing is amount generated by the customrs who palced order and paod for it without using his/her prepaid balance.",
-                    "yearlyAvgRevenue": "total amount billed at the center/12 months.",
-                    "lyAvgRevenue": "last year this month total amount billed at the center/12 months.",
-                    "avgTicketSize": "total amount billed at the center/total number of cloth items.",
-                    "lmAvgTicketSize": "last month total amount billed at the center/ last month total number of cloth items.",
-                    "yearAvgTicketSize": "last 365 days  total amount billed at the center/ last 365 days  total number of cloth items.",
-                    "lastYearAvgTicketSize": "Last year this month total amount billed at the center/ last year this month total number of cloth items.",
-                    "thisMonthClothCount": "Total number of cloth items which invoice has been generated this month at the particular center.",
-                    "lyMtdClothCount": "Total number of cloth items which invoice has been generated till this date last year at the particular center.",
-                    "lmClothCount": "Total number of cloth items which invoice has been generated in the last month at the particular center.",
-                    "lyClothCount": "Total number of cloth items which invoice has been generated till this date last year at the particular center."
-                }
+                "Columns": [
+                    {
+                        "Title": "centerId",
+                        "description": "Unique identifier for each center."
+                    },
+                    {
+                        "Title": "centerName",
+                        "description": "Name of the center."
+                    },
+                    {
+                        "Title": "poc",
+                        "description": "Point of contact for the center."
+                    },
+                    {
+                        "Title": "companyLedgerAmount",
+                        "description": " Total amount in the company's ledger for the center."
+                    },
+                    {
+                        "Title": "runningcompanyLedgerAmount",
+                        "description": "Total amount in the company's ledger for the center that is currently running."
+                    },
+                    {
+                        "Title": "pendingAmountInCenter",
+                        "description": "Total amount pending in the center."
+                    },
+                    {
+                        "Title": "withMeRunners",
+                        "description": "Total amount with the runners."
+                    },
+                    {
+                        "Title": "serviceBilling",
+                        "description": "Service Billing is amount generated by the customers who placed order and paid for it without using his/her prepaid balance."
+                    },
+                    {
+                        "Title": "lyMtdServiceBilling",
+                        "description": "Last month service billing is amount generated by the customers who placed order and paid for it without using his/her prepaid balance."
+                    },
+                    {
+                        "Title": "compensation",
+                        "description": "Compensation is the amount which is given to the customer this month. It can be discounted or free service."
+                    },
+                    {
+                        "Title": "lastMonthServiceBilling",
+                        "description": "Last month service billing is amount generated by the customers who placed order and paid for it without using his/her prepaid balance."
+                    },
+                    {
+                        "Title": "lyServiceBilling",
+                        "description": "Last year this month service billing is amount generated by the customers who placed order and paid for it without using his/her prepaid balance."
+                    },
+                    {
+                        "Title": "yearlyAvgRevenue",
+                        "description": "Total amount billed at the center divided by 12 months."
+                    },
+                    {
+                        "Title": "lyAvgRevenue",
+                        "description": "Last year this month total amount billed at the center divided by 12 months."
+                    },
+                    {
+                        "Title": "avgTicketSize",
+                        "description": "Total amount billed at the center divided by total number of cloth items."
+                    },
+                    {
+                        "Title": "lmAvgTicketSize",
+                        "description": "Last month total amount billed at the center divided by last month total number of cloth items."
+                    },
+                    {
+                        "Title": "yearAvgTicketSize",
+                        "description": "Last 365 days total amount billed at the center divided by last 365 days total number of cloth items."
+                    },
+                    {
+                        "Title": "lastYearAvgTicketSize",
+                        "description": "Last year this month total amount billed at the center divided by last year this month total number of cloth items."
+                    },
+                    {
+                        "Title": "thisMonthClothCount",
+                        "description": "Total number of cloth items for which invoice has been generated this month at the particular center."
+                    },
+                    {
+                        "Title": "lyMtdClothCount",
+                        "description": "Total number of cloth items for which invoice has been generated till this date last year at the particular center."
+                    },
+                    {
+                        "Title": "lmClothCount",
+                        "description": "Total number of cloth items for which invoice has been generated in the last month at the particular center."
+                    },
+                    {
+                        "Title": "lyClothCount",
+                        "description": "Total number of cloth items for which invoice has been generated till this date last year at the particular center."
+                    }
+                ]
             }
         }
     ],
@@ -3150,7 +3582,7 @@
             "centerName": "NOIDA",
             "address": "A-1, Sector 16, Noida, Uttar Pradesh 201301",
             "centerType": "Master+Reatil",
-            "TypeOfCity" : "Tier 2",
+            "TypeOfCity": "Tier 2",
             "contactInfo": [
                 {
                     "Title": "POC",
@@ -3180,7 +3612,7 @@
             "centerName": "GGN",
             "address": "B-2, Sector 17, Gurugram, Haryana 122001",
             "centerType": "Master+Reatil",
-            "TypeOfCity" : "Tier 1",
+            "TypeOfCity": "Tier 1",
             "contactInfo": [
                 {
                     "Title": "POC",
@@ -3210,7 +3642,7 @@
             "centerName": "DELHI CR",
             "address": "C-3, Connaught Place, New Delhi, Delhi 110001",
             "centerType": "Retail",
-            "TypeOfCity" : "Tier 1",
+            "TypeOfCity": "Tier 1",
             "contactInfo": [
                 {
                     "Title": "POC",
@@ -3240,7 +3672,7 @@
             "centerName": "GGN Amit 69",
             "address": "D-4, Sector 69, Gurugram, Haryana 122018",
             "centerType": "Retail",
-            "TypeOfCity" : "Tier 1",
+            "TypeOfCity": "Tier 1",
             "contactInfo": [
                 {
                     "Title": "POC",
@@ -3270,7 +3702,7 @@
             "centerName": "SIYU-NOIDA EXT",
             "address": "E-5, Noida Extension, Greater Noida, Uttar Pradesh 201306",
             "centerType": "Master+Reatil",
-            "TypeOfCity" : "Tier 2",
+            "TypeOfCity": "Tier 2",
             "contactInfo": [
                 {
                     "Title": "POC",
@@ -3300,7 +3732,7 @@
             "centerName": "SIYU-NOIDA 77",
             "address": "F-6, Sector 77, Noida, Uttar Pradesh 201301",
             "centerType": "Online",
-            "TypeOfCity" : "Tier 2",
+            "TypeOfCity": "Tier 2",
             "contactInfo": [
                 {
                     "Title": "POC",
@@ -3330,7 +3762,7 @@
             "centerName": "DELHI GK",
             "centerType": "Retail",
             "address": "G-7, Greater Kailash, New Delhi, Delhi 110048",
-            "TypeOfCity" : "Tier 1",
+            "TypeOfCity": "Tier 1",
             "contactInfo": [
                 {
                     "Title": "POC",
@@ -3360,7 +3792,7 @@
             "centerName": "GGN Amit 85",
             "address": "H-8, Sector 85, Gurugram, Haryana 122018",
             "centerType": "Retail",
-            "TypeOfCity" : "Tier 2",
+            "TypeOfCity": "Tier 2",
             "contactInfo": [
                 {
                     "Title": "POC",
@@ -3390,7 +3822,7 @@
             "centerName": "GGN Chnd 65",
             "address": "I-9, Sector 65, Gurugram, Haryana 122018",
             "centerType": "Retail",
-            "TypeOfCity" : "Tier 2",
+            "TypeOfCity": "Tier 2",
             "contactInfo": [
                 {
                     "Title": "POC",
@@ -3420,7 +3852,7 @@
             "centerName": "DELHI DHOBILANE",
             "centerType": "Online",
             "address": "J-10, Chandni Chowk, New Delhi, Delhi 110006",
-            "TypeOfCity" : "Tier 1",
+            "TypeOfCity": "Tier 1",
             "contactInfo": [
                 {
                     "Title": "POC",
@@ -3450,7 +3882,7 @@
             "centerName": "GZB VAISHALI",
             "address": "K-11, Vaishali, Ghaziabad, Uttar Pradesh 201010",
             "centerType": "Retail",
-            "TypeOfCity" : "Tier 1",
+            "TypeOfCity": "Tier 1",
             "contactInfo": [
                 {
                     "Title": "POC",
@@ -3480,7 +3912,7 @@
             "centerName": "HLD-M",
             "address": "L-12, Sector 12, Haldwani, Uttarakhand 263139",
             "centerType": "Master",
-            "TypeOfCity" : "Tier 3",
+            "TypeOfCity": "Tier 3",
             "contactInfo": [
                 {
                     "Title": "POC",
@@ -3510,7 +3942,7 @@
             "centerName": "MAHARAJ",
             "address": "M-13, Maharajganj, Uttar Pradesh 273303",
             "centerType": "Live",
-            "TypeOfCity" : "Tier 3",
+            "TypeOfCity": "Tier 3",
             "contactInfo": [
                 {
                     "Title": "POC",
@@ -3540,7 +3972,7 @@
             "centerName": "WB RANIGANJ M",
             "centerType": "Master",
             "address": "N-14, Raniganj, West Bengal 713347",
-            "TypeOfCity" : "Tier 2",
+            "TypeOfCity": "Tier 2",
             "contactInfo": [
                 {
                     "Title": "POC",
@@ -3571,7 +4003,7 @@
             "centerType": "Live",
             "emailId": "saurabh.ydeus@gmail.com",
             "address": "O-15, Bardoli, Gujarat 394601",
-            "TypeOfCity" : "Tier 3",
+            "TypeOfCity": "Tier 3",
             "contactInfo": [
                 {
                     "Title": "POC",
@@ -3601,7 +4033,7 @@
             "centerName": "GONDIA",
             "centerType": "Live",
             "address": "P-16, Gondia, Maharashtra 441601",
-            "TypeOfCity" : "Tier 2",
+            "TypeOfCity": "Tier 2",
             "contactInfo": [
                 {
                     "Title": "POC",
