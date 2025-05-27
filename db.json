@@ -3152,7 +3152,7 @@
             "address": "A-1, Sector 16, Noida, Uttar Pradesh 201301",
             "contactNumber": "+91-1234567890",
             "emailId": "saurabh.ydeus@gmail.com",
-            "centerType": "Master"
+            "centerType": "Master+Reatil"
         },
         {
             "centerId": "2",
@@ -3161,7 +3161,7 @@
             "address": "B-2, Sector 17, Gurugram, Haryana 122001",
             "contactNumber": "+91-9876543210",
             "emailId": "ravikumar9570626449@gmail.com",
-            "centerType": "Master"
+            "centerType": "Master+Reatil"
         },
         {
             "centerId": "25",
@@ -3188,7 +3188,106 @@
             "address": "E-5, Noida Extension, Greater Noida, Uttar Pradesh 201306",
             "contactNumber": "+91-5566778899",
             "emailId": "saurabh.ydeus@gmail.com",
+            "centerType": "Master+Reatil"
+        },
+        {
+            "centerId": "41",
+            "centerName": "SIYU-NOIDA 77",
+            "poc": "MD",
+            "address": "F-6, Sector 77, Noida, Uttar Pradesh 201301",
+            "contactNumber": "+91-6677889900",
+            "emailId": "ravikumar9570626449@gmail.com",
+            "centerType": "Online"
+        },
+        {
+            "centerId": "142",
+            "centerName": "DELHI GK",
+            "poc": "SM",
+            "address": "G-7, Greater Kailash, New Delhi, Delhi 110048",
+            "contactNumber": "+91-7788990011",
+            "emailId": "saurabh.ydeus@gmail.com",
+            "centerType": "Retail"
+        },
+        {
+            "centerId": "47",
+            "centerName": "GGN Amit 85",
+            "poc": "MD",
+            "address": "H-8, Sector 85, Gurugram, Haryana 122018",
+            "contactNumber": "+91-8899001122",
+            "emailId": "ravikumar9570626449@gmail.com",
+            "centerType": "Retail"
+        },
+        {
+            "centerId": "59",
+            "centerName": "GGN Chnd 65",
+            "poc": "SM",
+            "address": "I-9, Sector 65, Gurugram, Haryana 122018",
+            "contactNumber": "+91-9900112233",
+            "emailId": "saurabh.ydeus@gmail.com",
+            "centerType": "Retail"
+        },
+        {
+            "centerId": "8",
+            "centerName": "DELHI DHOBILANE",
+            "poc": "RK",
+            "address": "J-10, Chandni Chowk, New Delhi, Delhi 110006",
+            "contactNumber": "+91-1122334455",
+            "emailId": "ravikumar9570626449@gmail.com",
+            "centerType": "Online"
+        },
+        {
+            "centerId": "76",
+            "centerName": "GZB VAISHALI",
+            "poc": "MD",
+            "address": "K-11, Vaishali, Ghaziabad, Uttar Pradesh 201010",
+            "contactNumber": "+91-2233445566",
+            "emailId": "saurabh.ydeus@gmail.com",
+            "centerType": "Retail"
+        },
+        {
+            "centerId": "54",
+            "centerName": "HLD-M",
+            "poc": "JS",
+            "address": "L-12, Sector 12, Haldwani, Uttarakhand 263139",
+            "contactNumber": "+91-3344556677",
+            "emailId": "ravikumar9570626449@gmail.com",
             "centerType": "Master"
+        },
+        {
+            "centerId": "63",
+            "centerName": "MAHARAJ",
+            "poc": "UK",
+            "address": "M-13, Maharajganj, Uttar Pradesh 273303",
+            "contactNumber": "+91-4455667788",
+            "emailId": "saurabh.ydeus@gmail.com",
+            "centerType": "Live"
+        },
+        {
+            "centerId": "100",
+            "centerName": "WB RANIGANJ M",
+            "poc": "SM",
+            "address": "N-14, Raniganj, West Bengal 713347",
+            "contactNumber": "+91-5566778899",
+            "emailId": "ravikumar9570626449@gmail.com",
+            "centerType": "Master"
+        },
+        {
+            "centerId": "108",
+            "centerName": "BARDOLI",
+            "poc": "UK",
+            "address": "O-15, Bardoli, Gujarat 394601",
+            "contactNumber": "+91-6677889900",
+            "emailId": "saurabh.ydeus@gmail.com",
+            "centerType": "Live"
+        },
+        {
+            "centerId": "140",
+            "centerName": "GONDIA",
+            "poc": "JS",
+            "address": "P-16, Gondia, Maharashtra 441601",
+            "contactNumber": "+91-7788990011",
+            "emailId": "ravikumar9570626449@gmail.com",
+            "centerType": "Live"
         }
     ]
 }
