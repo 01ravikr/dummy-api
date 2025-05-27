@@ -3150,6 +3150,7 @@
             "centerName": "NOIDA",
             "address": "A-1, Sector 16, Noida, Uttar Pradesh 201301",
             "centerType": "Master+Reatil",
+            "TypeOfCity" : "Tier 2",
             "contactInfo": [
                 {
                     "Title": "POC",
@@ -3179,6 +3180,7 @@
             "centerName": "GGN",
             "address": "B-2, Sector 17, Gurugram, Haryana 122001",
             "centerType": "Master+Reatil",
+            "TypeOfCity" : "Tier 1",
             "contactInfo": [
                 {
                     "Title": "POC",
@@ -3208,6 +3210,7 @@
             "centerName": "DELHI CR",
             "address": "C-3, Connaught Place, New Delhi, Delhi 110001",
             "centerType": "Retail",
+            "TypeOfCity" : "Tier 1",
             "contactInfo": [
                 {
                     "Title": "POC",
@@ -3237,6 +3240,7 @@
             "centerName": "GGN Amit 69",
             "address": "D-4, Sector 69, Gurugram, Haryana 122018",
             "centerType": "Retail",
+            "TypeOfCity" : "Tier 1",
             "contactInfo": [
                 {
                     "Title": "POC",
@@ -3266,6 +3270,7 @@
             "centerName": "SIYU-NOIDA EXT",
             "address": "E-5, Noida Extension, Greater Noida, Uttar Pradesh 201306",
             "centerType": "Master+Reatil",
+            "TypeOfCity" : "Tier 2",
             "contactInfo": [
                 {
                     "Title": "POC",
@@ -3295,6 +3300,7 @@
             "centerName": "SIYU-NOIDA 77",
             "address": "F-6, Sector 77, Noida, Uttar Pradesh 201301",
             "centerType": "Online",
+            "TypeOfCity" : "Tier 2",
             "contactInfo": [
                 {
                     "Title": "POC",
@@ -3324,6 +3330,7 @@
             "centerName": "DELHI GK",
             "centerType": "Retail",
             "address": "G-7, Greater Kailash, New Delhi, Delhi 110048",
+            "TypeOfCity" : "Tier 1",
             "contactInfo": [
                 {
                     "Title": "POC",
@@ -3353,6 +3360,7 @@
             "centerName": "GGN Amit 85",
             "address": "H-8, Sector 85, Gurugram, Haryana 122018",
             "centerType": "Retail",
+            "TypeOfCity" : "Tier 2",
             "contactInfo": [
                 {
                     "Title": "POC",
@@ -3382,6 +3390,7 @@
             "centerName": "GGN Chnd 65",
             "address": "I-9, Sector 65, Gurugram, Haryana 122018",
             "centerType": "Retail",
+            "TypeOfCity" : "Tier 2",
             "contactInfo": [
                 {
                     "Title": "POC",
@@ -3411,6 +3420,7 @@
             "centerName": "DELHI DHOBILANE",
             "centerType": "Online",
             "address": "J-10, Chandni Chowk, New Delhi, Delhi 110006",
+            "TypeOfCity" : "Tier 1",
             "contactInfo": [
                 {
                     "Title": "POC",
@@ -3440,6 +3450,7 @@
             "centerName": "GZB VAISHALI",
             "address": "K-11, Vaishali, Ghaziabad, Uttar Pradesh 201010",
             "centerType": "Retail",
+            "TypeOfCity" : "Tier 1",
             "contactInfo": [
                 {
                     "Title": "POC",
@@ -3469,6 +3480,7 @@
             "centerName": "HLD-M",
             "address": "L-12, Sector 12, Haldwani, Uttarakhand 263139",
             "centerType": "Master",
+            "TypeOfCity" : "Tier 3",
             "contactInfo": [
                 {
                     "Title": "POC",
@@ -3498,6 +3510,7 @@
             "centerName": "MAHARAJ",
             "address": "M-13, Maharajganj, Uttar Pradesh 273303",
             "centerType": "Live",
+            "TypeOfCity" : "Tier 3",
             "contactInfo": [
                 {
                     "Title": "POC",
@@ -3527,6 +3540,7 @@
             "centerName": "WB RANIGANJ M",
             "centerType": "Master",
             "address": "N-14, Raniganj, West Bengal 713347",
+            "TypeOfCity" : "Tier 2",
             "contactInfo": [
                 {
                     "Title": "POC",
@@ -3556,6 +3570,8 @@
             "centerName": "BARDOLI",
             "centerType": "Live",
             "emailId": "saurabh.ydeus@gmail.com",
+            "address": "O-15, Bardoli, Gujarat 394601",
+            "TypeOfCity" : "Tier 3",
             "contactInfo": [
                 {
                     "Title": "POC",
@@ -3585,6 +3601,7 @@
             "centerName": "GONDIA",
             "centerType": "Live",
             "address": "P-16, Gondia, Maharashtra 441601",
+            "TypeOfCity" : "Tier 2",
             "contactInfo": [
                 {
                     "Title": "POC",
