@@ -3148,146 +3148,467 @@
         {
             "centerId": "1",
             "centerName": "NOIDA",
-            "poc": "NT",
             "address": "A-1, Sector 16, Noida, Uttar Pradesh 201301",
-            "contactNumber": "+91-1234567890",
-            "emailId": "saurabh.ydeus@gmail.com",
-            "centerType": "Master+Reatil"
+            "centerType": "Master+Reatil",
+            "contactInfo": [
+                {
+                    "Title": "POC",
+                    "Name": "NT",
+                    "contactNumber": "+91-1234567890",
+                    "WhatsAppNumber": "+91-1234567890",
+                    "emailId": "ravikumar9570626449@gmail.com"
+                },
+                {
+                    "Title": "Owner",
+                    "Name": "RK",
+                    "contactNumber": "+91-0987654321",
+                    "WhatsAppNumber": "+91-0987654321",
+                    "emailId": "saurabh.ydeus@gmail.com"
+                },
+                {
+                    "Title": "Manager",
+                    "Name": "JS",
+                    "contactNumber": "+91-1122334455",
+                    "WhatsAppNumber": "+91-1122334455",
+                    "emailId": "ravikumar9570626449@gmail.com"
+                }
+            ]
         },
         {
             "centerId": "2",
             "centerName": "GGN",
-            "poc": "NT",
             "address": "B-2, Sector 17, Gurugram, Haryana 122001",
-            "contactNumber": "+91-9876543210",
-            "emailId": "ravikumar9570626449@gmail.com",
-            "centerType": "Master+Reatil"
+            "centerType": "Master+Reatil",
+            "contactInfo": [
+                {
+                    "Title": "POC",
+                    "Name": "SM",
+                    "contactNumber": "+91-1234567890",
+                    "WhatsAppNumber": "+91-1234567890",
+                    "emailId": "ravikumar9570626449@gmail.com"
+                },
+                {
+                    "Title": "Owner",
+                    "Name": "RK",
+                    "contactNumber": "+91-0987654321",
+                    "WhatsAppNumber": "+91-0987654321",
+                    "emailId": "saurabh.ydeus@gmail.com"
+                },
+                {
+                    "Title": "Manager",
+                    "Name": "JS",
+                    "contactNumber": "+91-1122334455",
+                    "WhatsAppNumber": "+91-1122334455",
+                    "emailId": "ravikumar9570626449@gmail.com"
+                }
+            ]
         },
         {
             "centerId": "25",
             "centerName": "DELHI CR",
-            "poc": "VR",
             "address": "C-3, Connaught Place, New Delhi, Delhi 110001",
-            "contactNumber": "+91-1122334455",
-            "emailId": "saurabh.ydeus@gmail.com",
-            "centerType": "Retail"
+            "centerType": "Retail",
+            "contactInfo": [
+                {
+                    "Title": "POC",
+                    "Name": "SM",
+                    "contactNumber": "+91-1234567890",
+                    "WhatsAppNumber": "+91-1234567890",
+                    "emailId": "ravikumar9570626449@gmail.com"
+                },
+                {
+                    "Title": "Owner",
+                    "Name": "RK",
+                    "contactNumber": "+91-0987654321",
+                    "WhatsAppNumber": "+91-0987654321",
+                    "emailId": "saurabh.ydeus@gmail.com"
+                },
+                {
+                    "Title": "Manager",
+                    "Name": "JS",
+                    "contactNumber": "+91-1122334455",
+                    "WhatsAppNumber": "+91-1122334455",
+                    "emailId": "ravikumar9570626449@gmail.com"
+                }
+            ]
         },
         {
             "centerId": "44",
             "centerName": "GGN Amit 69",
-            "poc": "MD",
             "address": "D-4, Sector 69, Gurugram, Haryana 122018",
-            "contactNumber": "+91-9988776655",
-            "emailId": "ravikumar9570626449@gmail.com",
-            "centerType": "Retail"
+            "centerType": "Retail",
+            "contactInfo": [
+                {
+                    "Title": "POC",
+                    "Name": "SM",
+                    "contactNumber": "+91-1234567890",
+                    "WhatsAppNumber": "+91-1234567890",
+                    "emailId": "ravikumar9570626449@gmail.com"
+                },
+                {
+                    "Title": "Owner",
+                    "Name": "RK",
+                    "contactNumber": "+91-0987654321",
+                    "WhatsAppNumber": "+91-0987654321",
+                    "emailId": "saurabh.ydeus@gmail.com"
+                },
+                {
+                    "Title": "Manager",
+                    "Name": "JS",
+                    "contactNumber": "+91-1122334455",
+                    "WhatsAppNumber": "+91-1122334455",
+                    "emailId": "ravikumar9570626449@gmail.com"
+                }
+            ]
         },
         {
             "centerId": "40",
             "centerName": "SIYU-NOIDA EXT",
-            "poc": "MD",
             "address": "E-5, Noida Extension, Greater Noida, Uttar Pradesh 201306",
-            "contactNumber": "+91-5566778899",
-            "emailId": "saurabh.ydeus@gmail.com",
-            "centerType": "Master+Reatil"
+            "centerType": "Master+Reatil",
+            "contactInfo": [
+                {
+                    "Title": "POC",
+                    "Name": "SM",
+                    "contactNumber": "+91-1234567890",
+                    "WhatsAppNumber": "+91-1234567890",
+                    "emailId": "ravikumar9570626449@gmail.com"
+                },
+                {
+                    "Title": "Owner",
+                    "Name": "RK",
+                    "contactNumber": "+91-0987654321",
+                    "WhatsAppNumber": "+91-0987654321",
+                    "emailId": "saurabh.ydeus@gmail.com"
+                },
+                {
+                    "Title": "Manager",
+                    "Name": "JS",
+                    "contactNumber": "+91-1122334455",
+                    "WhatsAppNumber": "+91-1122334455",
+                    "emailId": "ravikumar9570626449@gmail.com"
+                }
+            ]
         },
         {
             "centerId": "41",
             "centerName": "SIYU-NOIDA 77",
-            "poc": "MD",
             "address": "F-6, Sector 77, Noida, Uttar Pradesh 201301",
-            "contactNumber": "+91-6677889900",
-            "emailId": "ravikumar9570626449@gmail.com",
-            "centerType": "Online"
+            "centerType": "Online",
+            "contactInfo": [
+                {
+                    "Title": "POC",
+                    "Name": "SM",
+                    "contactNumber": "+91-1234567890",
+                    "WhatsAppNumber": "+91-1234567890",
+                    "emailId": "ravikumar9570626449@gmail.com"
+                },
+                {
+                    "Title": "Owner",
+                    "Name": "RK",
+                    "contactNumber": "+91-0987654321",
+                    "WhatsAppNumber": "+91-0987654321",
+                    "emailId": "saurabh.ydeus@gmail.com"
+                },
+                {
+                    "Title": "Manager",
+                    "Name": "JS",
+                    "contactNumber": "+91-1122334455",
+                    "WhatsAppNumber": "+91-1122334455",
+                    "emailId": "ravikumar9570626449@gmail.com"
+                }
+            ]
         },
         {
             "centerId": "142",
             "centerName": "DELHI GK",
-            "poc": "SM",
+            "centerType": "Retail",
             "address": "G-7, Greater Kailash, New Delhi, Delhi 110048",
-            "contactNumber": "+91-7788990011",
-            "emailId": "saurabh.ydeus@gmail.com",
-            "centerType": "Retail"
+            "contactInfo": [
+                {
+                    "Title": "POC",
+                    "Name": "SM",
+                    "contactNumber": "+91-1234567890",
+                    "WhatsAppNumber": "+91-1234567890",
+                    "emailId": "ravikumar9570626449@gmail.com"
+                },
+                {
+                    "Title": "Owner",
+                    "Name": "RK",
+                    "contactNumber": "+91-0987654321",
+                    "WhatsAppNumber": "+91-0987654321",
+                    "emailId": "saurabh.ydeus@gmail.com"
+                },
+                {
+                    "Title": "Manager",
+                    "Name": "JS",
+                    "contactNumber": "+91-1122334455",
+                    "WhatsAppNumber": "+91-1122334455",
+                    "emailId": "ravikumar9570626449@gmail.com"
+                }
+            ]
         },
         {
             "centerId": "47",
             "centerName": "GGN Amit 85",
-            "poc": "MD",
             "address": "H-8, Sector 85, Gurugram, Haryana 122018",
-            "contactNumber": "+91-8899001122",
-            "emailId": "ravikumar9570626449@gmail.com",
-            "centerType": "Retail"
+            "centerType": "Retail",
+            "contactInfo": [
+                {
+                    "Title": "POC",
+                    "Name": "SM",
+                    "contactNumber": "+91-1234567890",
+                    "WhatsAppNumber": "+91-1234567890",
+                    "emailId": "ravikumar9570626449@gmail.com"
+                },
+                {
+                    "Title": "Owner",
+                    "Name": "RK",
+                    "contactNumber": "+91-0987654321",
+                    "WhatsAppNumber": "+91-0987654321",
+                    "emailId": "saurabh.ydeus@gmail.com"
+                },
+                {
+                    "Title": "Manager",
+                    "Name": "JS",
+                    "contactNumber": "+91-1122334455",
+                    "WhatsAppNumber": "+91-1122334455",
+                    "emailId": "ravikumar9570626449@gmail.com"
+                }
+            ]
         },
         {
             "centerId": "59",
             "centerName": "GGN Chnd 65",
-            "poc": "SM",
             "address": "I-9, Sector 65, Gurugram, Haryana 122018",
-            "contactNumber": "+91-9900112233",
-            "emailId": "saurabh.ydeus@gmail.com",
-            "centerType": "Retail"
+            "centerType": "Retail",
+            "contactInfo": [
+                {
+                    "Title": "POC",
+                    "Name": "SM",
+                    "contactNumber": "+91-1234567890",
+                    "WhatsAppNumber": "+91-1234567890",
+                    "emailId": "ravikumar9570626449@gmail.com"
+                },
+                {
+                    "Title": "Owner",
+                    "Name": "RK",
+                    "contactNumber": "+91-0987654321",
+                    "WhatsAppNumber": "+91-0987654321",
+                    "emailId": "saurabh.ydeus@gmail.com"
+                },
+                {
+                    "Title": "Manager",
+                    "Name": "JS",
+                    "contactNumber": "+91-1122334455",
+                    "WhatsAppNumber": "+91-1122334455",
+                    "emailId": "ravikumar9570626449@gmail.com"
+                }
+            ]
         },
         {
             "centerId": "8",
             "centerName": "DELHI DHOBILANE",
-            "poc": "RK",
+            "centerType": "Online",
             "address": "J-10, Chandni Chowk, New Delhi, Delhi 110006",
-            "contactNumber": "+91-1122334455",
-            "emailId": "ravikumar9570626449@gmail.com",
-            "centerType": "Online"
+            "contactInfo": [
+                {
+                    "Title": "POC",
+                    "Name": "SM",
+                    "contactNumber": "+91-1234567890",
+                    "WhatsAppNumber": "+91-1234567890",
+                    "emailId": "ravikumar9570626449@gmail.com"
+                },
+                {
+                    "Title": "Owner",
+                    "Name": "RK",
+                    "contactNumber": "+91-0987654321",
+                    "WhatsAppNumber": "+91-0987654321",
+                    "emailId": "saurabh.ydeus@gmail.com"
+                },
+                {
+                    "Title": "Manager",
+                    "Name": "JS",
+                    "contactNumber": "+91-1122334455",
+                    "WhatsAppNumber": "+91-1122334455",
+                    "emailId": "ravikumar9570626449@gmail.com"
+                }
+            ]
         },
         {
             "centerId": "76",
             "centerName": "GZB VAISHALI",
-            "poc": "MD",
             "address": "K-11, Vaishali, Ghaziabad, Uttar Pradesh 201010",
-            "contactNumber": "+91-2233445566",
-            "emailId": "saurabh.ydeus@gmail.com",
-            "centerType": "Retail"
+            "centerType": "Retail",
+            "contactInfo": [
+                {
+                    "Title": "POC",
+                    "Name": "SM",
+                    "contactNumber": "+91-1234567890",
+                    "WhatsAppNumber": "+91-1234567890",
+                    "emailId": "ravikumar9570626449@gmail.com"
+                },
+                {
+                    "Title": "Owner",
+                    "Name": "RK",
+                    "contactNumber": "+91-0987654321",
+                    "WhatsAppNumber": "+91-0987654321",
+                    "emailId": "saurabh.ydeus@gmail.com"
+                },
+                {
+                    "Title": "Manager",
+                    "Name": "JS",
+                    "contactNumber": "+91-1122334455",
+                    "WhatsAppNumber": "+91-1122334455",
+                    "emailId": "ravikumar9570626449@gmail.com"
+                }
+            ]
         },
         {
             "centerId": "54",
             "centerName": "HLD-M",
-            "poc": "JS",
             "address": "L-12, Sector 12, Haldwani, Uttarakhand 263139",
-            "contactNumber": "+91-3344556677",
-            "emailId": "ravikumar9570626449@gmail.com",
-            "centerType": "Master"
+            "centerType": "Master",
+            "contactInfo": [
+                {
+                    "Title": "POC",
+                    "Name": "SM",
+                    "contactNumber": "+91-1234567890",
+                    "WhatsAppNumber": "+91-1234567890",
+                    "emailId": "ravikumar9570626449@gmail.com"
+                },
+                {
+                    "Title": "Owner",
+                    "Name": "RK",
+                    "contactNumber": "+91-0987654321",
+                    "WhatsAppNumber": "+91-0987654321",
+                    "emailId": "saurabh.ydeus@gmail.com"
+                },
+                {
+                    "Title": "Manager",
+                    "Name": "JS",
+                    "contactNumber": "+91-1122334455",
+                    "WhatsAppNumber": "+91-1122334455",
+                    "emailId": "ravikumar9570626449@gmail.com"
+                }
+            ]
         },
         {
             "centerId": "63",
             "centerName": "MAHARAJ",
-            "poc": "UK",
             "address": "M-13, Maharajganj, Uttar Pradesh 273303",
-            "contactNumber": "+91-4455667788",
-            "emailId": "saurabh.ydeus@gmail.com",
-            "centerType": "Live"
+            "centerType": "Live",
+            "contactInfo": [
+                {
+                    "Title": "POC",
+                    "Name": "SM",
+                    "contactNumber": "+91-1234567890",
+                    "WhatsAppNumber": "+91-1234567890",
+                    "emailId": "ravikumar9570626449@gmail.com"
+                },
+                {
+                    "Title": "Owner",
+                    "Name": "RK",
+                    "contactNumber": "+91-0987654321",
+                    "WhatsAppNumber": "+91-0987654321",
+                    "emailId": "saurabh.ydeus@gmail.com"
+                },
+                {
+                    "Title": "Manager",
+                    "Name": "JS",
+                    "contactNumber": "+91-1122334455",
+                    "WhatsAppNumber": "+91-1122334455",
+                    "emailId": "ravikumar9570626449@gmail.com"
+                }
+            ]
         },
         {
             "centerId": "100",
             "centerName": "WB RANIGANJ M",
-            "poc": "SM",
+            "centerType": "Master",
             "address": "N-14, Raniganj, West Bengal 713347",
-            "contactNumber": "+91-5566778899",
-            "emailId": "ravikumar9570626449@gmail.com",
-            "centerType": "Master"
+            "contactInfo": [
+                {
+                    "Title": "POC",
+                    "Name": "SM",
+                    "contactNumber": "+91-1234567890",
+                    "WhatsAppNumber": "+91-1234567890",
+                    "emailId": "ravikumar9570626449@gmail.com"
+                },
+                {
+                    "Title": "Owner",
+                    "Name": "RK",
+                    "contactNumber": "+91-0987654321",
+                    "WhatsAppNumber": "+91-0987654321",
+                    "emailId": "saurabh.ydeus@gmail.com"
+                },
+                {
+                    "Title": "Manager",
+                    "Name": "JS",
+                    "contactNumber": "+91-1122334455",
+                    "WhatsAppNumber": "+91-1122334455",
+                    "emailId": "ravikumar9570626449@gmail.com"
+                }
+            ]
         },
         {
             "centerId": "108",
             "centerName": "BARDOLI",
-            "poc": "UK",
-            "address": "O-15, Bardoli, Gujarat 394601",
-            "contactNumber": "+91-6677889900",
+            "centerType": "Live",
             "emailId": "saurabh.ydeus@gmail.com",
-            "centerType": "Live"
+            "contactInfo": [
+                {
+                    "Title": "POC",
+                    "Name": "SM",
+                    "contactNumber": "+91-1234567890",
+                    "WhatsAppNumber": "+91-1234567890",
+                    "emailId": "ravikumar9570626449@gmail.com"
+                },
+                {
+                    "Title": "Owner",
+                    "Name": "RK",
+                    "contactNumber": "+91-0987654321",
+                    "WhatsAppNumber": "+91-0987654321",
+                    "emailId": "saurabh.ydeus@gmail.com"
+                },
+                {
+                    "Title": "Manager",
+                    "Name": "JS",
+                    "contactNumber": "+91-1122334455",
+                    "WhatsAppNumber": "+91-1122334455",
+                    "emailId": "ravikumar9570626449@gmail.com"
+                }
+            ]
         },
         {
             "centerId": "140",
             "centerName": "GONDIA",
-            "poc": "JS",
+            "centerType": "Live",
             "address": "P-16, Gondia, Maharashtra 441601",
-            "contactNumber": "+91-7788990011",
-            "emailId": "ravikumar9570626449@gmail.com",
-            "centerType": "Live"
+            "contactInfo": [
+                {
+                    "Title": "POC",
+                    "Name": "SM",
+                    "contactNumber": "+91-1234567890",
+                    "WhatsAppNumber": "+91-1234567890",
+                    "emailId": "ravikumar9570626449@gmail.com"
+                },
+                {
+                    "Title": "Owner",
+                    "Name": "RK",
+                    "contactNumber": "+91-0987654321",
+                    "WhatsAppNumber": "+91-0987654321",
+                    "emailId": "saurabh.ydeus@gmail.com"
+                },
+                {
+                    "Title": "Manager",
+                    "Name": "JS",
+                    "contactNumber": "+91-1122334455",
+                    "WhatsAppNumber": "+91-1122334455",
+                    "emailId": "ravikumar9570626449@gmail.com"
+                }
+            ]
         }
-    ]
+    ],
+    "Guidelines": []
 }
