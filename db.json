@@ -3583,6 +3583,8 @@
             "address": "A-1, Sector 16, Noida, Uttar Pradesh 201301",
             "centerType": "Master+Reatil",
             "TypeOfCity": "Tier 2",
+            "ProcessingUnit": "Self",
+            "processingUnitAddress": "A-1, Sector 16, Noida, Uttar Pradesh 201301",
             "contactInfo": [
                 {
                     "Title": "POC",
@@ -3613,6 +3615,8 @@
             "address": "B-2, Sector 17, Gurugram, Haryana 122001",
             "centerType": "Master+Reatil",
             "TypeOfCity": "Tier 1",
+            "ProcessingUnit": "Self",
+            "processingUnitAddress": "B-2, Sector 17, Gurugram, Haryana 122001",
             "contactInfo": [
                 {
                     "Title": "POC",
@@ -3643,6 +3647,8 @@
             "address": "C-3, Connaught Place, New Delhi, Delhi 110001",
             "centerType": "Retail",
             "TypeOfCity": "Tier 1",
+            "ProcessingUnit": "Noida",
+            "processingUnitAddress": "A-1, Sector 16, Noida, Uttar Pradesh 201301",
             "contactInfo": [
                 {
                     "Title": "POC",
@@ -3673,6 +3679,8 @@
             "address": "D-4, Sector 69, Gurugram, Haryana 122018",
             "centerType": "Retail",
             "TypeOfCity": "Tier 1",
+            "ProcessingUnit": "GGN",
+            "processingUnitAddress": "D-4, Sector 69, Gurugram, Haryana 122018",
             "contactInfo": [
                 {
                     "Title": "POC",
@@ -3703,6 +3711,8 @@
             "address": "E-5, Noida Extension, Greater Noida, Uttar Pradesh 201306",
             "centerType": "Master+Reatil",
             "TypeOfCity": "Tier 2",
+            "ProcessingUnit": "Self",
+            "processingUnitAddress": "E-5, Noida Extension, Greater Noida, Uttar Pradesh 201306",
             "contactInfo": [
                 {
                     "Title": "POC",
@@ -3733,6 +3743,8 @@
             "address": "F-6, Sector 77, Noida, Uttar Pradesh 201301",
             "centerType": "Online",
             "TypeOfCity": "Tier 2",
+            "ProcessingUnit": "Siyu noda extension",
+            "processingUnitAddress": "E-5, Noida Extension, Greater Noida, Uttar Pradesh 201306",
             "contactInfo": [
                 {
                     "Title": "POC",
@@ -3763,6 +3775,8 @@
             "centerType": "Retail",
             "address": "G-7, Greater Kailash, New Delhi, Delhi 110048",
             "TypeOfCity": "Tier 1",
+            "ProcessingUnit": "Noida",
+            "processingUnitAddress": "A-1, Sector 16, Noida, Uttar Pradesh 201301",
             "contactInfo": [
                 {
                     "Title": "POC",
@@ -3793,6 +3807,8 @@
             "address": "H-8, Sector 85, Gurugram, Haryana 122018",
             "centerType": "Retail",
             "TypeOfCity": "Tier 2",
+            "ProcessingUnit": "GGN",
+            "processingUnitAddress": "D-4, Sector 69, Gurugram, Haryana 122018",
             "contactInfo": [
                 {
                     "Title": "POC",
@@ -3823,6 +3839,8 @@
             "address": "I-9, Sector 65, Gurugram, Haryana 122018",
             "centerType": "Retail",
             "TypeOfCity": "Tier 2",
+            "ProcessingUnit": "GGN",
+            "processingUnitAddress": "D-4, Sector 69, Gurugram, Haryana 122018",
             "contactInfo": [
                 {
                     "Title": "POC",
@@ -3853,6 +3871,8 @@
             "centerType": "Online",
             "address": "J-10, Chandni Chowk, New Delhi, Delhi 110006",
             "TypeOfCity": "Tier 1",
+            "ProcessingUnit": "Noida",
+            "processingUnitAddress": "A-1, Sector 16, Noida, Uttar Pradesh 201301",
             "contactInfo": [
                 {
                     "Title": "POC",
@@ -3883,6 +3903,8 @@
             "address": "K-11, Vaishali, Ghaziabad, Uttar Pradesh 201010",
             "centerType": "Retail",
             "TypeOfCity": "Tier 1",
+            "ProcessingUnit": "Eco tech greater noida",
+            "processingUnitAddress": "L-12, Sector 12, Haldwani, Uttarakhand 263139",
             "contactInfo": [
                 {
                     "Title": "POC",
@@ -3913,6 +3935,8 @@
             "address": "L-12, Sector 12, Haldwani, Uttarakhand 263139",
             "centerType": "Master",
             "TypeOfCity": "Tier 3",
+            "ProcessingUnit": "Self",
+            "processingUnitAddress": "L-12, Sector 12, Haldwani, Uttarakhand 263139",
             "contactInfo": [
                 {
                     "Title": "POC",
@@ -3943,6 +3967,8 @@
             "address": "M-13, Maharajganj, Uttar Pradesh 273303",
             "centerType": "Live",
             "TypeOfCity": "Tier 3",
+            "ProcessingUnit": "Self",
+            "processingUnitAddress": "M-13, Maharajganj, Uttar Pradesh 273303",
             "contactInfo": [
                 {
                     "Title": "POC",
@@ -3973,6 +3999,8 @@
             "centerType": "Master",
             "address": "N-14, Raniganj, West Bengal 713347",
             "TypeOfCity": "Tier 2",
+            "ProcessingUnit": "Self",
+            "processingUnitAddress": "N-14, Raniganj, West Bengal 713347",
             "contactInfo": [
                 {
                     "Title": "POC",
@@ -4004,6 +4032,8 @@
             "emailId": "saurabh.ydeus@gmail.com",
             "address": "O-15, Bardoli, Gujarat 394601",
             "TypeOfCity": "Tier 3",
+            "ProcessingUnit": "Self",
+            "processingUnitAddress": "O-15, Bardoli, Gujarat 394601",
             "contactInfo": [
                 {
                     "Title": "POC",
@@ -4034,6 +4064,8 @@
             "centerType": "Live",
             "address": "P-16, Gondia, Maharashtra 441601",
             "TypeOfCity": "Tier 2",
+            "ProcessingUnit": "Self",
+            "processingUnitAddress": "P-16, Gondia, Maharashtra 441601",
             "contactInfo": [
                 {
                     "Title": "POC",
@@ -4059,5 +4091,102 @@
             ]
         }
     ],
-    "Guidelines": []
+    "Guidelines": [],
+    "correlation": [],
+    "Checks": [
+        {
+            "daily_frequent_checks": [
+                {
+                    "title": "Order Volume Spike/Drop Detection",
+                    "description": "Detect spikes or drops in order volume (morning/evening) compared to the historical average."
+                },
+                {
+                    "title": "Post-shift Activity Monitoring",
+                    "description": "Alert if pickups or deliveries are missing after the shift."
+                },
+                {
+                    "title": "One-sided Activity Alert",
+                    "description": "Raise flags if only pickups or only deliveries are recorded, indicating imbalance."
+                },
+                {
+                    "title": "New Registration Trend Analysis",
+                    "description": "Track and analyze spikes or drops in new registrations, both city-wise and across India."
+                },
+                {
+                    "title": "High-quality Registration Source Identification",
+                    "description": "Identify channels (ads, app downloads, calls) that bring high-quality customer registrations."
+                },
+                {
+                    "title": "Cancellation Surge Detection",
+                    "description": "Flag sudden increases in cancellation volume that may indicate operational issues."
+                },
+                {
+                    "title": "Invoice Generation Verification",
+                    "description": "Alert if invoices are not generated after an order pickup."
+                },
+                {
+                    "title": "Daily Operational Timing Verification",
+                    "description": "Check if key operations occur within expected times. Raise alerts for missing or delayed activity. Examples include missing workshop intake by 10:00 AM or lack of packing activity. Actions: validate timestamps, compare to cutoffs, identify delayed centers, and raise center-specific alerts."
+                },
+                {
+                    "title": "Invoice and Discount Auditing",
+                    "description": "Audit invoice counts via mSentinel and review discount data using E-Challan insights."
+                }
+            ],
+            "daily_check": [
+                {
+                    "title": "Customer Funnel Monitoring",
+                    "description": "Monitor registration to order conversion ratio. Monitoring only, no action required."
+                },
+                {
+                    "title": "Voice Agent Monitoring",
+                    "description": "Confirm whether the voice agent is following up with newly registered customers to encourage order placement."
+                },
+                {
+                    "title": "High Cancellation Rate",
+                    "description": "Detect any abnormal rise in order cancellations and identify which centers are affected. Suggest possible reasons."
+                },
+                {
+                    "title": "Runner Payment Validation",
+                    "description": "Check for discrepancies in runner payment collections, such as collecting more than the billed amount."
+                },
+                {
+                    "title": "Packing Efficiency and Delays",
+                    "description": "Verify if packing is being done as per capacity. Flag if old orders remain pending or masters are not packing assigned orders."
+                },
+                {
+                    "title": "Pickup Not Reaching Workshop",
+                    "description": "Alert if yesterday’s pickups are not yet logged as received in the workshop."
+                },
+                {
+                    "title": "Delayed Delivery of Packed Items",
+                    "description": "Check for orders packed for over a day that haven't reached the store/shop for delivery or remain undelivered for several days."
+                },
+                {
+                    "title": "Workshop Processing Delays",
+                    "description": "Identify if certain workshops are consistently delaying processing of clothes from specific centers."
+                },
+                {
+                    "title": "Rising Backlog",
+                    "description": "Monitor if the total pending workload at any center is increasing day by day, which may indicate inefficiency."
+                },
+                {
+                    "title": "Complaint Pattern Analysis",
+                    "description": "Analyze the nature and frequency of repeated complaints such as poor ironing or fabric fading and determine which centers are affected."
+                },
+                {
+                    "title": "Abnormal Revenue Collection",
+                    "description": "Alert if a center shows significantly high or negative collection amounts, indicating financial anomalies."
+                },
+                {
+                    "title": "Franchise Ledger Monitoring",
+                    "description": "Monitor franchise ledger for frequent account movements between 4–7 PM and flag for potential scrutiny."
+                },
+                {
+                    "title": "Franchise Milestone Recognition",
+                    "description": "Celebrate when a franchise hits major financial milestones like highest historical collections or ₹1 lakh/₹2 lakh. Trigger a ClickUp task for recognition."
+                }
+            ]
+        }
+    ]
 }
