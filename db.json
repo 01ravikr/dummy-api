@@ -4154,8 +4154,7 @@
             "centerName": "NOIDA",
             "centerdata": [
                 {
-                    "centerId": "1",
-                    "centerName": "NOIDA",
+                    
                     "bucket": "2",
                     "poc": "NT",
                     "pendingPick": "9",
@@ -4179,12 +4178,11 @@
             ]
         },
         {
-            "centerId": "1",
-            "centerName": "NOIDA",
+            "centerId": "2",
+            "centerName": "DELHI CR",
             "centerdata": [
                 {
-                    "centerId": "2",
-                    "centerName": "DELHI CR",
+                    
                     "bucket": "2",
                     "poc": "NT",
                     "pendingPick": "9",
