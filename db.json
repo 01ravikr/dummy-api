@@ -4148,7 +4148,31 @@
             ]
         }
     ],
-   
+   "checks" : [
+    {
+            "centerId": "1",
+            "centerName": "NOIDA",
+            "bucket": "2",
+            "poc": "NT",
+            "pendingPick": "0",
+            "completedPick": "10",
+            "cancelledPick": "0",
+            "completedDel": "0",
+            "pendingDelToday": "8",
+            "packedPendingDelToday": "4",
+            "delayedDeliveryToday": "5",
+            "todayRegistration": "2",
+            "invoicePending": "3",
+            "wHubPending": "4",
+            "orderPackingPending": "1",
+            "clothPackingPending": "1",
+            "orderPackingDone": "29",
+            "yestOrderPackingDone": "14",
+            "clothPackingDone": "391",
+            "yestClothPackingDone": "76",
+            "inTransit": "0"
+        }
+   ],
     "AccessPaymentReceived": [],
     "workstatus": []
 }
