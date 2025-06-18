@@ -784,7 +784,7 @@
             "completedPick": "3",
             "cancelledPick": "2",
             "completedDel": "0",
-            "pendingDelToday": "5",
+            "pendingDelToday": "20",
             "packedPendingDelToday": "6",
             "delayedDeliveryToday": "7",
             "todayRegistration": "4",
@@ -4148,64 +4148,7 @@
             ]
         }
     ],
-    "check": [
-        {
-            "centerId": "1",
-            "centerName": "NOIDA",
-            "centerdata": [
-                {
-                    
-                    "bucket": "2",
-                    "poc": "NT",
-                    "pendingPick": "9",
-                    "completedPick": "6",
-                    "cancelledPick": "2",
-                    "completedDel": "4",
-                    "pendingDelToday": "12",
-                    "packedPendingDelToday": "4",
-                    "delayedDeliveryToday": "5",
-                    "todayRegistration": "3",
-                    "invoicePending": "0",
-                    "wHubPending": "4",
-                    "orderPackingPending": "4",
-                    "clothPackingPending": "65",
-                    "orderPackingDone": "15",
-                    "yestOrderPackingDone": "24",
-                    "clothPackingDone": "110",
-                    "yestClothPackingDone": "186",
-                    "inTransit": "0"
-                }
-            ]
-        },
-        {
-            "centerId": "2",
-            "centerName": "DELHI CR",
-            "centerdata": [
-                {
-                    
-                    "bucket": "2",
-                    "poc": "NT",
-                    "pendingPick": "9",
-                    "completedPick": "6",
-                    "cancelledPick": "2",
-                    "completedDel": "4",
-                    "pendingDelToday": "12",
-                    "packedPendingDelToday": "4",
-                    "delayedDeliveryToday": "5",
-                    "todayRegistration": "3",
-                    "invoicePending": "0",
-                    "wHubPending": "4",
-                    "orderPackingPending": "4",
-                    "clothPackingPending": "65",
-                    "orderPackingDone": "15",
-                    "yestOrderPackingDone": "24",
-                    "clothPackingDone": "110",
-                    "yestClothPackingDone": "186",
-                    "inTransit": "0"
-                }
-            ]
-        }
-    ],
+   
     "AccessPaymentReceived": [],
     "workstatus": []
 }
