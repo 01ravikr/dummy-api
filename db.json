@@ -4616,5 +4616,415 @@
                 "l2lmRunnerRatingInDetail": "--"
             }
         }
+    ],
+    "ts2": [
+        {
+            "apikey": "0",
+            "data": {
+                "centerId": "25",
+                "centerName": "DELHI CR",
+                "processingCenter": "1",
+                "city": "--",
+                "state": "--",
+                "cityTier": "--",
+                "centerType": "--",
+                "weekOffDay": "--",
+                "packingCapacity": "--",
+                "contactInfo": [
+                    {
+                        "title": "POC",
+                        "name": "NT",
+                        "contactNumber": "8826414848",
+                        "waNumber": "8826414848",
+                        "emailId": "cc@dhobilite.com"
+                    },
+                    {
+                        "title": "Owner",
+                        "name": "NT",
+                        "contactNumber": "8826414848",
+                        "waNumber": "8826414848",
+                        "emailId": "cc@dhobilite.com"
+                    },
+                    {
+                        "title": "Manager",
+                        "name": "NT",
+                        "contactNumber": "8826414848",
+                        "waNumber": "8826414848",
+                        "emailId": "cc@dhobilite.com"
+                    }
+                ]
+            }
+        },
+        {
+            "apikey": "1",
+            "data": {
+                "centerId": "25",
+                "pendingPick": "2",
+                "completedPick": "0",
+                "cancelledPick": "0",
+                "completedDel": "0",
+                "weeklyAvgPick": "--",
+                "weeklyAvgDel": "--",
+                "pendingDelToday": "4",
+                "packedPendingDelToday": "3",
+                "delayedDeliveryToday": "5",
+                "wHubPendingDelayed": "--",
+                "hubDendingDealyed": "--",
+                "todayRegistration": "3",
+                "invoicePending": "0",
+                "wHubPending": "5",
+                "orderPackingPending": "2",
+                "clothPackingPending": "3",
+                "orderPackingDone": "7",
+                "yestOrderPackingDone": "4",
+                "clothPackingDone": "71",
+                "yestClothPackingDone": "45",
+                "inTransit": "13"
+            }
+        },
+        {
+            "apikey": "2",
+            "data": {
+                "centerId": "25",
+                "todayCollection": "0",
+                "todayBilling": "0",
+                "todayCenterBilling": "0",
+                "yesterdayBilling": "6047",
+                "yesterdayCenterBilling": "0",
+                "todayClothCount": "0",
+                "todayCenterClothCount": "0",
+                "yesterdayClothCount": "128",
+                "yesterdayCenterClothCount": "0",
+                "todayMasterLevelInvPending": "0",
+                "yesterdayMasterLevelInvPending": "0"
+            }
+        },
+        {
+            "apikey": "3",
+            "data": {
+                "centerId": "25",
+                "invTtc": "0.14",
+                "wHubTtc": "1.2",
+                "packingTtc": "2.86",
+                "hubTtc": "4.4",
+                "delvTtc": "4.98"
+            }
+        },
+        {
+            "apikey": "4",
+            "data": {}
+        },
+        {
+            "apikey": "5",
+            "data": {}
+        },
+        {
+            "apikey": "6",
+            "data": {
+                "centerId": "25",
+                "top3GarmentServiceBilling": "--",
+                "companyLedgerAmount": "0",
+                "runningcompanyLedgerAmount": "0",
+                "acceptedAmount": "--",
+                "partnerShare": "--",
+                "cashCollection": "--",
+                "pendingAmountInCenter": "6333",
+                "withMeRunners": "917",
+                "serviceBilling": "0",
+                "washServiceBilling": "--",
+                "dryCleanServiceBilling": "--",
+                "valueAddServiceBilling": "--",
+                "lyMtdServiceBilling": "4936",
+                "compensation": "0",
+                "lastMonthServiceBilling": "103693",
+                "lastMonthWashServiceBilling": "--",
+                "lastMonthDryCleanServiceBilling": "--",
+                "lastMonthValueAddServiceBilling": "--",
+                "lyServiceBilling": "103521",
+                "lyWashServiceBilling": "--",
+                "lyDryCleanServiceBilling": "--",
+                "lyValueAddServiceBilling": "--",
+                "yearlyAvgRevenue": "146709",
+                "washYearlyAvgRevenue": "--",
+                "dryCleanYearlyAvgRevenue": "--",
+                "valueAddYearlyAvgRevenue": "--",
+                "lyAvgRevenue": "166587",
+                "lyWashLyYearlyAvgRevenue": "--",
+                "lyDryCleanLyYearlyAvgRevenue": "--",
+                "lyValueAddLyYearlyAvgRevenue": "--",
+                "avgTicketSize": "--",
+                "lmAvgTicketSize": "735",
+                "yearAvgTicketSize": "778",
+                "lastYearAvgTicketSize": "786",
+                "thisMonthClothCount": "0",
+                "lyMtdClothCount": "116",
+                "lmClothCount": "2307",
+                "lyClothCount": "2475"
+            }
+        },
+        {
+            "apikey": "7",
+            "data": {
+                "centerId": "25",
+                "openComplaintCount": "1",
+                "day30ComplaintCount": "10",
+                "complaintPercentile": "--",
+                "avgComplaintResolutionTime": "--",
+                "cancelPercentile": "--",
+                "lmComplaintPercentile": "59.5",
+                "lmCancelPercentile": "56.1",
+                "l2lmComplaintPercentile": "61.1",
+                "l2lmCancelPercentile": "64.8",
+                "currentQualityRatingCount": "--",
+                "lmQualityRatingCount": "3",
+                "l2lmQualityRatingCount": "17",
+                "currentQualityRating": "--",
+                "lmQualityRating": "5.0",
+                "l2lmQualityRating": "4.8",
+                "currentPdRating": "--",
+                "lmPdRating": "5.0",
+                "l2lmPdRating": "5.0",
+                "newCust": "2",
+                "lmNewCust": "166",
+                "l2lmNewCust": "175",
+                "custTapped": "0",
+                "lmCustTapped": "16",
+                "l2lmCustTapped": "14",
+                "totalLeads": "1",
+                "totalLeadsSourceWise": "--",
+                "lmTotalLeads": "167",
+                "l2lmTotalLeads": "177",
+                "prnctCancel": "30",
+                "lmPrnctCancel": "15.6",
+                "l2lmPrnctCancel": "21.5",
+                "runnerRatingInDetail": "--",
+                "lmRunnerRatingInDetail": "--",
+                "l2lmRunnerRatingInDetail": "--"
+            }
+        }
+    ],
+    "ts3": [
+        {
+            "api_key": "0",
+            "data": {
+                "centerId": "2",
+                "centerName": "GGN",
+                "processingCenter": "2",
+                "city": "--",
+                "state": "--",
+                "cityTier": "--",
+                "centerType": "--",
+                "weekOffDay": "--",
+                "packingCapacity": "--",
+                "contactInfo": [
+                    {
+                        "title": "POC",
+                        "name": "NT",
+                        "contactNumber": "8826414848",
+                        "waNumber": "8826414848",
+                        "emailId": "cc@dhobilite.com"
+                    },
+                    {
+                        "title": "Owner",
+                        "name": "NT",
+                        "contactNumber": "8826414848",
+                        "waNumber": "8826414848",
+                        "emailId": "cc@dhobilite.com"
+                    },
+                    {
+                        "title": "Manager",
+                        "name": "NT",
+                        "contactNumber": "8826414848",
+                        "waNumber": "8826414848",
+                        "emailId": "cc@dhobilite.com"
+                    }
+                ]
+            }
+        },
+        {
+            "api_key": "1",
+            "data": {
+                "centerId": "2",
+                "pendingPick": "0",
+                "completedPick": "10",
+                "cancelledPick": "1",
+                "completedDel": "0",
+                "weeklyAvgPick": "--",
+                "weeklyAvgDel": "--",
+                "pendingDelToday": "14",
+                "packedPendingDelToday": "0",
+                "delayedDeliveryToday": "31",
+                "wHubPendingDelayed": "--",
+                "hubDendingDealyed": "--",
+                "todayRegistration": "0",
+                "invoicePending": "0",
+                "wHubPending": "3",
+                "orderPackingPending": "77",
+                "clothPackingPending": "906",
+                "orderPackingDone": "7",
+                "yestOrderPackingDone": "14",
+                "clothPackingDone": "114",
+                "yestClothPackingDone": "129",
+                "inTransit": "22"
+            }
+        },
+        {
+            "api_key": "2",
+            "data": {
+                "centerId": "2",
+                "todayCollection": "0",
+                "todayBilling": "872",
+                "todayCenterBilling": "9802",
+                "yesterdayBilling": "0",
+                "yesterdayCenterBilling": "2926",
+                "todayClothCount": "20",
+                "todayCenterClothCount": "198",
+                "yesterdayClothCount": "0",
+                "yesterdayCenterClothCount": "88",
+                "todayMasterLevelInvPending": "19",
+                "yesterdayMasterLevelInvPending": "8"
+            }
+        },
+        {
+            "api_key": "3",
+            "data": {
+                "centerId": "2",
+                "invTtc": "0.7",
+                "wHubTtc": "1.49",
+                "packingTtc": "4.63",
+                "hubTtc": "5.54",
+                "delvTtc": "5.99"
+            }
+        },
+        {
+            "api_key": "4",
+            "data": {
+                "centerId": "2",
+                "invTtc": "0.67",
+                "wHubTtc": "1.31",
+                "packingTtc": "3.75",
+                "hubTtc": "4.95",
+                "delvTtc": "5.91"
+            }
+        },
+        {
+            "api_key": "5",
+            "data": {
+                "centerId": "2",
+                "currentQualityRatingCount": "--",
+                "lmQualityRatingCount": "63",
+                "l2lmQualityRatingCount": "132",
+                "currentQualityRating": "--",
+                "lmQualityRating": "4.4",
+                "l2lmQualityRating": "4.0",
+                "centerBilling": "5110",
+                "top20CustomerTotalBillLast30Day": [],
+                "lyMtdCenterBilling": "708",
+                "lastMonthCenterServiceBilling": "1152919",
+                "lyCenterBilling": "770010",
+                "centerAvgBilling": "1443332",
+                "lyCenterAvgBilling": "1110204",
+                "thisMonthCenterClothCount": "136",
+                "lyMtdCenterClothCount": "15",
+                "lmCenterClothCount": "23544",
+                "lySameMonthCenterClothCount": "17001",
+                "lastMonthMasterShare": "307838",
+                "lySameMonthMasterShare": "196529",
+                "masterAvgShare": "421987",
+                "lyMasterAvgShare": "284355",
+                "yearCenterClothCount": "280230",
+                "lyCenterClothCount": "223315",
+                "orderPackingPending": "307",
+                "clothPackingPending": "3473",
+                "orderPackingDone": "41",
+                "yestOrderPackingDone": "74",
+                "clothPackingDone": "374",
+                "yestClothPackingDone": "663"
+            }
+        },
+        {
+            "api_key": "6",
+            "data": {
+                "centerId": "2",
+                "top3GarmentServiceBilling": "--",
+                "companyLedgerAmount": "0",
+                "runningcompanyLedgerAmount": "0",
+                "acceptedAmount": "--",
+                "partnerShare": "--",
+                "cashCollection": "--",
+                "pendingAmountInCenter": "35598",
+                "withMeRunners": "96674",
+                "serviceBilling": "872",
+                "washServiceBilling": "--",
+                "dryCleanServiceBilling": "--",
+                "valueAddServiceBilling": "--",
+                "lyMtdServiceBilling": "--",
+                "compensation": "0",
+                "lastMonthServiceBilling": "237212",
+                "lastMonthWashServiceBilling": "--",
+                "lastMonthDryCleanServiceBilling": "--",
+                "lastMonthValueAddServiceBilling": "--",
+                "lyServiceBilling": "239200",
+                "lyWashServiceBilling": "--",
+                "lyDryCleanServiceBilling": "--",
+                "lyValueAddServiceBilling": "--",
+                "yearlyAvgRevenue": "316247",
+                "washYearlyAvgRevenue": "--",
+                "dryCleanYearlyAvgRevenue": "--",
+                "valueAddYearlyAvgRevenue": "--",
+                "lyAvgRevenue": "333369",
+                "lyWashLyYearlyAvgRevenue": "--",
+                "lyDryCleanLyYearlyAvgRevenue": "--",
+                "lyValueAddLyYearlyAvgRevenue": "--",
+                "avgTicketSize": "--",
+                "lmAvgTicketSize": "657",
+                "yearAvgTicketSize": "702",
+                "lastYearAvgTicketSize": "750",
+                "thisMonthClothCount": "20",
+                "lyMtdClothCount": "--",
+                "lmClothCount": "6242",
+                "lyClothCount": "6140"
+            }
+        },
+        {
+            "api_key": "7",
+            "data": {
+                "centerId": "2",
+                "openComplaintCount": "1",
+                "day30ComplaintCount": "50",
+                "complaintPercentile": "--  ",
+                "avgComplaintResolutionTime": "--",
+                "cancelPercentile": "85.3",
+                "lmComplaintPercentile": "90.4",
+                "lmCancelPercentile": "50.4",
+                "l2lmComplaintPercentile": "96.4",
+                "l2lmCancelPercentile": "59.2",
+                "currentQualityRatingCount": "--",
+                "lmQualityRatingCount": "24",
+                "l2lmQualityRatingCount": "66",
+                "currentQualityRating": "--",
+                "lmQualityRating": "4.3",
+                "l2lmQualityRating": "3.8",
+                "currentPdRating": "--",
+                "lmPdRating": "4.3",
+                "l2lmPdRating": "3.4",
+                "newCust": "0",
+                "lmNewCust": "169",
+                "l2lmNewCust": "188",
+                "custTapped": "0",
+                "lmCustTapped": "32",
+                "l2lmCustTapped": "50",
+                "totalLeads": "3",
+                "totalLeadsSourceWise": "--",
+                "lmTotalLeads": "412",
+                "l2lmTotalLeads": "489",
+                "prnctCancel": "33.3",
+                "lmPrnctCancel": "12.4",
+                "l2lmPrnctCancel": "16.6",
+                "runnerRatingInDetail": "--",
+                "lmRunnerRatingInDetail": "--",
+                "l2lmRunnerRatingInDetail": "--"
+            }
+        } 
     ]
 }
