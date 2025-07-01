@@ -216,18 +216,7 @@
             "todaysRevenueStats": {
                 "description": "A detailed overview of the revenue generated today, including collections, billings, and cloth counts.",
                 "Columns": [
-                    {
-                        "Title": "centerId",
-                        "description": "Unique identifier for each center."
-                    },
-                    {
-                        "Title": "centerName",
-                        "description": "Name of the center."
-                    },
-                    {
-                        "Title": "poc",
-                        "description": "Point of contact for the center."
-                    },
+                    
                     {
                         "Title": "todayCollection",
                         "description": "Total amount collected today from all orders that have been delivered."
@@ -382,18 +371,7 @@
             "masterPackingStats": {
                 "description": "A detailed overview of the packing statistics for the master center.",
                 "Columns": [
-                    {
-                        "Title": "centerId",
-                        "description": "Unique identifier for each center."
-                    },
-                    {
-                        "Title": "centerName",
-                        "description": "Name of the center."
-                    },
-                    {
-                        "Title": "poc",
-                        "description": "Point of contact for the center."
-                    },
+                    
                     {
                         "Title": "orderPackingPending",
                         "description": "Total number of orders that have been processed but are still pending packing as of today till the time at the center."
@@ -423,18 +401,7 @@
             "masterLevelTtcStats": {
                 "description": "A detailed overview of the master-level TTC (Time to Complete) statistics for the center.This data is average of ttc(time to completion) of all the orders placed at the center in 14 days.",
                 "Columns": [
-                    {
-                        "Title": "centerId",
-                        "description": "Unique identifier for each center."
-                    },
-                    {
-                        "Title": "centerName",
-                        "description": "Name of the center."
-                    },
-                    {
-                        "Title": "poc",
-                        "description": "Point of contact for the center."
-                    },
+                    
                     {
                         "Title": "invTtc",
                         "description": "Average time (in days) taken to generate an invoice for an order, measured from the moment the order is picked up until the invoice is created."
@@ -460,18 +427,7 @@
             "workQuality": {
                 "description": "A comprehensive overview of the center's work quality metrics, including complaint counts, ratings, and customer engagement.",
                 "Columns": [
-                    {
-                        "Title": "centerId",
-                        "description": "Unique identifier for each center."
-                    },
-                    {
-                        "Title": "centerName",
-                        "description": "Name of the center."
-                    },
-                    {
-                        "Title": "poc",
-                        "description": "Point of contact for the center."
-                    },
+                    
                     {
                         "Title": "openComplaintCount",
                         "description": "Total number of currently active or unresolved complaints at the center."
@@ -613,18 +569,7 @@
             "workAndRevenue": {
                 "description": "A comprehensive overview of the center's work and revenue metrics, including billing, cloth counts, and financial statistics.",
                 "Columns": [
-                    {
-                        "Title": "centerId",
-                        "description": "Unique identifier for each center."
-                    },
-                    {
-                        "Title": "centerName",
-                        "description": "Name of the center."
-                    },
-                    {
-                        "Title": "poc",
-                        "description": "Point of contact for the center."
-                    },
+                    
                     {
                         "Title": "companyLedgerAmount",
                         "description": "Monthly settlement amount between the franchise and the company. If positive, the franchise owes this amount to the company; if negative, the company owes this amount to the franchise. (it should be paid by 7th of every month otherwise your center access will be blocked by the system automatically)"
