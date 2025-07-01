@@ -4391,5 +4391,230 @@
     }
     ],
     "AccessPaymentReceived": [],
-    "workstatus": []
+    "workstatus": [],
+
+    "ts1": [
+        {
+            "api_key": "0",
+            "data": {
+                "centerId": "1",
+                "centerName": "NOIDA",
+                "processingCenter": "1",
+                "city": "--",
+                "state": "--",
+                "cityTier": "--",
+                "centerType": "--",
+                "weekOffDay": "--",
+                "packingCapacity": "--",
+                "contactInfo": [
+                    {
+                        "title": "POC",
+                        "name": "NT",
+                        "contactNumber": "8826414848",
+                        "waNumber": "8826414848",
+                        "emailId": "cc@dhobilite.com"
+                    },
+                    {
+                        "title": "Owner",
+                        "name": "NT",
+                        "contactNumber": "8826414848",
+                        "waNumber": "8826414848",
+                        "emailId": "cc@dhobilite.com"
+                    },
+                    {
+                        "title": "Manager",
+                        "name": "NT",
+                        "contactNumber": "8826414848",
+                        "waNumber": "8826414848",
+                        "emailId": "cc@dhobilite.com"
+                    }
+                ]
+            }
+        },
+        {
+            "api_key": "1",
+            "data": {
+                "centerId": "1",
+                "pendingPick": "6",
+                "completedPick": "0",
+                "cancelledPick": "0",
+                "completedDel": "1",
+                "weeklyAvgPick": "--",
+                "weeklyAvgDel": "--",
+                "pendingDelToday": "14",
+                "packedPendingDelToday": "3",
+                "delayedDeliveryToday": "3",
+                "wHubPendingDelayed": "--",
+                "hubDendingDealyed": "--",
+                "todayRegistration": "0",
+                "invoicePending": "1",
+                "wHubPending": "8",
+                "orderPackingPending": "28",
+                "clothPackingPending": "391",
+                "orderPackingDone": "10",
+                "yestOrderPackingDone": "4",
+                "clothPackingDone": "70",
+                "yestClothPackingDone": "57",
+                "inTransit": "0"
+            }
+        },
+        {
+            "api_key": "2",
+            "data": {
+                "centerId": "1",
+                "todayCollection": "1207",
+                "todayBilling": "0",
+                "todayCenterBilling": "6337",
+                "yesterdayBilling": "4564",
+                "yesterdayCenterBilling": "29735",
+                "todayClothCount": "0",
+                "todayCenterClothCount": "169",
+                "yesterdayClothCount": "84",
+                "yesterdayCenterClothCount": "457",
+                "todayMasterLevelInvPending": "2",
+                "yesterdayMasterLevelInvPending": "22"
+            }
+        },
+        {
+            "api_key": "3",
+            "data": {
+                "centerId": "1",
+                "invTtc": "0.12",
+                "wHubTtc": "0.94",
+                "packingTtc": "2.31",
+                "hubTtc": "2.31",
+                "delvTtc": "3.07"
+            }
+        },
+        {
+            "api_key": "4",
+            "data": {
+                "centerId": "1",
+                "invTtc": "0.31",
+                "wHubTtc": "1.17",
+                "packingTtc": "2.43",
+                "hubTtc": "3.22",
+                "delvTtc": "5.06"
+            }
+        },
+        {
+            "api_key": "5",
+            "data": {
+                "centerId": "1",
+                "currentQualityRatingCount": "--",
+                "lmQualityRatingCount": "57",
+                "l2lmQualityRatingCount": "152",
+                "currentQualityRating": "--",
+                "lmQualityRating": "4.1",
+                "l2lmQualityRating": "4.3",
+                "centerBilling": "6337",
+                "top20CustomerTotalBillLast30Day": [],
+                "lyMtdCenterBilling": "27453",
+                "lastMonthCenterServiceBilling": "1039744",
+                "lyCenterBilling": "975677",
+                "centerAvgBilling": "1539486",
+                "lyCenterAvgBilling": "1388027",
+                "thisMonthCenterClothCount": "169",
+                "lyMtdCenterClothCount": "500",
+                "lmCenterClothCount": "23933",
+                "lySameMonthCenterClothCount": "23144",
+                "lastMonthMasterShare": "175688",
+                "lySameMonthMasterShare": "148486",
+                "masterAvgShare": "289207",
+                "lyMasterAvgShare": "203961",
+                "yearCenterClothCount": "324787",
+                "lyCenterClothCount": "293823",
+                "orderPackingPending": "67",
+                "clothPackingPending": "703",
+                "orderPackingDone": "42",
+                "yestOrderPackingDone": "36",
+                "clothPackingDone": "465",
+                "yestClothPackingDone": "456"
+            }
+        },
+        {
+            "api_key": "6",
+            "data": {
+                "centerId": "1",
+                "top3GarmentServiceBilling": "--",
+                "companyLedgerAmount": "0",
+                "runningcompanyLedgerAmount": "0",
+                "acceptedAmount": "--",
+                "partnerShare": "--",
+                "cashCollection": "--",
+                "pendingAmountInCenter": "35233",
+                "withMeRunners": "193718",
+                "serviceBilling": "0",
+                "washServiceBilling": "--",
+                "dryCleanServiceBilling": "--",
+                "valueAddServiceBilling": "--",
+                "lyMtdServiceBilling": "8803",
+                "compensation": "0",
+                "lastMonthServiceBilling": "211478",
+                "lastMonthWashServiceBilling": "--",
+                "lastMonthDryCleanServiceBilling": "--",
+                "lastMonthValueAddServiceBilling": "--",
+                "lyServiceBilling": "265246",
+                "lyWashServiceBilling": "--",
+                "lyDryCleanServiceBilling": "--",
+                "lyValueAddServiceBilling": "--",
+                "yearlyAvgRevenue": "379347",
+                "washYearlyAvgRevenue": "--",
+                "dryCleanYearlyAvgRevenue": "--",
+                "valueAddYearlyAvgRevenue": "--",
+                "lyAvgRevenue": "540926",
+                "lyWashLyYearlyAvgRevenue": "--",
+                "lyDryCleanLyYearlyAvgRevenue": "--",
+                "lyValueAddLyYearlyAvgRevenue": "--",
+                "avgTicketSize": "--",
+                "lmAvgTicketSize": "622",
+                "yearAvgTicketSize": "650",
+                "lastYearAvgTicketSize": "683",
+                "thisMonthClothCount": "0",
+                "lyMtdClothCount": "172",
+                "lmClothCount": "5393",
+                "lyClothCount": "7108"
+            }
+        },
+        {
+            "api_key": "7",
+            "data": {
+                "centerId": "1",
+                "openComplaintCount": "5",
+                "day30ComplaintCount": "29",
+                "complaintPercentile": "--  ",
+                "avgComplaintResolutionTime": "--",
+                "cancelPercentile": "100 ",
+                "lmComplaintPercentile": "61.9",
+                "lmCancelPercentile": "29.7",
+                "l2lmComplaintPercentile": "55.2",
+                "l2lmCancelPercentile": "41.6",
+                "currentQualityRatingCount": "--",
+                "lmQualityRatingCount": "15",
+                "l2lmQualityRatingCount": "63",
+                "currentQualityRating": "--",
+                "lmQualityRating": "3.9",
+                "l2lmQualityRating": "4.3",
+                "currentPdRating": "--",
+                "lmPdRating": "4.3",
+                "l2lmPdRating": "4.7",
+                "newCust": "80",
+                "lmNewCust": "138",
+                "l2lmNewCust": "147",
+                "custTapped": "5",
+                "lmCustTapped": "30",
+                "l2lmCustTapped": "42",
+                "totalLeads": "0",
+                "totalLeadsSourceWise": "--",
+                "lmTotalLeads": "378",
+                "l2lmTotalLeads": "468",
+                "prnctCancel": "0.0",
+                "lmPrnctCancel": "10.1",
+                "l2lmPrnctCancel": "11.8",
+                "runnerRatingInDetail": "--",
+                "lmRunnerRatingInDetail": "--",
+                "l2lmRunnerRatingInDetail": "--"
+            }
+        }
+    ]
 }
