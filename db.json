@@ -2,36 +2,39 @@
     "MetaData": [
         {
             "Company name ": "Elite DhobiLite Pvt Ltd",
-            "Company Description": "Elite DhobiLite is a laundry and dry cleaning service provider that offers convenient and high-quality laundry solutions to customers. With a focus on customer satisfaction, they provide services such as wash and fold, dry cleaning, and ironing, ensuring that clothes are cleaned and cared for with the utmost attention to detail. Their user-friendly platform allows customers to schedule pickups and deliveries, making laundry hassle-free. Apart from that we provide free pickup and delivery services, ensuring that customers can enjoy the convenience of having their laundry taken care of without leaving their homes.",
-            "Our Business Model": "Elite DhobiLite operates on a B2C (Business-to-Consumer) model, providing laundry and dry cleaning services directly to individual customers. The company focuses on delivering high-quality cleaning solutions, convenience, and exceptional customer service. Customers can easily schedule pickups and deliveries through the platform, making it a hassle-free experience. The business model emphasizes customer satisfaction and aims to build long-term relationships with clients by offering reliable and efficient laundry services.",
-            "Our  franchising model": "Elite DhobiLite's franchising model allows aspiring entrepreneurs to partner with the brand and operate their own laundry and dry cleaning businesses under the Elite DhobiLite name. Franchisees benefit from the established brand reputation, proven business processes, and ongoing support from the company. The model typically includes training, marketing assistance, and access to a comprehensive operational framework. Franchisees can leverage the company's expertise to successfully run their businesses while contributing to the growth of the Elite DhobiLite brand.",
+            "Company Description": "Elite DhobiLite is a laundry and dry cleaning service provider that offers convenient and high-quality laundry solutions to customers.Dhobilite provide services such as wash and fold, dry cleaning, and ironing. Their platform allows customers to schedule pickups and deliveries. Apart from that we provide free pickup and delivery services.",
+            "Our Business Model": "Elite DhobiLite operates on a B2C (Business-to-Consumer) model, providing laundry and dry cleaning services directly to individual customers. Customers can easily schedule pickups and deliveries through the platform ",
+            "Our  franchising model": "Elite DhobiLite's franchising model allows entrepreneurs to partner with the brand and operate their own laundry and dry cleaning businesses under the Elite DhobiLite name. The model typically includes training, marketing assistance, and access to a comprehensive operational framework. Franchisees can leverage the company's expertise.",
             "typesOfFranchises": [
                 {
-                    "title": "Master Franchise",
-                    "description": "A Master Franchise acts as a central processing hub for multiple Retail franchises. Once customer orders are collected by the Retail units, they are sent to the Master Franchise for all major laundry operations such as washing, dry cleaning, ironing, and packing. The cleaned items are then sent back to the respective Retail franchises for final delivery. Typically located in large Tier 1 cities with high order volumes and multiple dependent Retail units.It can serve 10-15 Retail franchises, depending on the order volume and capacity of the Master Franchise."
+                    "title": "Master",
+                    "description": "A Master Franchise serves as the central processing hub for multiple Retail franchises. It is equipped with laundry and dry cleaning machinery. Retail franchises depend on the Master Franchise for all processing tasks, including washing, dry cleaning, and ironing. The Master Franchise charges processing fees to the Retail franchises."
                 },
                 {
-                    "title": "Single Unit Franchise / Live Unit",
-                    "description": "A Single Unit or Live Unit Franchise is a standalone laundry facility that operates independently, without any dependent Retail franchises. This type of unit provides showroom-like visibility and is fully equipped with all necessary laundry machinery to handle the complete service cycle. Orders are received directly from runners, and all processes—including washing, dry cleaning, ironing, packing, and delivery—are managed within the unit. Runners are responsible for both picking up laundry from customers and delivering cleaned items back to them, ensuring a direct and efficient workflow. This model is well-suited for areas with moderate demand, enabling comprehensive, end-to-end service from a single location. If a Live Unit is equipped with sufficient machinery to support 3-4 Retail franchises, it is referred to as a hybrid setup."
+                    "title": "Live",
+                    "description": "This type of unit provides showroom-like visibility and is fully equipped with all necessary laundry machinery to handle the complete service cycle.  This model is well-suited for  tier-3 cities areas with moderate demand, enabling comprehensive, end-to-end service from a single location. If a Live Unit is equipped with sufficient machinery to support 3-4 Retail franchises, it is referred to as a hybrid setup."
                 },
                 {
-                    "title": "Retail Franchise",
-                    "description": "A Retail Franchise acts as a local customer touchpoint, where runners collect laundry orders from customers and deliver them to the Retail unit. The Retail Franchise then forwards these orders to its associated Master Franchise for all processing tasks, such as washing, dry cleaning, and ironing. After processing, the cleaned items are returned to the Retail unit for final delivery to the customer. This model enhances local accessibility and convenience, with each Retail Franchise typically linked to a nearby Master Franchise for efficient operations.Retail franchises can have only one machine that is steam press machine and they can only do ironing of the cloths and they can not do any other processing like washing or dry cleaning of the cloths, so they are dependent on master center for all the processing tasks."
+                    "title": "Retail",
+                    "description": "A Retail Franchise acts as a customer-facing collection and delivery point. It does not have in-house laundry or dry cleaning machinery, but is equipped with a reception area and storage racks for handling orders. Runners are responsible for collecting orders from customers and delivering them to customer. The Retail Franchise manages all customer interactions, including handling complaints and queries, ensuring a smooth customer experience."
                 }
             ],
-            "Runner": "A Runner is responsible for collecting articles from customers and delivering them to the designated franchise unit (depending on the center type). Once the processing — including washing, dry cleaning, and packing — is completed, the Runner ensures the final delivery of the cleaned garments back to the customer. The Runner plays a crucial role in maintaining customer satisfaction by ensuring timely pickups and deliveries, and they are  the face of the brand during these interactions. Their efficiency and professionalism directly impact the overall customer experience.",
+            "Runner": "A Runner is responsible for collecting articles from customers and delivering them. Runners are our brand face which directly interacts with customers, they are responsible to be in a presentable form and also responsible to collecting the payment from the customer at the time of delivery.",
+            "Msentinel": "Msentinel is a mobile application used internally by the employees and the franchises, it manages the entire workflow of order such as pickup and delivery management, placing orders of inventory, center information like analytics, slot management etc.",
+            "Sentinel": "Sentinel is a web application used internally by the employees and the franchises, it manages the entire workflow of order such as pickup and delivery management, placing orders of inventory, center information like analytics, employee onboarding , franchisee ledger etc.",
             "Our Order flow / Workflow": [
                 {
-                    "Ongoing leads/Team View": "when customer place the orders from customer application then the order first arrives in ongoing leads section of Msentinel app (backend application).in ownwer id it will reflect as ongoing leads and in manager id it will reflect as team view.Now the next step is that the owner or manager will assign the order to the respective runner for pickup.",
+                    "Ongoing leads/Team View": "when customer place the orders from customer application then the order first arrives in ongoing leads section of Msentinel. In ownwer id it will reflect as ongoing leads and in manager id it will reflect as team view. Now the next step is that the owner or manager will assign the order to the respective runner for pickup.",
                     "Assigned order": "When an order is assigned to a runner by the owner or manager, it appears in the 'Assigned Order' section of the Msentinel app in the runner Id. The runner can view all assigned orders along with customer details such as name, address, and contact number. The runner then accepts the order, confirms the customer's availability at the pickup location, and proceeds to collect the articles or clothes from the customer.",
-                    "E-challan": "When a runner arrives at the customer's location, they can view the assigned order in the Msentinel app. The runner is responsible for safely and securely collecting the items. Upon arrival, the runner must take three mandatory photos of the articles/clothes to be picked up. After this, the E-challan page opens, where the runner first selects the required services and then enters the details of the articles/clothes being collected. This process ensures accurate documentation and tracking of each order.",
-                    "Invoice generation": "After the order is picked up, the runner delivers the items to the appropriate center—either a retail center, live unit, or directly to the master center if handled by the master center's runner. The manager at the center is responsible for generating the final invoice. Before generating the invoice, the manager must cross-verify the picked items with the e-challan created by the runner at pickup. The invoice should only be generated if all items in the e-challan match the items received; if there is any discrepancy, the manager should not proceed and must contact the runner for clarification. Once verified, the invoice is generated in the Msentinel app under the 'Generate Invoice' section and uploaded to the server, which then distributes it as needed, including to the customer.",
-                    "Tracker/Tagging of the cloths": "After the invoice is generated, the order moves to the tracker section of the Msentinel app. Here, there is an option to print the tag for that specific order, as well as options to cancel the order or invoice if needed. Each item is tagged with a unique customer tag ID to ensure accurate tracking and processing. This tagging process is essential for maintaining order accuracy and preventing mix-ups during cleaning and delivery. The tags include information such as the customer tag ID and the count of clothes as per the selected service.",
-                    "Transit task_Workshop_Hub": "After tagging the clothes, the order moves to the 'Transit Task' section (W_Hub) of the Msentinel app. Here, the manager verifies the tagged items against the invoice generated at pickup. Upon successful verification, the Workshop Hub accepts the order for processing. This step ensures all items are accurately accounted for and ready for cleaning. Acceptance by the Workshop(w_hub) confirms that the articles are now under their responsibility for further processing.",
-                    "Packing application/processing of the cloths": "Once the articles have been accepted, the order moves to the Msentinel packing application. First, the items are inspected for any damage or issues. If any problem is found, it is recorded in the packing app under the 'problem' section, and the customer is informed.After that, the articles proceed to processing, which includes washing, dry cleaning, ironing, and packing as per the customer's selected services. The workshop ensures all processes are performed efficiently and to high quality standards. After cleaning, the items are packed by the packing staff, and the details are updated in the Msentinel packing application.",
-                    "Transit Task_Hub": "Once packing is completed, the order moves to the Transit Task Runner section (hub) in the Msentinel app. Here, the respective manager verifies the packed items against the invoice generated at pickup. After successful verification, the retail accepts(hub) the packed items. The order is then moved to the Team View section as an unassigned delivery in manager Id and in owner id it will reflect in ongoing leads section, where the manager assigns it to the appropriate runner for final delivery to the customer.",
-                    "Assigned Order/delivery of the cloths to the customer": "Once the order is assigned to a runner for delivery, it appears in the 'Assigned Order' section of the Msentinel app in the Runner Id. The runner can view all details of the order, including customer information and the items to be delivered. The runner then proceeds to deliver the packed items to the customer at the specified address. Upon successful delivery, the runner updates the status in the app, marking the order as completed.Alao the runner will collect the payment from the customer at the time of delivery, if applicable.  ",
-                    "ratings given by the customer": "After delivery, customers can rate their experience and provide feedback via the customer application . There are two types of ratings: quality rating (reflects the processing center's performance) and PD rating (pickup-delivery, reflects the center where the order was placed). Quality ratings go to the processing/master center, while PD ratings go to the center which is handling the pickup and delivery of the arcticles(retail, master, live, or online).",
+                    "E-challan": "When a runner arrives at the customer's location. It enters details of the acrticles such as type of article and quantity in Msentinel. E-challan will not proceed if the runner does not click the photo of the articles.",
+                    "Invoice generation": "After the order is picked up, the manager at the center is responsible for generating the final invoice. Before generating the invoice, the manager must cross-verify the picked items with the e-challan created by the runner at pickup. If there is any discrepancy,it must be resolved. Without invoice generation our center will not proceed with the order processing.",
+                    "Tagging of the cloths": "After the invoice is generated, each item is tagged with a unique customer tag ID to ensure accurate tracking and processing. This tagging process is essential to prevent article mix-ups during cleaning and delivery. The tags include information such as the customer tag ID , date of pickup, service and the count of clothes.",
+                    "Workshop Hub or w_hub": "This step not applicable for live units. Here the orders are moved from retail unit to master unit , once the orders are received by the master unit the order should be marked as 'workshop hub', the manager verifies the tagged items against the invoice generated at pickup. Acceptance by the Workshop(w_hub) confirms that the articles are now under their responsibility for further processing.",
+                    "Processing of the cloths": "The articles are  washed, cleaned as per the service at the processing unit.",
+                    "Packing of the cloths": "After processing the articles, are packed and marked in Msentinel.",
+                    "Hub": "This is not applicable for live units.After packing, the packed order are moved to retail unit and retail has to confirm the same by accepting on Msentinel. And the order is ready for delivery.",
+                    "Order delivery": "Manager/owner assigns the order to the runner for delivery. The runner will accept the order and deliver the articles to the customer.",
+                    "Ratings given by the customer": "After delivery, customers can rate their experience. There are two types of ratings: 'quality rating' (reflects order cleaning and servicing , this is the responsibility of processing unit) and 'PD rating' (this indicated how well pickup and delivery service provided to the customer and this is responsibility of the unit which is doing pickup and delivery).",
                     "Terms used in workflow": [
                         {
                             "title": "E-Challan",
@@ -50,10 +53,6 @@
                             "description": "The cleaning, dry cleaning, ironing, and packing of items as per customer specifications."
                         },
                         {
-                            "title": "Workshop",
-                            "description": "A Workshop is a central processing facility that handles the major laundry operations for multiple Retail franchises. It is responsible for washing, dry cleaning, ironing, and packing articles collected from the Retail units or directly by their own runners. The Workshop ensures that all cleaning processes are carried out efficiently and to the highest quality standards."
-                        },
-                        {
                             "title": "logistics",
                             "description": "Transfer of arcticles from one center to another, such as from a Retail franchise to a Workshop or from a Workshop to a Retail franchise for final delivery to the customer. "
                         }
@@ -63,11 +62,11 @@
             "Revenue share between franchises and company": [
                 {
                     "title": "Master Franchise and Retail Franchise",
-                    "description": "The Master Franchise retains 43% of the total revenue generated from the orders processed at its center, while the Retail Franchise also retains 43%. The franchise responsible for handling logistics receives a 7% share of the total revenue. The remaining 7% is allocated to the company as royalty."
+                    "description": "In most of the cases this is the sharing between the parties involved. The Master Franchise retains 43% of the total revenue generated from the orders processed at its center, while the Retail Franchise also retains 43%. The franchise responsible for handling logistics receives a 7% share of the total revenue. The remaining 7% is allocated to the company as royalty."
                 },
                 {
-                    "title": "Single Unit Franchise / Live Unit",
-                    "description": "If it doesnt have any dependent Retail franchises, the Live Unit retains 93% of the total revenue generated from the orders processed at its center. The remaining 7% is allocated to the company as royalty. But if it has dependent Retail franchises then the revenue share will be same as Master Franchise and Retail Franchise."
+                    "title": "Live Unit",
+                    "description": "In most of the cases this is the sharing between the parties involved. If it doesnt have any dependent Retail franchises, the Live Unit retains 93% of the total revenue generated from the orders processed at its center. The remaining 7% is allocated to the company as royalty. But if it has dependent Retail franchises then the revenue share will be same as Master Franchise and Retail Franchise."
                 }
             ],
             "Terms and condition": [
@@ -129,11 +128,10 @@
                 }
             ],
             "todaysWorkStats": {
-                "description": "A comprehensive summary of all operational statistics for the current day. This includes data on pickups, deliveries, cancellations, and pending tasks, updated continuously as work progresses.",
                 "Columns": [
                     {
                         "Title": "centerId",
-                        "description": "Unique identifier for each center."
+                        "description": "A unique identifier assigned to each center. Used for referencing and data mapping."
                     },
                     {
                         "Title": "centerName",
@@ -153,11 +151,11 @@
                     },
                     {
                         "Title": "cancelledPick",
-                        "description": "Refers to the number of orders that were cancelled by customers during the current day. This figure excludes orders canceled within 5 minutes of order placement, as such orders are not considered operationally committed."
+                        "description": "Refers to the number of orders that were cancelled by customers during the current day. This figure excludes orders canceled within 5 minutes of order placement."
                     },
                     {
                         "Title": "completedDel",
-                        "description": "Denotes the number of deliveries successfully completed by runners on the current day up to the most recent update time. Since our system reflects real-time workflow changes, this number may increase throughout the day."
+                        "description": "Denotes the number of deliveries successfully completed at the center on the current day."
                     },
                     {
                         "Title": "pendingDelToday",
@@ -165,15 +163,15 @@
                     },
                     {
                         "Title": "packedPendingDelToday",
-                        "description": "Total number of packed deliveries which are not yet delivered."
+                        "description": "Orders which are packed and still not accepted at the retail(hub) for delivery."
                     },
                     {
                         "Title": "delayedDeliveryToday",
-                        "description": "Total number of orders which are expected to be delivered but not yet delivered."
+                        "description": "Total number of orders which are expected to be delivered till now but not yet delivered."
                     },
                     {
                         "Title": "todayRegistration",
-                        "description": "Total number of new registrations today."
+                        "description": "Total number of new customers registrations today."
                     },
                     {
                         "Title": "invoicePending",
@@ -181,31 +179,31 @@
                     },
                     {
                         "Title": "wHubPending",
-                        "description": "Total number of orders that have reached the workshop but have not yet been accepted for processing at the workshop."
+                        "description": "Invoice generated yesterday, but the orders are still not accepted at the workshop(w_hub) today."
                     },
                     {
                         "Title": "orderPackingPending",
-                        "description": "Total number of orders that have exceeded the expected packing timeframe as defined at the time of order placement."
+                        "description": "Total number of orders that has to be packed till now as per the expected packing timeframe defined at the time of order placement."
                     },
                     {
                         "Title": "clothPackingPending",
-                        "description": "Total number of cloths/articles that have exceeded the expected packing timeframe as defined at the time of order placement."
+                        "description": "Total number of article that has to be packed till now as per the expected packing timeframe defined at the time of order placement."
                     },
                     {
                         "Title": "orderPackingDone",
                         "description": "Total number of orders packed today at the center."
                     },
                     {
+                        "Title": "clothPackingDone",
+                        "description": "Total number of articles packed today at the center."
+                    },
+                    {
                         "Title": "yestOrderPackingDone",
                         "description": "Total number of orders packed yesterday at the center."
                     },
                     {
-                        "Title": "clothPackingDone",
-                        "description": "Total number of cloth items packed today at the center."
-                    },
-                    {
                         "Title": "yestClothPackingDone",
-                        "description": "Total number of cloth items packed yesterday at the center."
+                        "description": "Total number of articles packed yesterday at the center."
                     },
                     {
                         "Title": "inTransit",
@@ -214,15 +212,14 @@
                 ]
             },
             "todaysRevenueStats": {
-                "description": "A detailed overview of the revenue generated today, including collections, billings, and cloth counts.",
                 "Columns": [
                     {
                         "Title": "todayCollection",
-                        "description": "Total amount collected today from all orders that have been delivered."
+                        "description": "Total amount collected today from all orders that have been delivered. This does not include if the amount is directly transfered to company(dhobilite) account."
                     },
                     {
                         "Title": "todayBilling",
-                        "description": "Total amount billed today for all orders for which invoices have been generated today at the center."
+                        "description": "Total amount billed today for all orders for which invoices have been generated at the center."
                     },
                     {
                         "Title": "todayCenterBilling",
@@ -230,7 +227,7 @@
                     },
                     {
                         "Title": "yesterdayBilling",
-                        "description": "Total amount billed yesterday for all orders processed at the center."
+                        "description": "Total amount billed yesterday for all orders at the center."
                     },
                     {
                         "Title": "yesterdayCenterBilling",
@@ -238,19 +235,19 @@
                     },
                     {
                         "Title": "todayClothCount",
-                        "description": "Total number of cloth items for which invoices have been generated today at the center."
+                        "description": "Total number of articles for which invoices have been generated today at the center."
                     },
                     {
                         "Title": "todayCenterClothCount",
-                        "description": "Total number of cloth items for which invoices have been generated today at the center and all the retails under it(if applicable)."
+                        "description": "Total number of articles for which invoices have been generated today at the center and all the retails under it(if applicable)."
                     },
                     {
                         "Title": "yesterdayClothCount",
-                        "description": "Total number of cloth items for which invoices were generated yesterday at the center."
+                        "description": "Total number of articles for which invoices were generated yesterday at the center."
                     },
                     {
                         "Title": "yesterdayCenterClothCount",
-                        "description": "Total number of cloth items for which invoices were generated yesterday at the center, including all associated retail units (if applicable)."
+                        "description": "Total number of articles for which invoices were generated yesterday at the center, including all associated retail units (if applicable)."
                     },
                     {
                         "Title": "todayMasterLevelInvPending",
@@ -263,87 +260,78 @@
                 ]
             },
             "masterStats": {
-                "description": "A comprehensive overview of the master center's performance metrics, including quality ratings, billing, and cloth counts.",
                 "Columns": [
                     {
-                        "Title": "centerId",
-                        "description": "Unique identifier for each center."
-                    },
-                    {
-                        "Title": "centerName",
-                        "description": "Namwe of the center."
-                    },
-                    {
-                        "Title": "poc",
-                        "description": "Point of contact for the center."
+                        "title": "serviceBillling",
+                        "description": "Total billing of the services rendered to the customers. This does not include the amount which is left in customer's wallet."
                     },
                     {
                         "Title": "currentQualityRatingCount",
-                        "description": "number of quality ratings received from different customer in the current month."
+                        "description": "count of customer which have given quality rating in the current month."
                     },
                     {
                         "Title": "lmQualityRatingCount",
-                        "description": "number of quality ratings received from different customer in the last month."
+                        "description": "Count of customer which have given quality rating in the last month."
                     },
                     {
                         "Title": "l2lmQualityRatingCount",
-                        "description": "Number quality ratings received from different customer in the last to last month."
+                        "description": "Count of customer which have given quality rating in the last to last month."
                     },
                     {
                         "Title": "currentQualityRating",
-                        "description": "Average quality ratings received from different customer in the current month."
+                        "description": "Average of quality ratings received from the customers in the current month."
                     },
                     {
                         "Title": "lmQualityRating",
-                        "description": "Average quality ratings received from different customer in the last month."
+                        "description": "Average of quality ratings received from the customers in the last month."
                     },
                     {
                         "Title": "l2lmQualityRating",
-                        "description": "Average quality ratings received from different customer in the last to last month."
+                        "description": "Average of quality ratings received from the customers in the last to last month."
                     },
                     {
                         "Title": "centerBilling",
-                        "description": "Total amount billed at the particular center for the current month up to today."
+                        "description": "Total amount billed at the particular center including retails billing(if applicable) for the current month up to today."
                     },
                     {
                         "Title": "lyMtdCenterBilling",
-                        "description": "Amount billed at the particular center till this date in this month last year."
+                        "description": "Total amount billed at the particular center including retails billing(if applicable) for the same month last year till today's date last year.For example, if today is March 15, this represents the total amount billed at the center in March 15 of the previous year."
                     },
                     {
                         "Title": "lastMonthCenterServiceBilling",
-                        "description": "Total amount billed for services rendered to prepaid customers at the center in the last month."
+                        "description": "Total service amount billed to customers at the center including retails service billing(if applicable) in the last month."
                     },
                     {
                         "Title": "lyCenterBilling",
-                        "description": "Total amount billed at the particular master center in the same month last year."
+                        "description": "Total service amount billed at the center, including retail service billing (if applicable), for the same month last year. For example, if the current month is March, this represents the total service billing for March of the previous year."
                     },
                     {
                         "Title": "centerAvgBilling",
-                        "description": "Total amount billed at the center in last 365 days divided by 12."
+                        "description": "Total service amount billed at the center including retail service billing (if applicable) in last 365 days divided by 12."
                     },
                     {
                         "Title": "lyCenterAvgBilling",
-                        "description": "Total amount billed at the center in last 365 days divided by 12 last year till the same date and month."
+                        "description": "Average monthly service amount billed at the center, including retail service billing (if applicable), for the previous year. Calculated as the total service billing for the last 730 days minus the total for the last 365 days, divided by 12."
                     },
                     {
                         "Title": "thisMonthCenterClothCount",
-                        "description": "Total number of cloth items received at the center in the current month till today."
+                        "description": "Total number of articles received at the center in the current month till today, including retail articles (if applicable)."
                     },
                     {
                         "Title": "lyMtdCenterClothCount",
-                        "description": "Total number of cloth items received at the center till this date in the same month last year."
+                        "description": "Total number of articles received at the center till today in the same month last year, including retail articles (if applicable). For example, if today is March 15, this represents the total number of articles received at the center in March 15 of the previous year."
                     },
                     {
                         "Title": "lmCenterClothCount",
-                        "description": "The total number of cloths received at center last month."
+                        "description": "The total number of articles received at center last month including retail articles (if applicable)."
                     },
                     {
                         "Title": "lySameMonthCenterClothCount",
-                        "description": "Total number of cloth items received at the same center in the same month last year."
+                        "description": "Total number of articles received at the center including retail articles(if applicable) in the same month last year. For example, if the current month is March, this represents the total number of articles received in March of the previous year."
                     },
                     {
                         "Title": "lastMonthMasterShare",
-                        "description": "The share of revenue received by the master center from their corresponding retail centers(if applicable) last month."
+                        "description": "The shared revenue(processing charge) of the last month ,received by the master from the  retail centers they are serving."
                     },
                     {
                         "Title": "lySameMonthMasterShare",
@@ -364,6 +352,14 @@
                     {
                         "Title": "lyCenterClothCount",
                         "description": "Total number of cloths received at center in last 730 days (365+365) - total number of cloths received at center in last 365 days."
+                    },
+                    {
+                        "Title": "top3GarmentServiceBilling",
+                        "description": "Service billing of the top 3 garment services at the center. It is defined for the master center, the top 3 garment services of all the retail centers under it."
+                    },
+                    {
+                        "title": "last3MonthCenterAvgBilling",
+                        "description": "Average billing of the center for the last 3 months. It defines for the master center, the average billing of all the retail centers under it."
                     }
                 ]
             },
@@ -559,6 +555,22 @@
                     {
                         "Title": "l2lmPrnctCancel",
                         "description": "Percentage of total orders at center which got cancelled by customers last to last month."
+                    },
+                    {
+                        "title": "avgComplaintResolutionTime",
+                        "description": "Average time taken to resolve a complaint at the center."
+                    },
+                    {
+                        "title": "runnerRatingInDetail",
+                        "description": "Rating of the runner in detail. It is defined for the retail center. Such as pickup, delivery, etc. of the individual runner."
+                    },
+                    {
+                        "title": "lmRunnerRatingInDetail",
+                        "description": "Last month rating of the runner in detail, such as pickup, delivery, etc. of the individual runner."
+                    },
+                    {
+                        "title": "l2lmRunnerRatingInDetail",
+                        "description": "Last to last month rating of the runner in detail, such as pickup, delivery, etc. of the individual runner."
                     }
                 ]
             },
@@ -640,6 +652,82 @@
                     {
                         "Title": "lyClothCount",
                         "description": "Total number of cloth items for which invoice has been generated till this date last year at the particular center."
+                    },
+                    {
+                        "title": "top3GarmentServiceBilling",
+                        "description": "Service billing of the top 3 garment services at the perticular center. It is defined for the retail center."
+                    },
+                    {
+                        "title": "acceptedAmount",
+                        "description": "When the order has been delivered after all the services are done, the amount accepted by the customer is recorded here. It is used to calculate the partner share."
+                    },
+                    {
+                        "title": "partnerShare",
+                        "description": "The share of the center from the accepted amount."
+                    },
+                    {
+                        "title": "cashCollection",
+                        "description": "The tottal amount collected in cash from the customer at the time of delivery/pickup at the center."
+                    },
+                    {
+                        "title": "washServiceBilling",
+                        "description": "Service billing of wash service at the center."
+                    },
+                    {
+                        "title": "dryCleanServiceBilling",
+                        "description": "Service billing of dry clean service at the center. It only consist of only garments that are dry cleaned, not the garments that are washed."
+                    },
+                    {
+                        "title": "valueAddServiceBilling",
+                        "description": "Service billing of value add service at the center. It utilitis other than the garments such as shoe cleaning, leather cleaning, etc."
+                    },
+                    {
+                        "title": "lastMonthWashServiceBilling",
+                        "description": "last month service billing of wash service at the center."
+                    },
+                    {
+                        "title": "lastMonthDryCleanServiceBilling",
+                        "description": "last month service billing of dry clean service at the center."
+                    },
+                    {
+                        "title": "lastMonthValueAddServiceBilling",
+                        "description": "last month service billing of value add service at the center."
+                    },
+                    {
+                        "title": "lyWashServiceBilling",
+                        "description": "Last year same month service billing of wash service at the center."
+                    },
+                    {
+                        "title": "lyDryCleanServiceBilling",
+                        "description": "Last year same month service billing of dry clean service at the center."
+                    },
+                    {
+                        "title": "lyValueAddServiceBilling",
+                        "description": "Last year same month service billing of value add service at the center."
+                    },
+                    {
+                        "title": "washYearlyAvgRevenue",
+                        "description": "Average revenue of wash service at the center for the last 365 days."
+                    },
+                    {
+                        "title": "dryCleanYearlyAvgRevenue",
+                        "description": "Average revenue of dry clean service at the center for the last 365 days."
+                    },
+                    {
+                        "title": "valueAddYearlyAvgRevenue",
+                        "description": "Average revenue of value add service at the center for the last 365 days."
+                    },
+                    {
+                        "title": "lyWashLyYearlyAvgRevenue",
+                        "description": "Last year same day average revenue of wash service at the center for the last 365 days."
+                    },
+                    {
+                        "title": "lyDryCleanLyYearlyAvgRevenue",
+                        "description": "Last year same day average revenue of dry clean service at the center for the last 365 days."
+                    },
+                    {
+                        "title": "lyValueAddLyYearlyAvgRevenue",
+                        "description": "Last year same day average revenue of value add service at the center for the last 365 days."
                     }
                 ]
             }
@@ -5616,5 +5704,176 @@
                 "l2lmRunnerRatingInDetail": "--"
             }
         }
-    ]
+    ],
+    "api_key1": [
+        {
+            "centerId": "2",
+            "pendingPick": "0",
+            "completedPick": "10",
+            "cancelledPick": "1",
+            "completedDel": "0",
+            "weeklyAvgPick": "--",
+            "weeklyAvgDel": "--",
+            "pendingDelToday": "14",
+            "packedPendingDelToday": "0",
+            "delayedDeliveryToday": "31",
+            "wHubPendingDelayed": "--",
+            "hubDendingDealyed": "--",
+            "todayRegistration": "0",
+            "invoicePending": "0",
+            "wHubPending": "3",
+            "orderPackingPending": "77",
+            "clothPackingPending": "906",
+            "orderPackingDone": "7",
+            "yestOrderPackingDone": "14",
+            "clothPackingDone": "114",
+            "yestClothPackingDone": "129",
+            "inTransit": "22"
+        },
+        {
+            "centerId": "4",
+            "pendingPick": "0",
+            "completedPick": "0",
+            "cancelledPick": "15",
+            "completedDel": "20",
+            "weeklyAvgPick": "--",
+            "weeklyAvgDel": "--",
+            "pendingDelToday": "0",
+            "packedPendingDelToday": "0",
+            "delayedDeliveryToday": "0",
+            "wHubPendingDelayed": "--",
+            "hubPendingDelayed": "--",
+            "todayRegistration": "0",
+            "invoicePending": "0",
+            "wHubPending": "0",
+            "orderPackingPending": "--",
+            "clothPackingPending": "0",
+            "orderPackingDone": "0",
+            "yestOrderPackingDone": "--",
+            "clothPackingDone": "0",
+            "yestClothPackingDone": "--",
+            "inTransit": "0"
+        },
+        {
+            "centerId": "1",
+            "pendingPick": "6",
+            "completedPick": "2",
+            "cancelledPick": "0",
+            "completedDel": "0",
+            "weeklyAvgPick": "--",
+            "weeklyAvgDel": "--",
+            "pendingDelToday": "20",
+            "packedPendingDelToday": "7",
+            "delayedDeliveryToday": "7",
+            "wHubPendingDelayed": "--",
+            "hubPendingDelayed": "--",
+            "todayRegistration": "1",
+            "invoicePending": "2",
+            "wHubPending": "20",
+            "orderPackingPending": "7",
+            "clothPackingPending": "48",
+            "orderPackingDone": "6",
+            "yestOrderPackingDone": "19",
+            "clothPackingDone": "20",
+            "yestClothPackingDone": "211",
+            "inTransit": "0"
+        },
+        {
+            "centerId": "25",
+            "pendingPick": "5",
+            "completedPick": "0",
+            "cancelledPick": "0",
+            "completedDel": "0",
+            "weeklyAvgPick": "--",
+            "weeklyAvgDel": "--",
+            "pendingDelToday": "9",
+            "packedPendingDelToday": "40",
+            "delayedDeliveryToday": "8",
+            "wHubPendingDelayed": "--",
+            "hubPendingDelayed": "--",
+            "todayRegistration": "0",
+            "invoicePending": "0",
+            "wHubPending": "2",
+            "orderPackingPending": "2",
+            "clothPackingPending": "14",
+            "orderPackingDone": "1",
+            "yestOrderPackingDone": "6",
+            "clothPackingDone": "12",
+            "yestClothPackingDone": "29",
+            "inTransit": "8"
+        },
+        {
+            "centerId": "41",
+            "pendingPick": "4",
+            "completedPick": "0",
+            "cancelledPick": "0",
+            "completedDel": "0",
+            "weeklyAvgPick": "--",
+            "weeklyAvgDel": "--",
+            "pendingDelToday": "11",
+            "packedPendingDelToday": "7",
+            "delayedDeliveryToday": "45",
+            "wHubPendingDelayed": "--",
+            "hubPendingDelayed": "--",
+            "todayRegistration": "1",
+            "invoicePending": "0",
+            "wHubPending": "1",
+            "orderPackingPending": "3",
+            "clothPackingPending": "9",
+            "orderPackingDone": "0",
+            "yestOrderPackingDone": "7",
+            "clothPackingDone": "0",
+            "yestClothPackingDone": "45",
+            "inTransit": "0"
+        },
+        {
+            "centerId": "97",
+            "pendingPick": "3",
+            "completedPick": "0",
+            "cancelledPick": "0",
+            "completedDel": "0",
+            "weeklyAvgPick": "--",
+            "weeklyAvgDel": "--",
+            "pendingDelToday": "3",
+            "packedPendingDelToday": "3",
+            "delayedDeliveryToday": "3",
+            "wHubPendingDelayed": "--",
+            "hubPendingDelayed": "--",
+            "todayRegistration": "0",
+            "invoicePending": "0",
+            "wHubPending": "49",
+            "orderPackingPending": "--",
+            "clothPackingPending": "0",
+            "orderPackingDone": "1",
+            "yestOrderPackingDone": "6",
+            "clothPackingDone": "42",
+            "yestClothPackingDone": "62",
+            "inTransit": "0"
+        },
+        {
+            "centerId": "87",
+            "pendingPick": "3",
+            "completedPick": "0",
+            "cancelledPick": "0",
+            "completedDel": "0",
+            "weeklyAvgPick": "--",
+            "weeklyAvgDel": "--",
+            "pendingDelToday": "19",
+            "packedPendingDelToday": "19",
+            "delayedDeliveryToday": "21",
+            "wHubPendingDelayed": "--",
+            "hubPendingDelayed": "--",
+            "todayRegistration": "0",
+            "invoicePending": "34",
+            "wHubPending": "0",
+            "orderPackingPending": "1",
+            "clothPackingPending": "19",
+            "orderPackingDone": "0",
+            "yestOrderPackingDone": "4",
+            "clothPackingDone": "0",
+            "yestClothPackingDone": "16",
+            "inTransit": "12"
+        }
+    ],
+    "api_key2": []
 }
