@@ -191,23 +191,23 @@
                     },
                     {
                         "Title": "orderPackingDone",
-                        "description": "Total number of orders packed today at the center."
+                        "description": "Total number of orders packed today at the processing unit of this center."
                     },
                     {
                         "Title": "clothPackingDone",
-                        "description": "Total number of articles packed today at the center."
+                        "description": "Total number of articles packed today at the processing unit of this center."
                     },
                     {
                         "Title": "yestOrderPackingDone",
-                        "description": "Total number of orders packed yesterday at the center."
+                        "description": "Total number of orders packed yesterday at the processing unit of this center."
                     },
                     {
                         "Title": "yestClothPackingDone",
-                        "description": "Total number of articles packed yesterday at the center."
+                        "description": "Total number of articles packed yesterday at the processing unit of this center."
                     },
                     {
                         "Title": "inTransit",
-                        "description": "Total number of orders currently in transit, either dispatched from the workshop to retail centers for acceptance (hub) or sent directly to customers if no retail center is involved."
+                        "description": "Total number of orders which were packed 24 hours before and yet has not been accepted by retail. Either it is still at the processing unit or retail has not accepted it on msentinal."
                     }
                 ]
             },
@@ -261,10 +261,7 @@
             },
             "masterStats": {
                 "Columns": [
-                    {
-                        "title": "serviceBillling",
-                        "description": "Total billing of the services rendered to the customers. This does not include the amount which is left in customer's wallet."
-                    },
+                    
                     {
                         "Title": "currentQualityRatingCount",
                         "description": "count of customer which have given quality rating in the current month."
@@ -331,94 +328,119 @@
                     },
                     {
                         "Title": "lastMonthMasterShare",
-                        "description": "The shared revenue(processing charge) of the last month ,received by the master from the  retail centers they are serving."
+                        "description": "The processing charge of the last month ,received by the master from the  retail centers they are serving."
                     },
                     {
                         "Title": "lySameMonthMasterShare",
-                        "description": "The share of revenue received by the master center from their corresponding retail centers(if applicable) in the same month last year."
+                        "description": "The processing charge of the last year, received by the master from the retail centers they are serving in the same month last year. For example, if the current month is March, this represents the processing charge received in March of the previous year."
                     },
                     {
                         "Title": "masterAvgShare",
-                        "description": "Total share of revenue recieved by the master center from their corresponding retails (if applicable) in last 365 days divided by 12."
+                        "description": "Total processing charge received by the master center from their corresponding retail centers in the last 365 days divided by 12."
                     },
-                    {
+                    {   
                         "Title": "lyMasterAvgShare",
-                        "description": "Total share of revenue received by the master center from their corresponding retail centers (if applicable) in the last 365 days divided by 12, calculated up to the same date and month last year."
+                        "description": "Total processing charge received by the master center from their corresponding retail centers in the last 730 days (365+365) minus the total processing charge received in the last 365 days, divided by 12."
                     },
                     {
                         "Title": "yearCenterClothCount",
-                        "description": "Total number of cloths received at the center in last 365 days."
+                        "description": "Total number of articles received at the center in last 365 days."
                     },
                     {
                         "Title": "lyCenterClothCount",
-                        "description": "Total number of cloths received at center in last 730 days (365+365) - total number of cloths received at center in last 365 days."
+                        "description": "Total number of articles received at center in last 730 days (365+365) - total number of articles received at center in last 365 days."
                     },
                     {
                         "Title": "top3GarmentServiceBilling",
-                        "description": "Service billing of the top 3 garment services at the center. It is defined for the master center, the top 3 garment services of all the retail centers under it."
+                        "description": "Out of all the articles processed by the master of all retails they are serving, this indicates the service billing for the top 3 articles. For example, if coat billing is 50k rupees, shirt billing is 30k rupees, and shoes billing is 20k rupees, these would be the top 3 considering all other articles have lower billing amounts."
                     },
                     {
                         "title": "last3MonthCenterAvgBilling",
-                        "description": "Average billing of the center for the last 3 months. It defines for the master center, the average billing of all the retail centers under it."
+                        "description": "This is the average of the total service billing of all the retails that the master is serving over the past 3 months. For example, if the total service billing for the last 3 months is 5 lakh of the 4 retails that the master is serving, then the average will be 5 lakh divided by 3."
                     }
                 ]
             },
             "masterPackingStats": {
-                "description": "A detailed overview of the packing statistics for the master center.",
+                
                 "Columns": [
                     {
                         "Title": "orderPackingPending",
-                        "description": "Total number of orders that have been processed but are still pending packing as of today till the time at the center."
+                        "description": "Total numbers of orders pending for packing as per the order timeframe at the processing center including all the retail's orders (if applicable)."
                     },
                     {
                         "Title": "clothPackingPending",
-                        "description": "Total number of cloths that have been processed but are still pending packing as of today till the time at the center."
+                        "description": "Total number of articles pending for packing as per the order timeframe at the processing center including all the retail's articles (if applicable)."
                     },
                     {
                         "Title": "orderPackingDone",
-                        "description": "Total number of orders that have been processed and  packing is done as of today till the time at the center(master)."
+                        "description": "Total number of orders that have been packed today at the processing center including all the retail's orders (if applicable)."
                     },
                     {
                         "Title": "yestOrderPackingDone",
-                        "description": "Number of orders which were packed yesterday."
+                        "description": "Total number of orders which have been packed yesterday at the processing center including all the retail's orders (if applicable)."
                     },
                     {
                         "Title": "clothPackingDone",
-                        "description": "Number of cloth items which have been  packed after processing at the center."
+                        "description": "Total number of articles that have been packed today at the processing center including all the retail's articles (if applicable)."
                     },
                     {
                         "Title": "yestClothPackingDone",
-                        "description": "Number of cloths items which have been  packed yesterday at the center."
+                        "description": "Total number of articles that have been packed yesterday at the processing center including all the retail's articles (if applicable)."
+                    }
+                ]
+            },
+            "TtcStats": {
+                
+                "Columns": [
+                    {
+                        "Title": "invTtc",
+                        "description": "Average time (in days) from pickup to invoice generation for all orders received in the last 14 days at the center."
+                    },
+                    {
+                        "Title": "wHubTtc",
+                        "description": "Average time (in days) from pickup to order acceptance by workshop for all orders received in the last 14 days at the center. "
+                    },
+                    {
+                        "Title": "packingTtc",
+                        "description": "Average time (in days) from pickup to orders which are packed for all orders received in the last 14 days at the center. "
+                    },
+                    {
+                        "Title": "hubTtc",
+                        "description": "Average time (in days) from pickup to order acceptance by retail for all orders received in the last 14 days at the center. "
+                    },
+                    {
+                        "Title": "delvTtc",
+                        "description": "Average time (in days) from pickup to delivery of order for all orders received in the last 14 days at the center."
                     }
                 ]
             },
             "masterLevelTtcStats": {
-                "description": "A detailed overview of the master-level TTC (Time to Complete) statistics for the center.This data is average of ttc(time to completion) of all the orders placed at the center in 14 days.",
+                
                 "Columns": [
                     {
                         "Title": "invTtc",
-                        "description": "Average time (in days) taken to generate an invoice for an order, measured from the moment the order is picked up until the invoice is created."
+                        "description": "Average time (in days) from pickup to invoice generation for all orders received in the last 14 days at the center including all the retail's orders (if applicable), the center is serving."
                     },
                     {
                         "Title": "wHubTtc",
-                        "description": "Average time (in days) taken for an order to be accepted at the workshop for processing, measured from the moment the order is picked up until it is accepted at the workshop."
+                        "description": "Average time (in days) from pickup to order acceptance by workshop for all orders received in the last 14 days at the center including all the retail's orders (if applicable), the center is serving."
                     },
                     {
                         "Title": "packingTtc",
-                        "description": "Average time (in days) taken to pack the items after processing, measured from the moment the order is picked up until the items are packed."
+                        "description": "Average time (in days) from pickup to orders which are packed for all orders received in the last 14 days at the center including all the retail's orders (if applicable), the center is serving."
                     },
                     {
                         "Title": "hubTtc",
-                        "description": "Average time (in days) taken for an order to be accepted at the retail center (hub) after processing, measured from the moment the order is picked up until it is accepted by the retail center for final delivery to the customer."
+                        "description": "Average time (in days) from pickup to order acceptance by retail for all orders received in the last 14 days at the center including all the retail's orders (if applicable), the center is serving."
                     },
                     {
                         "Title": "delvTtc",
-                        "description": "Average time (in days) taken to deliver the items, measured from the moment the order is picked up until the items are delivered to the customer."
+                        "description": "Average time (in days) from pickup to delivery of order for all orders received in the last 14 days at the center including all the retail's orders (if applicable), the center is serving."
                     }
                 ]
             },
             "workQuality": {
-                "description": "A comprehensive overview of the center's work quality metrics, including complaint counts, ratings, and customer engagement.",
+                
                 "Columns": [
                     {
                         "Title": "openComplaintCount",
@@ -430,131 +452,111 @@
                     },
                     {
                         "Title": "complaintPercentile",
-                        "description": "Indicates the center's ranking compared to all other centers in terms of complaint frequency. A higher percentile (e.g., 90) means the center receives more complaints than 90% of centers. Lower values are better, indicating fewer complaints relative to peers."
+                        "description": "Indicates the center's ranking compared to all other centers in terms of total complaint recevied at the center this month. A higher percentile (e.g., 90) means the center receives more complaints than 90% of centers. Lower values are better, indicating fewer complaints relative to peers."
                     },
                     {
                         "Title": "cancelPercentile",
-                        "description": "Indicates the center's ranking compared to all other centers in terms of order cancellation frequency. A higher percentile (e.g., 90) means the center has more cancellations than 90% of centers. Lower values are better, indicating fewer cancellations relative to peers."
+                        "description": "Indicates the center's ranking compared to all other centers in terms of total order cancelled at the center this month. A higher percentile (e.g., 90) means the center has more cancellations than 90% of centers. Lower values are better, indicating fewer cancellations relative to peers."
                     },
                     {
                         "Title": "lmComplaintPercentile",
-                        "description": "Complaint percentile ranking for the previous month. Indicates how the center compared to others in terms of complaint frequency last month. Lower values are better."
+                        "description": "Indicates the center's ranking compared to all other centers in terms of total complaint recevied at the center last month. A higher percentile (e.g., 90) means the center receives more complaints than 90% of centers. Lower values are better, indicating fewer complaints relative to peers."
                     },
                     {
                         "Title": "lmCancelPercentile",
-                        "description": "Cancel percentile ranking for the previous month. Indicates how the center compared to others in terms of order cancellation frequency last month. Lower values are better."
+                        "description": "Indicates the center's ranking compared to all other centers in terms of total order cancelled at the center last month. A higher percentile (e.g., 90) means the center has more cancellations than 90% of centers. Lower values are better, indicating fewer cancellations relative to peers."
                     },
                     {
                         "Title": "l2lmComplaintPercentile",
-                        "description": "Complaint percentile ranking for the previous month. Indicates how the center compared to others in terms of complaint frequency last to last month. Lower values are better."
+                        "description": "Indicates the center's ranking compared to all other centers in terms of total complaint recevied at the center last to last month. A higher percentile (e.g., 90) means the center receives more complaints than 90% of centers. Lower values are better, indicating fewer complaints relative to peers."
                     },
                     {
                         "Title": "l2lmCancelPercentile",
-                        "description": "Cancel percentile ranking for the previous month. Indicates how the center compared to others in terms of order cancellation frequency last to last month. Lower values are better."
+                        "description": "Indicates the center's ranking compared to all other centers in terms of total order cancelled at the center last to last month. A higher percentile (e.g., 90) means the center has more cancellations than 90% of centers. Lower values are better, indicating fewer cancellations relative to peers."
                     },
                     {
                         "Title": "currentQualityRatingCount",
-                        "description": "Total number of quality ratings received in the current month."
+                        "description": "Total number of quality ratings received in the current month at the center."
                     },
                     {
                         "Title": "lmQualityRatingCount",
-                        "description": "Total number of quality ratings received in the last month."
+                        "description": "Total number of quality ratings received in the last month at the center."
                     },
                     {
                         "Title": "l2lmQualityRatingCount",
-                        "description": "Total number of quality ratings received in the last to last month."
+                        "description": "Total number of quality ratings received in the last to last month at the center."
                     },
                     {
                         "Title": "currentQualityRating",
-                        "description": "Average quality rating received for the center in the current month till the time."
+                        "description": "Average quality rating received from the cutomers in the current month at the center."
                     },
                     {
                         "Title": "lmQualityRating",
-                        "description": "Average quality rating received for the center in the last month."
+                        "description": "Average quality rating received from the customers in the last month at the center."
                     },
                     {
                         "Title": "l2lmQualityRating",
-                        "description": "Average quality rating received for the center in the last to last month ."
+                        "description": "Average quality rating received from the customers in the last to last month at the center."
                     },
                     {
                         "Title": "currentPdRating",
-                        "description": "Average Pickup and delivery rating till now for current month."
+                        "description": "Average Pickup and delivery rating received from the cutomers in the current month at the center."
                     },
                     {
                         "Title": "lmPdRating",
-                        "description": "Average Pickup and delivery rating for last month."
+                        "description": "Average Pickup and delivery rating received from the customers in the last month at the center."
                     },
                     {
                         "Title": "l2lmPdRating",
-                        "description": "Average Pickup and delivery rating for last to last month."
-                    },
-                    {
-                        "Title": "currentCustRating",
-                        "description": "Average customer rating till now for current month."
-                    },
-                    {
-                        "Title": "lmCustRating",
-                        "description": "Average customer rating  for last month."
-                    },
-                    {
-                        "Title": "l2lmCustRating",
-                        "description": "Average customer rating  for last to last month."
-                    },
-                    {
-                        "Title": "lmPdRating",
-                        "description": "Average pickup and delivery rating for last month."
-                    },
-                    {
-                        "Title": "l2lmPdRating",
-                        "description": "Average pickup and delivery rating for last to last month."
+                        "description": "Average Pickup and delivery rating received from the customers in the last to last month at the center."
                     },
                     {
                         "Title": "newCust",
-                        "description": "Total number of new customers registered for the first time in the particular month."
+                        "description": "Total number of new customers registered for the first time at the center in current month."
                     },
                     {
                         "Title": "lmNewCust",
-                        "description": "total number of new customer registered in last month."
+                        "description": "Total number of new customer registered for the first time at the center in last month."
                     },
                     {
                         "Title": "l2lmNewCust",
-                        "description": "total number of new customer registered in last to last month."
+                        "description": "Total number of new customer registered for the first time at the center in last to last month"
                     },
                     {
                         "Title": "custTapped",
-                        "description": "Number of newly registered customer who have placed the order in the current month till date."
+                        "description": "Number of newly registered customer who have placed the order in the current month at the center."
                     },
                     {
                         "Title": "lmCustTapped",
-                        "description": "Number of newly registered customer in last month who have placed the order."
+                        "description": "Number of newly registered customer who have placed the order in the last month at the center."
                     },
                     {
                         "Title": "l2lmCustTapped",
-                        "description": "Number of newly registered customer in last to last month who have placed the order."
+                        "description": "Number of newly registered customer who have placed the order in the last to last month at the center."
                     },
                     {
                         "Title": "totalLeads",
-                        "description": "Total numbers of orders placed at the center in the current month till today."
+                        "description": "Total number of orders placed at the center in the current month."
                     },
                     {
                         "Title": "lmTotalLeads",
-                        "description": "Total numbers of orders placed at the center in the last month."
+                        "description": "Total number of orders placed at the center in the last month."
                     },
                     {
                         "Title": "l2lmTotalLeads",
-                        "description": "Total numbers of orders placed at the center in the last to last month."
+                        "description": "Total number of orders placed at the center in the last to last month."
                     },
                     {
                         "Title": "prnctCancel",
-                        "description": "Percentage of total orders at center which got cancelled by customers."
+                        "description": "Percentage of total orders at center which got cancelled by customers in the current month."
                     },
                     {
                         "Title": "lmPrnctCancel",
-                        "description": "Percentage of total orders at center which got cancelled by customers last month."
+                        "description": "Percentage of total orders at center which got cancelled by customers in the last month."
                     },
                     {
                         "Title": "l2lmPrnctCancel",
-                        "description": "Percentage of total orders at center which got cancelled by customers last to last month."
+                        "description": "Percentage of total orders at center which got cancelled by customers in last to last month."
                     },
                     {
                         "title": "avgComplaintResolutionTime",
@@ -562,24 +564,24 @@
                     },
                     {
                         "title": "runnerRatingInDetail",
-                        "description": "Rating of the runner in detail. It is defined for the retail center. Such as pickup, delivery, etc. of the individual runner."
+                        "description": "This means the average rating of each individual runner at a center in the current month. Customer can give this rating by evaluating the runner's performance, such as pickup, delivery, communication, behavior etc."
                     },
                     {
                         "title": "lmRunnerRatingInDetail",
-                        "description": "Last month rating of the runner in detail, such as pickup, delivery, etc. of the individual runner."
+                        "description": "This means the average rating of each individual runner at a center in the last month. Customer can give this rating by evaluating the runner's performance, such as pickup, delivery, communication, behavior etc."
                     },
                     {
                         "title": "l2lmRunnerRatingInDetail",
-                        "description": "Last to last month rating of the runner in detail, such as pickup, delivery, etc. of the individual runner."
+                        "description": "This means the average rating of each individual runner at a center in the last to last month. Customer can give this rating by evaluating the runner's performance, such as pickup, delivery, communication, behavior etc."
                     }
                 ]
             },
             "workAndRevenue": {
-                "description": "A comprehensive overview of the center's work and revenue metrics, including billing, cloth counts, and financial statistics.",
+                
                 "Columns": [
                     {
                         "Title": "companyLedgerAmount",
-                        "description": "Monthly settlement amount between the franchise and the company. If positive, the franchise owes this amount to the company; if negative, the company owes this amount to the franchise. (it should be paid by 7th of every month otherwise your center access will be blocked by the system automatically)"
+                        "description": "Monthly settlement amount between the franchise and the company. If positive, the franchise owes this amount to the company; if negative, the company owes this amount to the franchise."
                     },
                     {
                         "Title": "runningcompanyLedgerAmount",
@@ -587,147 +589,148 @@
                     },
                     {
                         "Title": "pendingAmountInCenter",
-                        "description": "The total amount which is pending from the customer end  at the particular center."
+                        "description": "The total amount pending from customers whose orders have been delivered but payment has not yet been received. This amount is outstanding at the center and should be collected from the respective customers."
                     },
                     {
                         "Title": "withMeRunners",
-                        "description": "The total amount currently held by runners, representing collections from customers that have not yet been transferred to the franchise. Franchise owners should regularly review runner 'withMe' transactions and ensure timely transfer of these amounts from runners to the franchise account."
+                        "description": "After a runner delivers an order, the total amount of that order is automatically transferred to the runner's 'with me' account. withMeRunners is the total amount in the 'with me' account of all the runners at the center."
                     },
                     {
                         "Title": "serviceBilling",
-                        "description": "Total amount billed for services rendered to customers who have an active subscription or prepaid plan at the center during the current month till the date."
+                        "description": "Total amount of the services rendered to the customers in the current month."
                     },
                     {
                         "Title": "lyMtdServiceBilling",
-                        "description": "Total amount billed for services rendered to customers who have an active subscription or prepaid plan at the center during the same month till the same date last year."
+                        "description": "Total billing of the services rendered  to customers in the same month till date last year. For example, if today is March 15, this represents the total service billing from March 1 to March 15 of the previous year."
                     },
                     {
                         "Title": "compensation",
-                        "description": "Compensation is the amount which is given to the customer in the current month. It can be discounted or free service."
+                        "description": "Compensation is the amount that is paid to the customer for inconvenience caused like damage, missing article, etc. It is the total amount paid to the customer in the current month at the center."
                     },
                     {
                         "Title": "lastMonthServiceBilling",
-                        "description": "Total amount billed for services rendered to customers who have an active subscription or prepaid plan at the center during the last month."
+                        "description": "Total billing of the services rendered to the customers in the last month."
                     },
                     {
                         "Title": "lyServiceBilling",
-                        "description": "Total amount billed for services rendered to customers with an active subscription or prepaid plan at the center during the same month last year."
+                        "description": "Total billing of the services rendered to the customers in the same month last year. For example, if the current month is March, this represents the total service billing for March of the previous year."
                     },
                     {
                         "Title": "yearlyAvgRevenue",
-                        "description": "Total amount billed at the center in the current year till the date divided by 12."
+                        "description": "Total service billing in the last 365 days generated at the center divided by 12."
                     },
                     {
                         "Title": "lyAvgRevenue",
-                        "description": "Total amount billed at the center during whole  last 1 year divided by 12."
+                        "description": "Total service billing in the last 730 days (365+365) minus the total service billing in the last 365 days, divided by 12."
                     },
                     {
-                        "Title": "avgTicketSize",
-                        "description": "Total amount billed at the center divided by total number of orders in the current month."
+                        "Title": "avgTicketSize", 
+                        "description": "Total service billing at the center divided by total number of orders in the current month."
                     },
                     {
                         "Title": "lmAvgTicketSize",
-                        "description": "Last month total amount billed at the center divided by last month total number of orders."
+                        "description": "Total service billing at the center divided by total number of orders in the last month."
                     },
                     {
                         "Title": "yearAvgTicketSize",
-                        "description": "total  amount billed at the center divided by total number of orders in the current year ."
+                        "description": "Average ticket size at the center for the last 365 days, calculated as total service billing divided by the total number of orders in the last 365 days."
                     },
                     {
                         "Title": "lastYearAvgTicketSize",
-                        "description": "total revenue generated last year at the center divided by total number of orders placed last year at the center."
+                        "description": "Average ticket size at the center for the previous year. It is calculated as: (total service billing in the last 730 days minus the total service billing in the last 365 days) divided by the total number of orders in the last 730 days minus the total number of orders in the last 365 days."
                     },
                     {
                         "Title": "thisMonthClothCount",
-                        "description": "Total number of cloth items for which invoice has been generated this month at the particular center."
+                        "description": "Total number of articles received at the center in the current month."
                     },
                     {
                         "Title": "lyMtdClothCount",
-                        "description": "Total number of cloth items for which invoice has been generated till this date last year at the particular center."
+                        "description": "Total number of articles received at the center in the same month till date last year. For example, if today is March 15, this represents the total number of articles received at the center from March 1 to March 15 of the previous year."
                     },
                     {
                         "Title": "lmClothCount",
-                        "description": "Total number of cloth items for which invoice has been generated in the last month at the particular center."
+                        "description": "Total number of articles received at the center in the last month."
                     },
                     {
                         "Title": "lyClothCount",
-                        "description": "Total number of cloth items for which invoice has been generated till this date last year at the particular center."
+                        "description": "Total number of articles received at the center in the same month last year. For example, if the current month is March, this represents the total number of articles received in March of the previous year."
                     },
                     {
                         "title": "top3GarmentServiceBilling",
-                        "description": "Service billing of the top 3 garment services at the perticular center. It is defined for the retail center."
+                        "description": "Out of all the articles received by the particular center, this indicates the service billing for the top 3 articles. For example, if coat billing is 50k rupees, shirt billing is 30k rupees, and shoes billing is 20k rupees, these would be the top 3 considering all other articles have lower billing amounts."
                     },
                     {
                         "title": "acceptedAmount",
-                        "description": "When the order has been delivered after all the services are done, the amount accepted by the customer is recorded here. It is used to calculate the partner share."
+                        "description": "Total amount of all orders that are delivered and the sharing of the amount is done. Sentinal automatically accept the invoice after one or two days of delivery and does the sharing of the amount in gst(tax), company(royalty), processing charge and partner share (center share). "
                     },
                     {
                         "title": "partnerShare",
-                        "description": "The share of the center from the accepted amount."
+                        "description": "The share of the center from the accepted amount, which is calculated as the accepted amount minus company(royalty) and processing charge if the center is not doing its own processing."
                     },
+                
                     {
                         "title": "cashCollection",
-                        "description": "The tottal amount collected in cash from the customer at the time of delivery/pickup at the center."
+                        "description": "Cash collected in this month by the runners at the center, this does not include any online payments made by customer to the company directly."
                     },
                     {
                         "title": "washServiceBilling",
-                        "description": "Service billing of wash service at the center."
+                        "description": "Total amount of the only washing services rendered to the customers in the current month. This means it does not include any dry clean or value add service billing."
                     },
                     {
                         "title": "dryCleanServiceBilling",
-                        "description": "Service billing of dry clean service at the center. It only consist of only garments that are dry cleaned, not the garments that are washed."
+                        "description": "Service billing of dry clean service at the center. It only consist of only garments that are dry cleaned, not the garments that are washed or value added services."
                     },
                     {
                         "title": "valueAddServiceBilling",
-                        "description": "Service billing of value add service at the center. It utilitis other than the garments such as shoe cleaning, leather cleaning, etc."
+                        "description": "Service billing of value added services such as shoe cleaning , bag cleaning etc. at the center. It does not include any wash or dry clean service billing."
                     },
                     {
                         "title": "lastMonthWashServiceBilling",
-                        "description": "last month service billing of wash service at the center."
+                        "description": "Total amount of the only washing services rendered to the customers in the last month. This means it does not include any dry clean or value add service billing."
                     },
                     {
                         "title": "lastMonthDryCleanServiceBilling",
-                        "description": "last month service billing of dry clean service at the center."
+                        "description": "Total amount of the dry clean services rendered to the customers in the last month. It only consist of only garments that are dry cleaned, not the garments that are washed or value added services."
                     },
                     {
                         "title": "lastMonthValueAddServiceBilling",
-                        "description": "last month service billing of value add service at the center."
+                        "description": "Total amount of the value added services such as shoe cleaning , bag cleaning etc. rendered to the customers in the last month. It does not include any wash or dry clean service billing."
                     },
                     {
                         "title": "lyWashServiceBilling",
-                        "description": "Last year same month service billing of wash service at the center."
+                        "description": " Total amount of the only washing services rendered to the customers in the same month last year.This means it does not include any dry clean or value add service billing. For example, if the current month is March, this represents the total service billing for wash service in March of the previous year."
                     },
                     {
                         "title": "lyDryCleanServiceBilling",
-                        "description": "Last year same month service billing of dry clean service at the center."
+                        "description": "Last year same month service billing of dry clean service at the center. It only consist of only garments that are dry cleaned, not the garments that are washed or value added services. for example, if the current month is March, this represents the total service billing for dry clean service in March of the previous year."
                     },
                     {
                         "title": "lyValueAddServiceBilling",
-                        "description": "Last year same month service billing of value add service at the center."
+                        "description": "Last year same month service billing of value add service at the center. It does not include any wash or dry clean service billing. For example, if the current month is March, this represents the total service billing for value add service in March of the previous year."
                     },
                     {
                         "title": "washYearlyAvgRevenue",
-                        "description": "Average revenue of wash service at the center for the last 365 days."
+                        "description": "It is calculated as total wash service billing in the last 365 days divided by 12."
                     },
                     {
                         "title": "dryCleanYearlyAvgRevenue",
-                        "description": "Average revenue of dry clean service at the center for the last 365 days."
+                        "description": "It is calculated as total dry clean service billing in the last 365 days divided by 12."
                     },
                     {
                         "title": "valueAddYearlyAvgRevenue",
-                        "description": "Average revenue of value add service at the center for the last 365 days."
+                        "description": "It is calculated as total 'value added services' service billing in the last 365 days divided by 12."
                     },
                     {
                         "title": "lyWashLyYearlyAvgRevenue",
-                        "description": "Last year same day average revenue of wash service at the center for the last 365 days."
+                        "description": "It is calculated as total wash service billing in between 365 and 730 days, divided by 12."
                     },
                     {
                         "title": "lyDryCleanLyYearlyAvgRevenue",
-                        "description": "Last year same day average revenue of dry clean service at the center for the last 365 days."
+                        "description": "It is calculated as total dry clean service billing in between 365 and 730 days, divided by 12."
                     },
                     {
                         "title": "lyValueAddLyYearlyAvgRevenue",
-                        "description": "Last year same day average revenue of value add service at the center for the last 365 days."
+                        "description": "It is calculated as total 'value added services' service billing in between 365 and 730 days, divided by 12."
                     }
                 ]
             }
