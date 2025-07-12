@@ -163,7 +163,7 @@
                     },
                     {
                         "Title": "packedPendingDelToday",
-                        "description": "Orders which are packed and still not accepted at the retail(hub) for delivery."
+                        "description": "Orders which are packed and still not delivered today as per the expected order timeframe."
                     },
                     {
                         "Title": "delayedDeliveryToday",
@@ -207,7 +207,11 @@
                     },
                     {
                         "Title": "inTransit",
-                        "description": "Total number of orders which were packed 24 hours before and yet has not been accepted by retail. Either it is still at the processing unit or retail has not accepted it on msentinal."
+                        "description": "Total number of orders which were packed and yet has not been accepted by retail. Either it is still at the processing unit or retail has not accepted it on msentinal."
+                    },
+                    {
+                        "Title": "packingBacklog",
+                        "description": "This field contains the count of orders that were expected to be packed as per their scheduled packing date but are still pending and have not yet been packed."
                     }
                 ]
             },
@@ -256,6 +260,10 @@
                     {
                         "Title": "yesterdayMasterLevelInvPending",
                         "description": "Total number of orders that were picked up yesterday and for which the invoices were not  generated at the master level."
+                    },
+                    {
+                        "title": "todayExcessPayment",
+                        "description": "Total excess payment collected by runners from customers today. This represents the amount received above the invoice amount for orders delivered today."
                     }
                 ]
             },
@@ -5196,6 +5204,195 @@
                             "emailId": "dhobilitegk1@gmail.com"
                         }
                     ]
+                }
+            ]
+        },
+        {
+            "api_key": "1",
+            "data": [
+                {
+                    "centerId": "143",
+                    "pendingPick": "3",
+                    "completedPick": "0",
+                    "cancelledPick": "0",
+                    "completedDel": "0",
+                    "weeklyAvgPick": "0",
+                    "weeklyAvgDel": "0",
+                    "pendingDelToday": "0",
+                    "packedPendingDelToday": "0",
+                    "delayedDeliveryToday": "0",
+                    "todayRegistration": "0",
+                    "invoicePending": "8",
+                    "wHubPending": "0",
+                    "orderPackingPending": "--",
+                    "clothPackingPending": "0",
+                    "orderPackingDone": "0",
+                    "yestOrderPackingDone": "--",
+                    "clothPackingDone": "0",
+                    "yestClothPackingDone": "--",
+                    "inTransit": "0",
+                    "hubPendingDelayed": "0"
+                },
+                {
+                    "centerId": "2",
+                    "pendingPick": "2",
+                    "completedPick": "50",
+                    "cancelledPick": "0",
+                    "completedDel": "0",
+                    "weeklyAvgPick": "3",
+                    "weeklyAvgDel": "3",
+                    "pendingDelToday": "23",
+                    "packedPendingDelToday": "0",
+                    "delayedDeliveryToday": "0",
+                    "todayRegistration": "0",
+                    "invoicePending": "0",
+                    "wHubPending": "0",
+                    "orderPackingPending": "1",
+                    "clothPackingPending": "40",
+                    "orderPackingDone": "0",
+                    "yestOrderPackingDone": "3",
+                    "clothPackingDone": "0",
+                    "yestClothPackingDone": "4",
+                    "inTransit": "3",
+                    "hubPendingDelayed": "8"
+                },
+                {
+                    "centerId": "4",
+                    "pendingPick": "40",
+                    "completedPick": "2",
+                    "cancelledPick": "0",
+                    "completedDel": "60",
+                    "weeklyAvgPick": "--",
+                    "weeklyAvgDel": "--",
+                    "pendingDelToday": "2",
+                    "packedPendingDelToday": "2",
+                    "delayedDeliveryToday": "4",
+                    "todayRegistration": "0",
+                    "invoicePending": "0",
+                    "wHubPending": "0",
+                    "orderPackingPending": "--",
+                    "clothPackingPending": "0",
+                    "orderPackingDone": "0",
+                    "yestOrderPackingDone": "--",
+                    "clothPackingDone": "0",
+                    "yestClothPackingDone": "--",
+                    "inTransit": "2",
+                    "hubPendingDelayed": "2"
+                },
+                {
+                    "centerId": "6",
+                    "pendingPick": "1",
+                    "completedPick": "4",
+                    "cancelledPick": "2",
+                    "completedDel": "3",
+                    "weeklyAvgPick": "5",
+                    "weeklyAvgDel": "4",
+                    "pendingDelToday": "40",
+                    "packedPendingDelToday": "0",
+                    "delayedDeliveryToday": "2",
+                    "todayRegistration": "15",
+                    "invoicePending": "1",
+                    "wHubPending": "2",
+                    "orderPackingPending": "8",
+                    "clothPackingPending": "176",
+                    "orderPackingDone": "1",
+                    "yestOrderPackingDone": "--",
+                    "clothPackingDone": "1",
+                    "yestClothPackingDone": "--",
+                    "inTransit": "0",
+                    "hubPendingDelayed": "18"
+                },
+                {
+                    "centerId": "178",
+                    "pendingPick": "1",
+                    "completedPick": "3",
+                    "cancelledPick": "0",
+                    "completedDel": "2",
+                    "weeklyAvgPick": "3",
+                    "weeklyAvgDel": "3",
+                    "pendingDelToday": "5",
+                    "packedPendingDelToday": "50",
+                    "delayedDeliveryToday": "5",
+                    "todayRegistration": "3",
+                    "invoicePending": "2",
+                    "wHubPending": "6",
+                    "orderPackingPending": "5",
+                    "clothPackingPending": "87",
+                    "orderPackingDone": "0",
+                    "yestOrderPackingDone": "--",
+                    "clothPackingDone": "0",
+                    "yestClothPackingDone": "--",
+                    "inTransit": "0",
+                    "hubPendingDelayed": "14"
+                },
+                {
+                    "centerId": "214",
+                    "pendingPick": "3",
+                    "completedPick": "4",
+                    "cancelledPick": "0",
+                    "completedDel": "0",
+                    "weeklyAvgPick": "3",
+                    "weeklyAvgDel": "0",
+                    "pendingDelToday": "2",
+                    "packedPendingDelToday": "2",
+                    "delayedDeliveryToday": "88",
+                    "todayRegistration": "0",
+                    "invoicePending": "1",
+                    "wHubPending": "1",
+                    "orderPackingPending": "6",
+                    "clothPackingPending": "31",
+                    "orderPackingDone": "2",
+                    "yestOrderPackingDone": "--",
+                    "clothPackingDone": "24",
+                    "yestClothPackingDone": "--",
+                    "inTransit": "5",
+                    "hubPendingDelayed": "17"
+                },
+                {
+                    "centerId": "215",
+                    "pendingPick": "0",
+                    "completedPick": "0",
+                    "cancelledPick": "0",
+                    "completedDel": "0",
+                    "weeklyAvgPick": "1",
+                    "weeklyAvgDel": "0",
+                    "pendingDelToday": "0",
+                    "packedPendingDelToday": "0",
+                    "delayedDeliveryToday": "1",
+                    "todayRegistration": "0",
+                    "invoicePending": "0",
+                    "wHubPending": "30",
+                    "orderPackingPending": "3",
+                    "clothPackingPending": "52",
+                    "orderPackingDone": "0",
+                    "yestOrderPackingDone": "--",
+                    "clothPackingDone": "0",
+                    "yestClothPackingDone": "--",
+                    "inTransit": "1",
+                    "hubPendingDelayed": "6"
+                },
+                {
+                    "centerId": "8",
+                    "pendingPick": "8",
+                    "completedPick": "2",
+                    "cancelledPick": "3",
+                    "completedDel": "1",
+                    "weeklyAvgPick": "4",
+                    "weeklyAvgDel": "4",
+                    "pendingDelToday": "51",
+                    "packedPendingDelToday": "16",
+                    "delayedDeliveryToday": "16",
+                    "todayRegistration": "6",
+                    "invoicePending": "60",
+                    "wHubPending": "0",
+                    "orderPackingPending": "--",
+                    "clothPackingPending": "0",
+                    "orderPackingDone": "2",
+                    "yestOrderPackingDone": "6",
+                    "clothPackingDone": "0",
+                    "yestClothPackingDone": "--",
+                    "inTransit": "0",
+                    "hubPendingDelayed": "0"
                 }
             ]
         },
